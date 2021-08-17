@@ -261,8 +261,11 @@ bool MainMenuDialog::handleEvents() {
 	FileManager &files = *g_vm->_files;
 	checkEvents(g_vm);
 	int difficulty;
+	uint32_t gameid = g_vm->getGameID();
 
-	if (Res.KeyConstants.CloudsOfXeenMenu.KEY_START_NEW_GAME == _buttonValue) {
+	if ((GType_Clouds == gameid      && Res.KeyConstants.CloudsOfXeenMenu.KEY_START_NEW_GAME == _buttonValue) ||
+		(GType_DarkSide == gameid    && Res.KeyConstants.DarksideOfXeenMenu.KEY_START_NEW_GAME == _buttonValue) ||
+		(GType_WorldOfXeen == gameid && Common::KEYCODE_s)) {
 		// Start new game
 		difficulty = DifficultyDialog::show(g_vm);
 		if (difficulty == -1)
@@ -272,7 +275,9 @@ bool MainMenuDialog::handleEvents() {
 		g_vm->_saves->newGame();
 		g_vm->_party->_difficulty = (Difficulty)difficulty;
 		g_vm->_gameMode = GMODE_PLAY_GAME;
-	} else if (Res.KeyConstants.CloudsOfXeenMenu.KEY_LOAD_GAME == _buttonValue) {
+	} else if ((GType_Clouds == gameid      && Res.KeyConstants.CloudsOfXeenMenu.KEY_LOAD_GAME == _buttonValue) ||
+			   (GType_DarkSide == gameid    && Res.KeyConstants.DarksideOfXeenMenu.KEY_LOAD_GAME == _buttonValue) ||
+			   (GType_WorldOfXeen == gameid && Common::KEYCODE_l)) {
 		// Load existing game
 		int ccNum = files._ccNum;
 		g_vm->_saves->newGame();
@@ -282,7 +287,9 @@ bool MainMenuDialog::handleEvents() {
 		}
 
 		g_vm->_gameMode = GMODE_PLAY_GAME;
-	} else if (Res.KeyConstants.CloudsOfXeenMenu.KEY_SHOW_CREDITS == _buttonValue) {
+	} else if ((GType_Clouds == gameid      && Res.KeyConstants.CloudsOfXeenMenu.KEY_SHOW_CREDITS == _buttonValue) ||
+			   (GType_DarkSide == gameid    && Res.KeyConstants.DarksideOfXeenMenu.KEY_SHOW_CREDITS == _buttonValue) ||
+			   (GType_WorldOfXeen == gameid && Common::KEYCODE_c)) {
 		// Show credits
 		CreditsScreen::show(g_vm);
 	} else if (Common::KEYCODE_ESCAPE == _buttonValue) {
@@ -369,10 +376,10 @@ DarkSideMenuDialog::~DarkSideMenuDialog() {
 }
 
 void DarkSideMenuDialog::loadButtons() {
-	addButton(Common::Rect(124, 87, 177, 97), Common::KEYCODE_s);
-	addButton(Common::Rect(126, 98, 173, 108), Common::KEYCODE_l);
-	addButton(Common::Rect(91, 110, 209, 120), Common::KEYCODE_c);
-	addButton(Common::Rect(85, 121, 216, 131), Common::KEYCODE_o);
+	addButton(Common::Rect(124, 87, 177, 97),  Res.KeyConstants.DarksideOfXeenMenu.KEY_START_NEW_GAME);
+	addButton(Common::Rect(126, 98, 173, 108), Res.KeyConstants.DarksideOfXeenMenu.KEY_LOAD_GAME);
+	addButton(Common::Rect(91, 110, 209, 120), Res.KeyConstants.DarksideOfXeenMenu.KEY_SHOW_CREDITS);
+	addButton(Common::Rect(85, 121, 216, 131), Res.KeyConstants.DarksideOfXeenMenu.KEY_OTHER_OPTIONS);
 }
 
 void DarkSideMenuDialog::draw() {
@@ -422,8 +429,7 @@ bool DarkSideMenuDialog::handleEvents() {
 	if (MainMenuDialog::handleEvents())
 		return true;
 
-	switch (_buttonValue) {
-	case Common::KEYCODE_o: {
+	if (Res.KeyConstants.DarksideOfXeenMenu.KEY_OTHER_OPTIONS == _buttonValue) {
 		// Show other options dialog
 		// Remove this dialog
 		MainMenuContainer *owner = _owner;
@@ -432,10 +438,6 @@ bool DarkSideMenuDialog::handleEvents() {
 		// Set the new options dialog
 		owner->setOwner(new OtherOptionsDialog(owner));
 		return true;
-	}
-
-	default:
-		break;
 	}
 
 	return false;
