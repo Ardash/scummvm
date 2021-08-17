@@ -262,6 +262,21 @@ static const XeenGameDescription gameDescriptions[] = {
 	},
 
 	{
+		// Darkside of Xeen, Russian fan-translation
+		{
+			"darksideofxeen",
+			nullptr,
+			AD_ENTRY1s("dark.cc", "67afac219f14f037d6941f8b7e4e0484", 11221869),
+			Common::RU_RUS,
+			Common::kPlatformDOS,
+			ADGF_UNSTABLE,
+			GUIO2(GAMEOPTION_SHOW_ITEM_COSTS, GAMEOPTION_DURABLE_ARMOR)
+		},
+		GType_DarkSide,
+		0
+	},
+
+	{
 		// Swords of Xeen
 		{
 			"swordsofxeen",

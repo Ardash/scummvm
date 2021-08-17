@@ -1451,7 +1451,10 @@ Common::String Map::getMazeName(int mapId, int ccNum) {
 		ccNum = g_vm->_files->_ccNum;
 
 	if (g_vm->getGameID() == GType_Clouds) {
-		return Res._cloudsMapNames[mapId];
+		if (Common::RU_RUS == g_vm->getLanguage()) {
+			return Res.CLOUDS_MAP_NAMES[mapId];
+		} else 
+			return Res._cloudsMapNames[mapId];
 	} else {
 		Common::String txtName = Common::String::format("%s%c%03d.txt",
 			ccNum ? "dark" : "xeen", mapId >= 100 ? 'x' : '0', mapId);

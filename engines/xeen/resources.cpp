@@ -419,8 +419,9 @@ void Resources::loadData() {
 	file.syncString(DARKSIDE_ENDING2);
 	file.syncString(PHAROAH_ENDING_TEXT1);
 	file.syncString(PHAROAH_ENDING_TEXT2);
-	file.syncStrings(MAE_NAMES, 131);
-	file.syncStrings(MIRROR_LOCATIONS, 59);
+	file.syncStrings(CLOUDS_MAE_NAMES, 131);
+	file.syncStrings(CLOUDS_MIRROR_LOCATIONS, 59);
+	file.syncStrings(CLOUDS_MAP_NAMES, 86);
 
 	ResFile keys("CONSTKEYS_", _buffer, lang);
 	keys.syncNumber(KeyConstants.DialogsCharInfo.KEY_ITEM);
@@ -506,6 +507,11 @@ void Resources::loadData() {
 	keys.syncNumber(KeyConstants.CloudsOfXeenMenu.KEY_LOAD_GAME);
 	keys.syncNumber(KeyConstants.CloudsOfXeenMenu.KEY_SHOW_CREDITS);
 	keys.syncNumber(KeyConstants.CloudsOfXeenMenu.KEY_VIEW_ENDGAME);
+
+	keys.syncNumber(KeyConstants.DarksideOfXeenMenu.KEY_START_NEW_GAME);
+	keys.syncNumber(KeyConstants.DarksideOfXeenMenu.KEY_LOAD_GAME);
+	keys.syncNumber(KeyConstants.DarksideOfXeenMenu.KEY_SHOW_CREDITS);
+	keys.syncNumber(KeyConstants.DarksideOfXeenMenu.KEY_OTHER_OPTIONS);
 }
 
 } // End of namespace Xeen

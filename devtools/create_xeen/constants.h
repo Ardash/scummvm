@@ -467,8 +467,9 @@ public:
 	virtual const char  *DARKSIDE_ENDING2() = 0;
 	virtual const char  *PHAROAH_ENDING_TEXT1() = 0;
 	virtual const char  *PHAROAH_ENDING_TEXT2() = 0;
-	virtual const char **MAE_NAMES() = 0;
-	virtual const char **MIRROR_LOCATIONS() = 0;
+	virtual const char **CLOUDS_MAE_NAMES() = 0;
+	virtual const char **CLOUDS_MIRROR_LOCATIONS() = 0;
+	virtual const char **CLOUDS_MAP_NAMES() = 0;
 
 	void writeConstants(Common::String num, CCArchive &cc);
 
@@ -611,6 +612,16 @@ public:
 			virtual ~CloudsOfXeenMenu() {}
 		};
 		virtual CloudsOfXeenMenu *cloudsOfXeenMenu() = 0;
+
+		class DarksideOfXeenMenu {
+		public:
+			virtual int KEY_START_NEW_GAME() = 0;
+			virtual int KEY_LOAD_GAME() = 0;
+			virtual int KEY_SHOW_CREDITS() = 0;
+			virtual int KEY_OTHER_OPTIONS() = 0;
+			virtual ~DarksideOfXeenMenu() {}
+		};
+		virtual DarksideOfXeenMenu *darksideOfXeenMenu() = 0;
 		virtual ~KeyConstants() {}
 	};
 	virtual KeyConstants *keyConstants() = 0;

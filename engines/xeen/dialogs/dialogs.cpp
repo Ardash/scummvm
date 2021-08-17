@@ -124,7 +124,7 @@ bool ButtonContainer::checkEvents(XeenEngine *vm) {
 			if (btn._draw && btn._value == _buttonValue) {
 				// Found the correct button
 				// Draw button depressed
-				btn._sprites->draw(0, btn._selectedFrame, Common::Point(btn._bounds.left, btn._bounds.top));
+ 				btn._sprites->draw(0, btn._selectedFrame, Common::Point(btn._bounds.left, btn._bounds.top));
 				win.setBounds(btn._bounds);
 				win.update();
 

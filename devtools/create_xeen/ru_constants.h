@@ -150,7 +150,7 @@ public:
 	}
 
 	const char **GAME_NAMES() {
-		static const char *_gameNames[] = { "\x8E\xA1\xAB\xA0\xAA\xA0", "Darkside", "World" }; // "Облака", "Darkside", "World"
+		static const char *_gameNames[] = { "\x8E\xA1\xAB\xA0\xAA\xA0", "\x92\xF1\xAC\xAD\xA0\xEF \xE1\xE2\xAE\xE0\xAE\xAD\xA0", "World" }; // "Облака", "Тёмная сторона", "World"
 		return _gameNames;
 	}
 
@@ -466,8 +466,8 @@ public:
 	}
 
 	const char *PARTY_DIALOG_TEXT() {
-		return "%s\x2\x3""c\v106\t013\x82\xA2\xA5\xE0\xE5\t048\x82\xAD\xA8\xA7\t083\f37\x93\fd\xA4\xA0\xAB\t118\f37\x82\fd\xEB\xA3\xAD" // "%s\x2\x3""c\v106\t013Вверх\t048Вниз\t083\f37У\fdдал\t118\f37В\fdыгн"
-			   "\t153\f37\x91\fd\xAE\xA7\xA4\t188\x82\f37\xEB\fd\xE5\xAE\xA4\x1";                                                       // "\t153\f37С\fdозд\t188В\f37ы\fdход\x1";
+		return "%s\x2\x3""c\v106\t015\x82\xA2\xA5\xE0\xE5\t048\x82\xAD\xA8\xA7\t083\f37\x93\fd\xA4\xA0\xAB\t118\f37\x82\fd\xEB\xA3\xAD" // "%s\x2\x3""c\v106\t015Вверх\t048Вниз\t083\f37У\fdдал\t118\f37В\fdыгн"
+			   "\t153\f37\x91\fd\xAE\xA7\xA4\t185\x82\f37\xEB\fd\xE5\xAE\xA4\x1";                                                       // "\t153\f37С\fdозд\t185В\f37ы\fdход\x1";
 	}
 
 	const char *NO_ONE_TO_ADVENTURE_WITH() {
@@ -1948,7 +1948,7 @@ public:
 			   "l\fd";
 	}
 
-	const char **MAE_NAMES() {
+	const char **CLOUDS_MAE_NAMES() {
 		static const char *_maeNames[] = {
 			"",
 			"\xA6\xA0\xE0\xA0",                                             //жара
@@ -2085,7 +2085,7 @@ public:
 		return _maeNames;
 	}
 
-	const char **MIRROR_LOCATIONS() {
+	const char **CLOUDS_MIRROR_LOCATIONS() {
 		static const char *_mirrLocs[] = {
 			"\xA2\xA5\xE0\xE2\xA8\xA3\xAE",                                                                            // вертиго
 			"\xAD\xA0\xA9\xE2\xE8\xED\xA4\xAE\xE3",                                                                    // найтшэдоу
@@ -2148,6 +2148,98 @@ public:
 			"\xEF \xAF\xAE\xE2\xA5\xE0\xEF\xAB \xED\xE2\xAE",                                                          // я потерял это
 		};
 		return _mirrLocs;
+	}
+
+	const char **CLOUDS_MAP_NAMES() {
+		static const char *_mapNames[] = {
+			"",
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A1",                                                      // Область A1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A2",                                                      // Область A2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A3",                                                      // Область A3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A4",                                                      // Область A4
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B1",                                                      // Область B1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B2",                                                      // Область B2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B3",                                                      // Область B3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B4",                                                      // Область B4
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C1",                                                      // Область C1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C2",                                                      // Область C2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C3",                                                      // Область C3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C4",                                                      // Область C4
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D1",                                                      // Область D1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D2",                                                      // Область D2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D3",                                                      // Область D3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D4",                                                      // Область D4
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E1",                                                      // Область E1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E2",                                                      // Область E2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E3",                                                      // Область E3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E4",                                                      // Область E4
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F1",                                                      // Область F1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F2",                                                      // Область F2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F3",                                                      // Область F3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F4",                                                      // Область F4
+			"\x8E\xA1\xAB\xA0\xAA\xA0 \xA2\xA5\xA4\xEC\xAC",                                        // Облака ведьм
+			"\x8E\xA1\xAB\xA0\xAA\xA0 \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8",               // Облака высшей магии
+			"\x8E\xA1\xAB\xA0\xAA\xA0 \x8A\xE1\xA8\xAD\xA0",                                        // Облака Ксина
+			"\x82\xA5\xE0\xE2\xA8\xA3\xAE",                                                         // Вертиго
+			"\x8D\xA0\xA9\xE2\xE8\xED\xA4\xAE\xE3",                                                 // Найтшэдоу
+			"\x90\xA8\xA2\xA5\xE0\xE1\xA8\xE2\xA8",                                                 // Риверсити
+			"\x9D\xE1\xAF",                                                                         // Эсп
+			"\x82\xA8\xAD\xE2\xA5\xE0\xAA\xA8\xAB\xAB",                                             // Винтеркилл
+			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 1",                                  // Шахты дворфов 1
+			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 2",                                  // Шахты дворфов 2
+			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 3",                                  // Шахты дворфов 3
+			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 4",                                  // Шахты дворфов 4
+			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 5",                                  // Шахты дворфов 5
+			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x80\xAB\xEC\xE4\xA0",           // Глубокая шахта Альфа
+			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x92\xA5\xE2\xA0",               // Глубокая шахта Тета
+			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x8A\xA0\xAF\xAF\xA0",           // Глубокая шахта Каппа
+			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x8E\xAC\xA5\xA3\xA0",           // Глубокая шахта Омега
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 1", // Пещера иллюзий Уровень 1
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 2", // Пещера иллюзий Уровень 2
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 3", // Пещера иллюзий Уровень 3
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 4", // Пещера иллюзий Уровень 4
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA2\xE3\xAB\xAA\xA0\xAD\xA0 \x93\xE0\xAE\xA2\xA5\xAD\xEC 1", // Пещера вулкана Уровень 1
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA2\xE3\xAB\xAA\xA0\xAD\xA0 \x93\xE0\xAE\xA2\xA5\xAD\xEC 2", // Пещера вулкана Уровень 2
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA2\xE3\xAB\xAA\xA0\xAD\xA0 \x93\xE0\xAE\xA2\xA5\xAD\xEC 3", // Пещера вулкана Уровень 3
+			"\x98\xA0\xAD\xA3\xE0\xA8-\x8B\xA0",                                                    // Шангри-Ла
+			"\x84\xE0\xA0\xAA\xAE\xAD\xEC\xA5 \xAB\xAE\xA3\xAE\xA2\xAE",                            // Драконье логово
+			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 1",                        // Башня ведьм. Этаж 1
+			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 2",                        // Башня ведьм. Этаж 2
+			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 3",                        // Башня ведьм. Этаж 3
+			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 4",                        // Башня ведьм. Этаж 4
+			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 1",        // Башня высшей магии Эт 1
+			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 2",        // Башня высшей магии Эт 2
+			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 3",        // Башня высшей магии Эт 3
+			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 4",        // Башня высшей магии Эт 4
+			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 1",                // Башня Дарзога. Этаж 1
+			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 2",                // Башня Дарзога. Этаж 2
+			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 3",                // Башня Дарзога. Этаж 3
+			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 4",                // Башня Дарзога. Этаж 4
+			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x81\xA0\xE0\xAB\xAE\xAA\xA0",                // Подземелье Барлока
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xE0\xAB\xAE\xAA. \x9D\xE2\xA0\xA6 1",                    // Замок Барлок. Этаж 1
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xE0\xAB\xAE\xAA. \x9D\xE2\xA0\xA6 2",                    // Замок Барлок. Этаж 2
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xE0\xAB\xAE\xAA. \x9D\xE2\xA0\xA6 3",                    // Замок Барлок. Этаж 3
+			"\x8F\xAE\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8",                // Поземелье Базенджи
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8. \x9D\xE2\xA0\xA6 1",            // Замок Базенджи. Этаж 1
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8. \x9D\xE2\xA0\xA6 2",            // Замок Базенджи. Этаж 2
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8. \x9D\xE2\xA0\xA6 3",            // Замок Базенджи. Этаж 3
+			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x8D\xEC\xEE\xAA\xA0\xE1\xAB\xA0",            // Подземелье Ньюкасла
+			"\x94\xE3\xAD\xA4\xA0\xAC\xA5\xAD\xE2 \x8D\xEC\xEE\xAA\xA0\xE1\xAB\xA0",                // Фундамент Ньюкасла
+			"\x8D\xEC\xEE\xAA\xA0\xE1\xAB. \x9D\xE2\xA0\xA6 1",                                     // Ньюкасл. Этаж 1
+			"\x8D\xEC\xEE\xAA\xA0\xE1\xAB. \x9D\xE2\xA0\xA6 2",                                     // Ньюкасл. Этаж 2
+			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 1",                        // Замок Ксина. Этаж 1
+			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 2",                        // Замок Ксина. Этаж 2
+			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 3",                        // Замок Ксина. Этаж 3
+			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 4",                        // Замок Ксина. Этаж 4
+			"\x84\xE0\xA5\xA2\xAD\xA8\xA9 \xE5\xE0\xA0\xAC \x9F\xAA\xA0",                           // Древний храм Яка
+			"\x91\xAA\xAB\xA5\xAF \x92\xEB\xE1\xEF\xE7\xA8 \x93\xA6\xA0\xE1\xAE\xA2",               // Склеп Тысячи Ужасов
+			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \xA3\xAE\xAB\xA5\xAC\xAE\xA2",                // Подземелье големов
+			"\x92\xA5\xAB\xAE \x91\xE4\xA8\xAD\xAA\xE1\xA0",                                        // Тело Сфинкса
+			"\x83\xAE\xAB\xAE\xA2\xA0 \x91\xE4\xA8\xAD\xAA\xE1\xA0",                                // Голова Сфинкса
+			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x91\xE4\xA8\xAD\xAA\xE1\xA0",                // Подземелье Сфинкса
+			"\x80\xE0\xA5\xAD\xA0"                                                                  // Арена
+		};
+		return _mapNames;
 	}
 
 	class RU_KeyConstants : public KeyConstants {
@@ -2308,10 +2400,23 @@ public:
 			int KEY_VIEW_ENDGAME()   { return Common::KEYCODE_a; }
 		};
 		RU_CloudsOfXeenMenu *cloudsOfXeenMenu() {
-			if (!_soxm)
-				_soxm = new RU_CloudsOfXeenMenu();
-			return _soxm;
+			if (!_coxm)
+				_coxm = new RU_CloudsOfXeenMenu();
+			return _coxm;
 		}
+		class RU_DarksideOfXeenMenu : public DarksideOfXeenMenu {
+		public:
+			int KEY_START_NEW_GAME() { return Common::KEYCODE_y; }
+			int KEY_LOAD_GAME()      { return Common::KEYCODE_p; }
+			int KEY_SHOW_CREDITS()   { return Common::KEYCODE_c; }
+			int KEY_OTHER_OPTIONS()  { return Common::KEYCODE_o; }
+		};
+		RU_DarksideOfXeenMenu *darksideOfXeenMenu() {
+			if (!_doxm)
+				_doxm = new RU_DarksideOfXeenMenu();
+			return _doxm;
+		}
+
 	private:
 		RU_DialogsCharInfo     *_dci = NULL;
 		RU_DialogsControlPanel *_dcp = NULL;
@@ -2323,7 +2428,8 @@ public:
 		RU_DialogsQuickFight   *_dqf = NULL;
 		RU_DialogsSpells       *_ds = NULL;
 		RU_Locations           *_l = NULL;
-		RU_CloudsOfXeenMenu    *_soxm = NULL;
+		RU_CloudsOfXeenMenu    *_coxm = NULL;
+		RU_DarksideOfXeenMenu  *_doxm = NULL;
 	};
 
 	RU_KeyConstants *keyConstants() {

@@ -1213,8 +1213,9 @@ void LangConstants::writeConstants(Common::String num, CCArchive &cc) {
 	file.syncString(DARKSIDE_ENDING2());
 	file.syncString(PHAROAH_ENDING_TEXT1());
 	file.syncString(PHAROAH_ENDING_TEXT2());
-	file.syncStrings(MAE_NAMES(), 131);
-	file.syncStrings(MIRROR_LOCATIONS(), 59);
+	file.syncStrings(CLOUDS_MAE_NAMES(), 131);
+	file.syncStrings(CLOUDS_MIRROR_LOCATIONS(), 59);
+	file.syncStrings(CLOUDS_MAP_NAMES(), 86);
 
 	cc.add("CONSTANTS" + num, file);
 
@@ -1267,7 +1268,7 @@ void LangConstants::writeConstants(Common::String num, CCArchive &cc) {
 
 	keys.syncNumber(keyConstants()->dialogsQuests()->KEY_QUEST_ITEMS());
 	keys.syncNumber(keyConstants()->dialogsQuests()->KEY_CURRENT_QUESTS());
-	keys.syncNumber(keyConstants()->dialogsQuests()->KEY_QUEST_ITEMS());
+	keys.syncNumber(keyConstants()->dialogsQuests()->KEY_AUTO_NOTES());
 
 	keys.syncNumber(keyConstants()->dialogsQuickFight()->KEY_NEXT());
 
@@ -1301,6 +1302,11 @@ void LangConstants::writeConstants(Common::String num, CCArchive &cc) {
 	keys.syncNumber(keyConstants()->cloudsOfXeenMenu()->KEY_LOAD_GAME());
 	keys.syncNumber(keyConstants()->cloudsOfXeenMenu()->KEY_SHOW_CREDITS());
 	keys.syncNumber(keyConstants()->cloudsOfXeenMenu()->KEY_VIEW_ENDGAME());
+
+	keys.syncNumber(keyConstants()->darksideOfXeenMenu()->KEY_START_NEW_GAME());
+	keys.syncNumber(keyConstants()->darksideOfXeenMenu()->KEY_LOAD_GAME());
+	keys.syncNumber(keyConstants()->darksideOfXeenMenu()->KEY_SHOW_CREDITS());
+	keys.syncNumber(keyConstants()->darksideOfXeenMenu()->KEY_OTHER_OPTIONS());
 
 	cc.add("CONSTKEYS" + num, keys);
 }
