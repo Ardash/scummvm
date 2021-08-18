@@ -1962,6 +1962,20 @@ public:
 		return _mapNames;
 	}
 
+	const char **CLOUDS_MONSTERS() {
+		static const char *_monsters[] = {
+			"",
+		};
+		return _monsters;
+	}
+
+	const char **CLOUDS_SPELLS() {
+		static const char *_spells[] = {
+			"",
+		};
+		return _spells;
+	}
+
 	class EN_KeyConstants : public KeyConstants {
 	public:
 		class EN_DialogsCharInfo : public DialogsCharInfo {

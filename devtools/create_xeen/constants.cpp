@@ -1216,6 +1216,8 @@ void LangConstants::writeConstants(Common::String num, CCArchive &cc) {
 	file.syncStrings(CLOUDS_MAE_NAMES(), 131);
 	file.syncStrings(CLOUDS_MIRROR_LOCATIONS(), 59);
 	file.syncStrings(CLOUDS_MAP_NAMES(), 86);
+	file.syncStrings(CLOUDS_MONSTERS(), 91);
+	file.syncStrings(CLOUDS_SPELLS(), 77);
 
 	cc.add("CONSTANTS" + num, file);
 

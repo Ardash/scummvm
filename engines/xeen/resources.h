@@ -476,6 +476,8 @@ public:
 	const char *CLOUDS_MAE_NAMES[131];
 	const char *CLOUDS_MIRROR_LOCATIONS[58];
 	const char *CLOUDS_MAP_NAMES[86];
+	const char *CLOUDS_MONSTERS[91];
+	const char *CLOUDS_SPELLS[77];
 
 	struct {
 

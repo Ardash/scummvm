@@ -149,8 +149,12 @@ void MonsterData::synchronize(Common::SeekableReadStream &s) {
 	clear();
 
 	MonsterStruct spr;
+	int i = 0;
 	while (!s.eos()) {
 		spr.synchronize(s);
+		if (Common::RU_RUS == g_vm->getLanguage() && GType_Clouds == g_vm->getGameID()) {
+			spr._name = Res.CLOUDS_MONSTERS[i++];
+		}
 		push_back(spr);
 	}
 }

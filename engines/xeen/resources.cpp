@@ -422,6 +422,8 @@ void Resources::loadData() {
 	file.syncStrings(CLOUDS_MAE_NAMES, 131);
 	file.syncStrings(CLOUDS_MIRROR_LOCATIONS, 59);
 	file.syncStrings(CLOUDS_MAP_NAMES, 86);
+	file.syncStrings(CLOUDS_MONSTERS, 91);
+	file.syncStrings(CLOUDS_SPELLS, 77);
 
 	ResFile keys("CONSTKEYS_", _buffer, lang);
 	keys.syncNumber(KeyConstants.DialogsCharInfo.KEY_ITEM);

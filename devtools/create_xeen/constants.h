@@ -470,6 +470,8 @@ public:
 	virtual const char **CLOUDS_MAE_NAMES() = 0;
 	virtual const char **CLOUDS_MIRROR_LOCATIONS() = 0;
 	virtual const char **CLOUDS_MAP_NAMES() = 0;
+	virtual const char **CLOUDS_MONSTERS() = 0;
+	virtual const char **CLOUDS_SPELLS() = 0;
 
 	void writeConstants(Common::String num, CCArchive &cc);
 
