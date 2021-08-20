@@ -614,6 +614,16 @@ public:
 			virtual ~CloudsOfXeenMenu() {}
 		};
 		virtual CloudsOfXeenMenu *cloudsOfXeenMenu() = 0;
+
+		class DarksideOfXeenMenu {
+		public:
+			virtual int KEY_START_NEW_GAME() = 0;
+			virtual int KEY_LOAD_GAME() = 0;
+			virtual int KEY_SHOW_CREDITS() = 0;
+			virtual int KEY_OTHER_OPTIONS() = 0;
+			virtual ~DarksideOfXeenMenu() {}
+		};
+		virtual DarksideOfXeenMenu *darksideOfXeenMenu() = 0;
 		virtual ~KeyConstants() {}
 	};
 	virtual KeyConstants *keyConstants() = 0;

@@ -2580,10 +2580,24 @@ public:
 			int KEY_VIEW_ENDGAME()   { return Common::KEYCODE_a; }
 		};
 		RU_CloudsOfXeenMenu *cloudsOfXeenMenu() {
-			if (!_soxm)
-				_soxm = new RU_CloudsOfXeenMenu();
-			return _soxm;
+			if (!_coxm)
+				_coxm = new RU_CloudsOfXeenMenu();
+			return _coxm;
 		}
+
+		class RU_DarksideOfXeenMenu : public DarksideOfXeenMenu {
+		public:
+			int KEY_START_NEW_GAME() { return Common::KEYCODE_y; }
+			int KEY_LOAD_GAME()      { return Common::KEYCODE_p; }
+			int KEY_SHOW_CREDITS()   { return Common::KEYCODE_c; }
+			int KEY_OTHER_OPTIONS()  { return Common::KEYCODE_o; }
+		};
+		RU_DarksideOfXeenMenu *darksideOfXeenMenu() {
+			if (!_doxm)
+				_doxm = new RU_DarksideOfXeenMenu();
+			return _doxm;
+		}
+
 	private:
 		RU_DialogsCharInfo     *_dci = NULL;
 		RU_DialogsControlPanel *_dcp = NULL;
@@ -2595,7 +2609,8 @@ public:
 		RU_DialogsQuickFight   *_dqf = NULL;
 		RU_DialogsSpells       *_ds = NULL;
 		RU_Locations           *_l = NULL;
-		RU_CloudsOfXeenMenu    *_soxm = NULL;
+		RU_CloudsOfXeenMenu    *_coxm = NULL;
+		RU_DarksideOfXeenMenu  *_doxm = NULL;
 	};
 
 	RU_KeyConstants *keyConstants() {

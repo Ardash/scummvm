@@ -509,6 +509,11 @@ void Resources::loadData() {
 	keys.syncNumber(KeyConstants.CloudsOfXeenMenu.KEY_LOAD_GAME);
 	keys.syncNumber(KeyConstants.CloudsOfXeenMenu.KEY_SHOW_CREDITS);
 	keys.syncNumber(KeyConstants.CloudsOfXeenMenu.KEY_VIEW_ENDGAME);
+
+	keys.syncNumber(KeyConstants.DarksideOfXeenMenu.KEY_START_NEW_GAME);
+	keys.syncNumber(KeyConstants.DarksideOfXeenMenu.KEY_LOAD_GAME);
+	keys.syncNumber(KeyConstants.DarksideOfXeenMenu.KEY_SHOW_CREDITS);
+	keys.syncNumber(KeyConstants.DarksideOfXeenMenu.KEY_OTHER_OPTIONS);
 }
 
 } // End of namespace Xeen

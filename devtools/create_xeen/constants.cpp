@@ -1305,6 +1305,11 @@ void LangConstants::writeConstants(Common::String num, CCArchive &cc) {
 	keys.syncNumber(keyConstants()->cloudsOfXeenMenu()->KEY_SHOW_CREDITS());
 	keys.syncNumber(keyConstants()->cloudsOfXeenMenu()->KEY_VIEW_ENDGAME());
 
+	keys.syncNumber(keyConstants()->darksideOfXeenMenu()->KEY_START_NEW_GAME());
+	keys.syncNumber(keyConstants()->darksideOfXeenMenu()->KEY_LOAD_GAME());
+	keys.syncNumber(keyConstants()->darksideOfXeenMenu()->KEY_SHOW_CREDITS());
+	keys.syncNumber(keyConstants()->darksideOfXeenMenu()->KEY_OTHER_OPTIONS());
+
 	cc.add("CONSTKEYS" + num, keys);
 }
 

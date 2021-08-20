@@ -586,6 +586,13 @@ public:
 			int KEY_SHOW_CREDITS;
 			int KEY_VIEW_ENDGAME;
 		} CloudsOfXeenMenu;
+
+		struct {
+			int KEY_START_NEW_GAME;
+			int KEY_LOAD_GAME;
+			int KEY_SHOW_CREDITS;
+			int KEY_OTHER_OPTIONS;
+		} DarksideOfXeenMenu;
 	} KeyConstants;
 
 
