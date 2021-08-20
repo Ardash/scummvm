@@ -150,7 +150,7 @@ public:
 	}
 
 	const char **GAME_NAMES() {
-		static const char *_gameNames[] = { "\x8E\xA1\xAB\xA0\xAA\xA0", "Darkside", "World" }; // "Облака", "Darkside", "World"
+		static const char *_gameNames[] = { "\x8E\xA1\xAB\xA0\xAA\xA0 ", "Darkside ", "World" }; // "Облака ", "Darkside ", "World"
 		return _gameNames;
 	}
 
@@ -194,37 +194,37 @@ public:
 
 	const char **WHO_ACTIONS() {
 		static const char *_whoActions[] = {
-			"\x8A\xE2\xAE \xAE\xA1\xEB\xE9\xA5\xE2",                              // "Кто обыщет",
-			"\x8A\xE2\xAE \xAE\xE2\xAA\xE0\xAE\xA5\xE2",						  // "Кто откроет",
-			"\x8A\xE2\xAE \xA2\xEB\xAF\xEC\xA5\xE2",							  // "Кто выпьет",
-			"\x8A\xE2\xAE \xA1\xE3\xA4\xA5\xE2 \xAA\xAE\xAF\xA0\xE2\xEC",		  // "Кто будет копать",
-			"\x8A\xE2\xAE \xAF\xAE\xE2\xE0\xAE\xA3\xA0\xA5\xE2",				  // "Кто потрогает",
-			"\x8A\xE2\xAE \xAF\xE0\xAE\xE7\xE2\xF1\xE2",						  // "Кто прочтёт",
-			"\x8A\xAE\xA3\xAE \xAD\xA0\xE3\xE7\xA8\xE2\xEC",					  // "Кого научить",
-			"\x8A\xE2\xAE \xA2\xAE\xA7\xEC\xAC\xF1\xE2",						  // "Кто возьмёт",
-			"\x8A\xE2\xAE \xE3\xA4\xA0\xE0\xA8\xE2",							  // "Кто ударит",
-			"\x8A\xE2\xAE \xE3\xAA\xE0\xA0\xA4\xF1\xE2",						  // "Кто украдёт",
-			"\x8A\xE2\xAE \xA4\xA0\xE1\xE2 \xA2\xA7\xEF\xE2\xAA\xE3",			  // "Кто даст взятку",
-			"\x8A\xE2\xAE \xA7\xA0\xAF\xAB\xA0\xE2\xA8\xE2",					  // "Кто заплатит",
-			"\x8A\xE2\xAE \xAF\xE0\xA8\xE1\xEF\xA4\xA5\xE2",					  // "Кто присядет",
-			"\x8A\xE2\xAE \xAF\xAE\xAF\xE0\xAE\xA1\xE3\xA5\xE2",				  // "Кто попробует",
-			"\x8A\xE2\xAE \xA5\xA3\xAE \xAF\xAE\xA2\xA5\xE0\xAD\xF1\xE2",		  // "Кто его повернёт",
-			"\x8A\xE2\xAE \xA8\xE1\xAA\xE3\xAF\xAD\xF1\xE2\xE1\xEF",			  // "Кто искупнётся",
-			"\x8A\xE2\xAE \xA5\xA3\xAE \xE3\xAD\xA8\xE7\xE2\xAE\xA6\xA8\xE2",	  // "Кто его уничтожит",
-			"\x8A\xE2\xAE \xA2\xEB\xA4\xA5\xE0\xAD\xA5\xE2",					  // "Кто выдернет",
-			"\x8A\xE2\xAE \xE1\xAF\xE3\xE1\xE2\xA8\xE2\xE1\xEF",				  // "Кто спустится",
-			"\x8A\xE2\xAE \xA1\xE0\xAE\xE1\xA8\xE2 \xAC\xAE\xAD\xA5\xE2\xAA\xE3", // "Кто бросит монетку",
-			"pray",																  // "pray",
-			"\x8A\xE2\xAE \xE1\xE2\xA0\xAD\xA5\xE2 \xE7\xAB\xA5\xAD\xAE\xAC",	  // "Кто станет членом",
-			"act",																  // "act",
-			"\x8A\xE2\xAE \xE5\xAE\xE7\xA5\xE2 \xE1\xEB\xA3\xE0\xA0\xE2\xEC",	  // "Кто хочет сыграть",
-			"\x8A\xE2\xAE \xAD\xA0\xA6\xAC\xF1\xE2",							  // "Кто нажмёт",
-			"rub",																  // "rub",
-			"pick",																  // "pick",
-			"eat",																  // "eat",
-			"sign",																  // "sign",
-			"close",															  // "close",
-			"look",																  // "look",
+			"\x8A\xE2\xAE \xAE\xA1\xEB\xE9\xA5\xE2 ",                              // "Кто обыщет ",
+			"\x8A\xE2\xAE \xAE\xE2\xAA\xE0\xAE\xA5\xE2 ",						  // "Кто откроет ",
+			"\x8A\xE2\xAE \xA2\xEB\xAF\xEC\xA5\xE2 ",							  // "Кто выпьет ",
+			"\x8A\xE2\xAE \xA1\xE3\xA4\xA5\xE2 \xAA\xAE\xAF\xA0\xE2\xEC ",		  // "Кто будет копать ",
+			"\x8A\xE2\xAE \xAF\xAE\xE2\xE0\xAE\xA3\xA0\xA5\xE2 ",				  // "Кто потрогает ",
+			"\x8A\xE2\xAE \xAF\xE0\xAE\xE7\xE2\xF1\xE2 ",						  // "Кто прочтёт ",
+			"\x8A\xAE\xA3\xAE \xAD\xA0\xE3\xE7\xA8\xE2\xEC ",					  // "Кого научить ",
+			"\x8A\xE2\xAE \xA2\xAE\xA7\xEC\xAC\xF1\xE2 ",						  // "Кто возьмёт ",
+			"\x8A\xE2\xAE \xE3\xA4\xA0\xE0\xA8\xE2 ",							  // "Кто ударит ",
+			"\x8A\xE2\xAE \xE3\xAA\xE0\xA0\xA4\xF1\xE2 ",						  // "Кто украдёт ",
+			"\x8A\xE2\xAE \xA4\xA0\xE1\xE2 \xA2\xA7\xEF\xE2\xAA\xE3 ",			  // "Кто даст взятку ",
+			"\x8A\xE2\xAE \xA7\xA0\xAF\xAB\xA0\xE2\xA8\xE2 ",					  // "Кто заплатит ",
+			"\x8A\xE2\xAE \xAF\xE0\xA8\xE1\xEF\xA4\xA5\xE2 ",					  // "Кто присядет ",
+			"\x8A\xE2\xAE \xAF\xAE\xAF\xE0\xAE\xA1\xE3\xA5\xE2 ",				  // "Кто попробует ",
+			"\x8A\xE2\xAE \xA5\xA3\xAE \xAF\xAE\xA2\xA5\xE0\xAD\xF1\xE2 ",		  // "Кто его повернёт ",
+			"\x8A\xE2\xAE \xA8\xE1\xAA\xE3\xAF\xAD\xF1\xE2\xE1\xEF ",			  // "Кто искупнётся ",
+			"\x8A\xE2\xAE \xA5\xA3\xAE \xE3\xAD\xA8\xE7\xE2\xAE\xA6\xA8\xE2 ",	  // "Кто его уничтожит ",
+			"\x8A\xE2\xAE \xA2\xEB\xA4\xA5\xE0\xAD\xA5\xE2 ",					  // "Кто выдернет ",
+			"\x8A\xE2\xAE \xE1\xAF\xE3\xE1\xE2\xA8\xE2\xE1\xEF ",				  // "Кто спустится ",
+			"\x8A\xE2\xAE \xA1\xE0\xAE\xE1\xA8\xE2 \xAC\xAE\xAD\xA5\xE2\xAA\xE3 ", // "Кто бросит монетку ",
+			"pray ",																  // "pray ",
+			"\x8A\xE2\xAE \xE1\xE2\xA0\xAD\xA5\xE2 \xE7\xAB\xA5\xAD\xAE\xAC ",	  // "Кто станет членом ",
+			"act ",																  // "act ",
+			"\x8A\xE2\xAE \xE5\xAE\xE7\xA5\xE2 \xE1\xEB\xA3\xE0\xA0\xE2\xEC ",	  // "Кто хочет сыграть ",
+			"\x8A\xE2\xAE \xAD\xA0\xA6\xAC\xF1\xE2 ",							  // "Кто нажмёт ",
+			"rub ",																  // "rub ",
+			"pick ",																  // "pick ",
+			"eat ",																  // "eat ",
+			"sign ",																  // "sign ",
+			"close ",															  // "close ",
+			"look ",																  // "look ",
 			"try"																  // "try"
 		};
 		return _whoActions;
@@ -232,24 +232,24 @@ public:
 
 	const char **WHO_WILL_ACTIONS() {
 		static const char *_whoWillActions[] = {
-			"\x8E\xE2\xAA\xE0\xEB\xE2\xEC \xE0\xA5\xE8\xF1\xE2\xAA\xE3",			// "Открыть решётку",
-			"\x8E\xE2\xAA\xE0\xEB\xE2\xEC \xA4\xA2\xA5\xE0\xEC",                    // "Открыть дверь",
-			"\x90\xA0\xE1\xAA\xE0\xEB\xE2\xEC \xE1\xA2\xA8\xE2\xAE\xAA",            // "Раскрыть свиток",
+			"\x8E\xE2\xAA\xE0\xEB\xE2\xEC \xE0\xA5\xE8\xF1\xE2\xAA\xE3 ",			// "Открыть решётку ",
+			"\x8E\xE2\xAA\xE0\xEB\xE2\xEC \xA4\xA2\xA5\xE0\xEC ",                    // "Открыть дверь ",
+			"\x90\xA0\xE1\xAA\xE0\xEB\xE2\xEC \xE1\xA2\xA8\xE2\xAE\xAA ",            // "Раскрыть свиток ",
 			"\x82\xEB\xA1\xA5\xE0\xA8\xE2\xA5 \xAF\xA5\xE0\xE1\xAE\xAD\xA0\xA6\xA0" // "Выберите персонажа"
 		};
 		return _whoWillActions;
 	}
 
 	const char **DIRECTION_TEXT_UPPER() {
-		static const char *_directionTextUpper[] = { "NORTH", "EAST", "SOUTH", "WEST" };
+		static const char *_directionTextUpper[] = { "NORTH ", "EAST ", "SOUTH ", "WEST" };
 		return _directionTextUpper;
 	}
 
 	const char **DIRECTION_TEXT() {
 		static const char *_directionText[] = {
-			"\x91\xA5\xA2\xA5\xE0",		// "Север",
-			"\x82\xAE\xE1\xE2\xAE\xAA", // "Восток",
-			"\x9E\xA3",                 // "Юг",
+			"\x91\xA5\xA2\xA5\xE0 ",		// "Север ",
+			"\x82\xAE\xE1\xE2\xAE\xAA ", // "Восток ",
+			"\x9E\xA3 ",                 // "Юг ",
 			"\x87\xA0\xAF\xA0\xA4"      // "Запад"
 		};
 		return _directionText;
@@ -257,10 +257,10 @@ public:
 
 	const char **RACE_NAMES() {
 		static const char *_raceNames[] = {
-			"\x97\xA5\xAB\xAE\xA2\xA5\xAA", // "Человек",
-			"\x9D\xAB\xEC\xE4",				// "Эльф",
-			"\x84\xA2\xAE\xE0\xE4",			// "Дворф",
-			"\x83\xAD\xAE\xAC",				// "Гном",
+			"\x97\xA5\xAB\xAE\xA2\xA5\xAA ", // "Человек ",
+			"\x9D\xAB\xEC\xE4 ",				// "Эльф ",
+			"\x84\xA2\xAE\xE0\xE4 ",			// "Дворф ",
+			"\x83\xAD\xAE\xAC ",				// "Гном ",
 			"\x8F\xAE\xAB\xE3\xAE\xE0\xAA"	// "Полуорк"
 		};
 		return _raceNames;
@@ -268,8 +268,8 @@ public:
 
 	const char **ALIGNMENT_NAMES() {
 		static const char *_alignmentNames[] = {
-			"\x95\xAE\xE0\xAE\xE8\xA8\xA9", // "Хороший",
-			"\x8D\xA5\xA9\xE2\xE0\xA0\xAB",	// "Нейтрал",
+			"\x95\xAE\xE0\xAE\xE8\xA8\xA9 ", // "Хороший ",
+			"\x8D\xA5\xA9\xE2\xE0\xA0\xAB ",	// "Нейтрал ",
 			"\x87\xAB\xAE\xA9(-\xA0\xEF)"	// "Злой(-ая)"
 		};
 		return _alignmentNames;
@@ -277,7 +277,7 @@ public:
 
 	const char **SEX_NAMES() {
 		static const char *_sexNames[] = {
-			"\x8C\xE3\xA6\xE7\xA8\xAD\xA0", // "Мужчина",
+			"\x8C\xE3\xA6\xE7\xA8\xAD\xA0 ", // "Мужчина ",
 			"\x86\xA5\xAD\xE9\xA8\xAD\xA0"  // "Женщина"
 		};
 		return _sexNames;
@@ -285,24 +285,24 @@ public:
 
 	const char **SKILL_NAMES() {
 		static const char *_skillNames[] = {
-			"\x82\xAE\xE0\xAE\xA2\xE1\xE2\xA2\xAE\t100",								 // "Воровство\t100",
-			"\x8E\xE0\xE3\xA6\xA5\xA9\xAD\xA8\xAA",                                      // "Оружейник",
-			"\x80\xE1\xE2\xE0\xAE\xAB\xAE\xA3",                                          // "Астролог",
-			"\x80\xE2\xAB\xA5\xE2",                                                      // "Атлет",
-			"\x8A\xA0\xE0\xE2\xAE\xA3\xE0\xA0\xE4",                                      // "Картограф",
-			"\x8A\xE0\xA5\xE1\xE2\xAE\xAD\xAE\xE1\xA5\xE6",                              // "Крестоносец",
-			"\x97\xE3\xA2\xE1\xE2\xA2\xAE \xAD\xA0\xAF\xE0.",                            // "Чувство напр.",
-			//"\x97\xE3\xA2\xE1\xE2\xA2\xAE \xAD\xA0\xAF\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xEF", // "Чувство направления",
-			"\x9F\xA7\xEB\xAA\xAE\xA2\xA5\xA4",                                          // "Языковед",
-			"\x8A\xE3\xAF\xA5\xE6",                                                      // "Купец",
-			"\x91\xAA\xA0\xAB\xAE\xAB\xA0\xA7",                                          // "Скалолаз",
-			"\x98\xE2\xE3\xE0\xAC\xA0\xAD",                                              // "Штурман",
-			"\x91\xAB\xA5\xA4\xAE\xAF\xEB\xE2",                                          // "Следопыт",
-			"\x8C\xA0\xA3\xA8\xE1\xE2\xE0 \xAC\xAE\xAB\xA8\xE2\xA2\xEB",                 // "Магистр молитвы",
-			"\x8B\xAE\xA2\xAA\xAE\xE1\xE2\xEC \xAF\xA0\xAB\xEC\xE6\xA5\xA2",             // "Ловкость пальцев",
-			"\x8F\xAB\xAE\xA2\xA5\xE6",                                                  // "Пловец",
-			"\x8E\xE5\xAE\xE2\xAD\xA8\xAA",                                              // "Охотник",
-			"\x82\xAE\xE1\xAF\xE0\xA8\xEF\xE2\xA8\xA5",                                  // "Восприятие",
+			"\x82\xAE\xE0\xAE\xA2\xE1\xE2\xA2\xAE\t100 ",								 // "Воровство\t100 ",
+			"\x8E\xE0\xE3\xA6\xA5\xA9\xAD\xA8\xAA ",                                      // "Оружейник ",
+			"\x80\xE1\xE2\xE0\xAE\xAB\xAE\xA3 ",                                          // "Астролог ",
+			"\x80\xE2\xAB\xA5\xE2 ",                                                      // "Атлет ",
+			"\x8A\xA0\xE0\xE2\xAE\xA3\xE0\xA0\xE4 ",                                      // "Картограф ",
+			"\x8A\xE0\xA5\xE1\xE2\xAE\xAD\xAE\xE1\xA5\xE6 ",                              // "Крестоносец ",
+			"\x97\xE3\xA2\xE1\xE2\xA2\xAE \xAD\xA0\xAF\xE0. ",                            // "Чувство напр. ",
+			//"\x97\xE3\xA2\xE1\xE2\xA2\xAE \xAD\xA0\xAF\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xEF ", // "Чувство направления ",
+			"\x9F\xA7\xEB\xAA\xAE\xA2\xA5\xA4 ",                                          // "Языковед ",
+			"\x8A\xE3\xAF\xA5\xE6 ",                                                      // "Купец ",
+			"\x91\xAA\xA0\xAB\xAE\xAB\xA0\xA7 ",                                          // "Скалолаз ",
+			"\x98\xE2\xE3\xE0\xAC\xA0\xAD ",                                              // "Штурман ",
+			"\x91\xAB\xA5\xA4\xAE\xAF\xEB\xE2 ",                                          // "Следопыт ",
+			"\x8C\xA0\xA3\xA8\xE1\xE2\xE0 \xAC\xAE\xAB\xA8\xE2\xA2\xEB ",                 // "Магистр молитвы ",
+			"\x8B\xAE\xA2\xAA\xAE\xE1\xE2\xEC \xAF\xA0\xAB\xEC\xE6\xA5\xA2 ",             // "Ловкость пальцев ",
+			"\x8F\xAB\xAE\xA2\xA5\xE6 ",                                                  // "Пловец ",
+			"\x8E\xE5\xAE\xE2\xAD\xA8\xAA ",                                              // "Охотник ",
+			"\x82\xAE\xE1\xAF\xE0\xA8\xEF\xE2\xA8\xA5 ",                                  // "Восприятие ",
 			"\x97\xE3\xA2\xE1\xE2\xA2\xAE \xAE\xAF\xA0\xE1\xAD."                         // "Чувство опасн."
 			//"\x97\xE3\xA2\xE1\xE2\xA2\xAE \xAE\xAF\xA0\xE1\xAD\xAE\xE1\xE2\xA8"          // "Чувство опасности"
 		};
@@ -311,16 +311,16 @@ public:
 
 	const char **CLASS_NAMES() {
 		static const char *_classNames[] = {
-			"\x90\xEB\xE6\xA0\xE0\xEC",			// "Рыцарь",
-			"\x8F\xA0\xAB\xA0\xA4\xA8\xAD",     // "Паладин",
-			"\x8B\xE3\xE7\xAD\xA8\xAA",         // "Лучник",
-			"\x8A\xAB\xA8\xE0\xA8\xAA",         // "Клирик",
-			"\x8C\xA0\xA3",                     // "Маг",
-			"\x82\xAE\xE0",                     // "Вор",
-			"\x8D\xA8\xAD\xA4\xA7\xEF",         // "Ниндзя",
-			"\x82\xA0\xE0\xA2\xA0\xE0",         // "Варвар",
-			"\x84\xE0\xE3\xA8\xA4",             // "Друид",
-			"\x91\xAB\xA5\xA4\xAE\xAF\xEB\xE2", // "Следопыт",
+			"\x90\xEB\xE6\xA0\xE0\xEC ",			// "Рыцарь ",
+			"\x8F\xA0\xAB\xA0\xA4\xA8\xAD ",     // "Паладин ",
+			"\x8B\xE3\xE7\xAD\xA8\xAA ",         // "Лучник ",
+			"\x8A\xAB\xA8\xE0\xA8\xAA ",         // "Клирик ",
+			"\x8C\xA0\xA3 ",                     // "Маг ",
+			"\x82\xAE\xE0 ",                     // "Вор ",
+			"\x8D\xA8\xAD\xA4\xA7\xEF ",         // "Ниндзя ",
+			"\x82\xA0\xE0\xA2\xA0\xE0 ",         // "Варвар ",
+			"\x84\xE0\xE3\xA8\xA4 ",             // "Друид ",
+			"\x91\xAB\xA5\xA4\xAE\xAF\xEB\xE2 ", // "Следопыт ",
 			nullptr                             // nullptr
 		};
 		return _classNames;
@@ -328,22 +328,22 @@ public:
 
 	const char **CONDITION_NAMES_M() {
 		static const char *_conditionNamesM[] = {
-			"\x8F\xE0\xAE\xAA\xAB\xEF\xE2\xA8\xA5",		// "Проклятие",
-			"Heart Broken",                             // "Heart Broken",
-			"\x91\xAB\xA0\xA1\xAE\xE1\xE2\xEC",         // "Слабость",
-			"\x8E\xE2\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xA5", // "Отравление",
-			"\x81\xAE\xAB\xA5\xA7\xAD\xEC",             // "Болезнь",
-			"\x81\xA5\xA7\xE3\xAC\xA8\xA5",             // "Безумие",
-			"\x82\xAB\xEE\xA1\xAB\xF1\xAD",             // "Влюблён",
-			"\x8D\xA0\xA2\xA5\xE1\xA5\xAB\xA5",         // "Навеселе",
-			"\x91\xAE\xAD",                             // "Сон",
-			"\x82 \xE3\xAD\xEB\xAD\xA8\xA8",            // "В унынии",
-			"\x82 \xE1\xAC\xEF\xE2\xA5\xAD\xA8\xA8",    // "В смятении",
-			"\x8F\xA0\xE0\xA0\xAB\xA8\xE7",             // "Паралич",
-			"\x81.\xE1\xAE\xA7\xAD\xA0\xAD\xA8\xEF",    // "Б.сознания",
-			"\x8C\xA5\xE0\xE2\xA2",                     // "Мертв",
-			"\x8A\xA0\xAC\xA5\xAD\xEC",                 // "Камень",
-			"\x93\xAD\xA8\xE7\xE2\xAE\xA6\xA5\xAD",     // "Уничтожен",
+			"\x8F\xE0\xAE\xAA\xAB\xEF\xE2\xA8\xA5 ",		// "Проклятие ",
+			"Heart Broken ",                             // "Heart Broken ",
+			"\x91\xAB\xA0\xA1\xAE\xE1\xE2\xEC ",         // "Слабость ",
+			"\x8E\xE2\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xA5 ", // "Отравление ",
+			"\x81\xAE\xAB\xA5\xA7\xAD\xEC ",             // "Болезнь ",
+			"\x81\xA5\xA7\xE3\xAC\xA8\xA5 ",             // "Безумие ",
+			"\x82\xAB\xEE\xA1\xAB\xF1\xAD ",             // "Влюблён ",
+			"\x8D\xA0\xA2\xA5\xE1\xA5\xAB\xA5 ",         // "Навеселе ",
+			"\x91\xAE\xAD ",                             // "Сон ",
+			"\x82 \xE3\xAD\xEB\xAD\xA8\xA8 ",            // "В унынии ",
+			"\x82 \xE1\xAC\xEF\xE2\xA5\xAD\xA8\xA8 ",    // "В смятении ",
+			"\x8F\xA0\xE0\xA0\xAB\xA8\xE7 ",             // "Паралич ",
+			"\x81.\xE1\xAE\xA7\xAD\xA0\xAD\xA8\xEF ",    // "Б.сознания ",
+			"\x8C\xA5\xE0\xE2\xA2 ",                     // "Мертв ",
+			"\x8A\xA0\xAC\xA5\xAD\xEC ",                 // "Камень ",
+			"\x93\xAD\xA8\xE7\xE2\xAE\xA6\xA5\xAD ",     // "Уничтожен ",
 			"\x95\xAE\xE0\xAE\xE8\xA5\xA5"              // "Хорошее"
 		};
 		return _conditionNamesM;
@@ -351,22 +351,22 @@ public:
 
 	const char **CONDITION_NAMES_F() {
 		static const char *_conditionNamesF[] = {
-			"\x8F\xE0\xAE\xAA\xAB\xEF\xE2\xA8\xA5",         // "Проклятие",
-				"Heart Broken",                             // "Heart Broken",
-				"\x91\xAB\xA0\xA1\xAE\xE1\xE2\xEC",         // "Слабость",
-				"\x8E\xE2\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xA5", // "Отравление",
-				"\x81\xAE\xAB\xA5\xA7\xAD\xEC",             // "Болезнь",
-				"\x81\xA5\xA7\xE3\xAC\xA8\xA5",             // "Безумие",
-				"\x82\xAB\xEE\xA1\xAB\xF1\xAD\xA0",         // "Влюблёна",
-				"\x8D\xA0\xA2\xA5\xE1\xA5\xAB\xA5",         // "Навеселе",
-				"\x91\xAE\xAD",                             // "Сон",
-				"\x82 \xE3\xAD\xEB\xAD\xA8\xA8",            // "В унынии",
-				"\x82 \xE1\xAC\xEF\xE2\xA5\xAD\xA8\xA8",    // "В смятении",
-				"\x8F\xA0\xE0\xA0\xAB\xA8\xE7",             // "Паралич",
-				"\x81.\xE1\xAE\xA7\xAD\xA0\xAD\xA8\xEF",    // "Б.сознания",
-				"\x8C\xA5\xE0\xE2\xA2\xA0",                 // "Мертва",
-				"\x8A\xA0\xAC\xA5\xAD\xEC",                 // "Камень",
-				"\x93\xAD\xA8\xE7\xE2\xAE\xA6\xA5\xAD\xA0", // "Уничтожена",
+			"\x8F\xE0\xAE\xAA\xAB\xEF\xE2\xA8\xA5 ",         // "Проклятие ",
+				"Heart Broken ",                             // "Heart Broken ",
+				"\x91\xAB\xA0\xA1\xAE\xE1\xE2\xEC ",         // "Слабость ",
+				"\x8E\xE2\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xA5 ", // "Отравление ",
+				"\x81\xAE\xAB\xA5\xA7\xAD\xEC ",             // "Болезнь ",
+				"\x81\xA5\xA7\xE3\xAC\xA8\xA5 ",             // "Безумие ",
+				"\x82\xAB\xEE\xA1\xAB\xF1\xAD\xA0 ",         // "Влюблёна ",
+				"\x8D\xA0\xA2\xA5\xE1\xA5\xAB\xA5 ",         // "Навеселе ",
+				"\x91\xAE\xAD ",                             // "Сон ",
+				"\x82 \xE3\xAD\xEB\xAD\xA8\xA8 ",            // "В унынии ",
+				"\x82 \xE1\xAC\xEF\xE2\xA5\xAD\xA8\xA8 ",    // "В смятении ",
+				"\x8F\xA0\xE0\xA0\xAB\xA8\xE7 ",             // "Паралич ",
+				"\x81.\xE1\xAE\xA7\xAD\xA0\xAD\xA8\xEF ",    // "Б.сознания ",
+				"\x8C\xA5\xE0\xE2\xA2\xA0 ",                 // "Мертва ",
+				"\x8A\xA0\xAC\xA5\xAD\xEC ",                 // "Камень ",
+				"\x93\xAD\xA8\xE7\xE2\xAE\xA6\xA5\xAD\xA0 ", // "Уничтожена ",
 				"\x95\xAE\xE0\xAE\xE8\xA5\xA5"              // "Хорошее"
 		};
 		return _conditionNamesF;
@@ -594,7 +594,7 @@ public:
 	}
 
 	const char **DEPOSIT_WITHDRAWL() {
-		static const char *_depositWithdrawl[] = { "\x8F\xAE\xAB\xAE\xA6\xA8\xE2\xEC \xAD\xA0 \xE1\xE7\xF1\xE2", "\x91\xAD\xEF\xE2\xEC \xE1\xAE \xE1\xE7\xF1\xE2\xA0" }; // "Положить на счёт", "Снять со счёта"
+		static const char *_depositWithdrawl[] = { "\x8F\xAE\xAB\xAE\xA6\xA8\xE2\xEC \xAD\xA0 \xE1\xE7\xF1\xE2 ", "\x91\xAD\xEF\xE2\xEC \xE1\xAE \xE1\xE7\xF1\xE2\xA0" }; // "Положить на счёт ", "Снять со счёта"
 		return _depositWithdrawl;
 	}
 
@@ -608,16 +608,16 @@ public:
 
 	const char **STAT_NAMES() {
 		static const char *_statNames[] = {
-			"\x91\xA8\xAB\xA0", "\x88\xAD\xE2\xA5\xAB\xAB\xA5\xAA\xE2", "\x91\xA8\xAB\xA0 \xA4\xE3\xE5\xA0", "\x91\xAB\xAE\xA6\xA5\xAD\xA8\xA5", "\x91\xAA\xAE\xE0\xAE\xE1\xE2\xEC",	 // "Сила", "Интеллект", "Сила духа", "Сложение", "Скорость",
-			"\x8C\xA5\xE2\xAA\xAE\xE1\xE2\xEC", "\x93\xA4\xA0\xE7\xA0", "\x82\xAE\xA7\xE0\xA0\xE1\xE2", "\x93\xE0\xAE\xA2\xA5\xAD\xEC", "\x8A\xAB\xA0\xE1\xE1 \xA7\xA0\xE9\xA8\xE2\xEB", // "Меткость", "Удача", "Возраст", "Уровень", "Класс защиты",
-			"\x87\xA4\xAE\xE0\xAE\xA2\xEC\xA5", "\x8E\xE7\xAA\xA8 \xAC\xA0\xA3\xA8\xA8", "\x93\xE1\xE2\xAE\xA9\xE7\xA8\xA2\xAE\xE1\xE2\xA8", "\x8D\xA0\xA2\xEB\xAA\xA8",				 // "Здоровье", "Очки магии", "Устойчивости", "Навыки",
-			"\x8D\xA0\xA3\xE0\xA0\xA4\xEB", "\x8E\xAF\xEB\xE2"																															 // "Награды", "Опыт"
+			"\x91\xA8\xAB\xA0 ", "\x88\xAD\xE2\xA5\xAB\xAB\xA5\xAA\xE2 ", "\x91\xA8\xAB\xA0 \xA4\xE3\xE5\xA0 ", "\x91\xAB\xAE\xA6\xA5\xAD\xA8\xA5 ", "\x91\xAA\xAE\xE0\xAE\xE1\xE2\xEC ",	 // "Сила ", "Интеллект ", "Сила духа ", "Сложение ", "Скорость ",
+			"\x8C\xA5\xE2\xAA\xAE\xE1\xE2\xEC ", "\x93\xA4\xA0\xE7\xA0 ", "\x82\xAE\xA7\xE0\xA0\xE1\xE2 ", "\x93\xE0\xAE\xA2\xA5\xAD\xEC ", "\x8A\xAB\xA0\xE1\xE1 \xA7\xA0\xE9\xA8\xE2\xEB ", // "Меткость ", "Удача ", "Возраст ", "Уровень ", "Класс защиты ",
+			"\x87\xA4\xAE\xE0\xAE\xA2\xEC\xA5 ", "\x8E\xE7\xAA\xA8 \xAC\xA0\xA3\xA8\xA8 ", "\x93\xE1\xE2\xAE\xA9\xE7\xA8\xA2\xAE\xE1\xE2\xA8 ", "\x8D\xA0\xA2\xEB\xAA\xA8 ",				 // "Здоровье ", "Очки магии ", "Устойчивости ", "Навыки ",
+			"\x8D\xA0\xA3\xE0\xA0\xA4\xEB ", "\x8E\xAF\xEB\xE2"																															 // "Награды ", "Опыт"
 		};
 		return _statNames;
 	}
 
 	const char **CONSUMABLE_NAMES() {
-		static const char *_consumableNames[] = { "\x87\xAE\xAB\xAE\xE2\xAE", "\x80\xAB\xAC\xA0\xA7\xEB", "\x8F\xA8\xE9\xA0", "\x91\xAE\xE1\xE2\xAE\xEF\xAD\xA8\xA5" }; // "Золото", "Алмазы", "Пища", "Состояние"
+		static const char *_consumableNames[] = { "\x87\xAE\xAB\xAE\xE2\xAE ", "\x80\xAB\xAC\xA0\xA7\xEB ", "\x8F\xA8\xE9\xA0 ", "\x91\xAE\xE1\xE2\xAE\xEF\xAD\xA8\xA5" }; // "Золото ", "Алмазы ", "Пища ", "Состояние"
 		return _consumableNames;
 	}
 
@@ -632,7 +632,7 @@ public:
 	}
 
 	const char **WHERE_NAMES() {
-		static const char *_whereNames[] = { "\xE3 \xAE\xE2\xE0\xEF\xA4\xA0", "\xA2 \xA1\xA0\xAD\xAA\xA5" }; // "у отряда", "в банке"
+		static const char *_whereNames[] = { "\xE3 \xAE\xE2\xE0\xEF\xA4\xA0 ", "\xA2 \xA1\xA0\xAD\xAA\xA5" }; // "у отряда ", "в банке"
 		return _whereNames;
 	}
 
@@ -782,8 +782,8 @@ public:
 
 	const char **WEEK_DAY_STRINGS() {
 		static const char *_weekDayStrings[] = {
-			"\xA4\xA5\xE1\xEF\xE2\xA8\xA4\xA5\xAD\xEC", "\xAF\xA5\xE0\xA2\xAE\xA4\xA5\xAD\xEC", "\xA2\xE2\xAE\xE0\xAE\xA4\xA5\xAD\xEC", "\xE2\xE0\xA5\xE2\xEC\xA5\xA4\xA5\xAD\xEC", "\xE7\xA5\xE2\xA2\xA5\xE0\xAE\xA4\xA5\xAD\xEC", // "десятидень", "перводень", "втородень", "третьедень", "четверодень",
-			"\xAF\xEF\xE2\xA8\xA4\xA5\xAD\xEC", "\xE8\xA5\xE1\xE2\xA8\xA4\xA5\xAD\xEC", "\xE1\xA5\xAC\xA8\xA4\xA5\xAD\xEC", "\xA2\xAE\xE1\xEC\xAC\xA8\xA4\xA5\xAD\xEC", "\xA4\xA5\xA2\xEF\xE2\xA8\xA4\xA5\xAD\xEC"                  // "пятидень",   "шестидень", "семидень",  "восьмидень", "девятидень"
+			"\xA4\xA5\xE1\xEF\xE2\xA8\xA4\xA5\xAD\xEC ", "\xAF\xA5\xE0\xA2\xAE\xA4\xA5\xAD\xEC ", "\xA2\xE2\xAE\xE0\xAE\xA4\xA5\xAD\xEC ", "\xE2\xE0\xA5\xE2\xEC\xA5\xA4\xA5\xAD\xEC ", "\xE7\xA5\xE2\xA2\xA5\xE0\xAE\xA4\xA5\xAD\xEC ", // "десятидень ", "перводень ", "втородень ", "третьедень ", "четверодень ",
+			"\xAF\xEF\xE2\xA8\xA4\xA5\xAD\xEC ", "\xE8\xA5\xE1\xE2\xA8\xA4\xA5\xAD\xEC ", "\xE1\xA5\xAC\xA8\xA4\xA5\xAD\xEC ", "\xA2\xAE\xE1\xEC\xAC\xA8\xA4\xA5\xAD\xEC ", "\xA4\xA5\xA2\xEF\xE2\xA8\xA4\xA5\xAD\xEC"                  // "пятидень ",   "шестидень ", "семидень ",  "восьмидень ", "девятидень"
 		};
 		return _weekDayStrings;
 	}
@@ -804,7 +804,7 @@ public:
 	}
 
 	const char **DAYS() {
-		static const char *_days[] = { "\xA4\xA5\xAD\xEC", "\xA4\xAD\xEF", "\xA4\xAD\xA5\xA9" }; // "день", "дня", "дней"
+		static const char *_days[] = { "\xA4\xA5\xAD\xEC ", "\xA4\xAD\xEF ", "\xA4\xAD\xA5\xA9" }; // "день ", "дня ", "дней"
 		return _days;
 	}
 
@@ -844,17 +844,17 @@ public:
 
 	const char **RATING_TEXT() {
 		static const char *_ratingText[] = {
-			"\x8D\xA5\xE2", "\x8C\xA8\xA7\xA5\xE0\xAD\xEB\xA9", "\x86\xA0\xAB\xAA\xA8\xA9", "\x8E\xE7.\xAD\xA8\xA7\xAA\xA8\xA9", "\x8D\xA8\xA7\xAA\xA8\xA9", "\x91\xE0\xA5\xA4\xAD\xA8\xA9", "\x95\xAE\xE0\xAE\xE8\xA8\xA9",											// "Нет", "Мизерный", "Жалкий", "Оч.низкий", "Низкий", "Средний", "Хороший",
-			"\x8E\xE2\xAB\xA8\xE7\xAD\xEB\xA9", "\x82\xEB\xE1\xAE\xAA\xA8\xA9", "\x82\xEB\xE1\xAE\xE7\xA5\xAD\xAD\xEB\xA9", "\x81\xAE\xAB\xEC\xE8\xAE\xA9", "\x8E\xA3\xE0\xAE\xAC\xAD\xEB\xA9", "\x93\xA4\xA8\xA2\xA8\xE2\xA5\xAB\xEC\xAD\xEB\xA9",                     // "Отличный", "Высокий", "Высоченный", "Большой", "Огромный", "Удивительный",
-			"\x8D\xA5\xA2\xA5\xE0\xAE\xEF\xE2\xAD\xEB\xA9", "\x83\xA8\xA3\xA0\xAD\xE2\xE1\xAA\xA8\xA9", "\x94\xA0\xAD\xE2\xA0\xE1\xE2\xA8\xE7\xAD\xEB\xA9", "\x88\xA7\xE3\xAC\xA8\xE2\xA5\xAB\xEC\xAD\xEB\xA9", "\x8F\xAE\xE0\xA0\xA7\xA8\xE2\xA5\xAB\xEC\xAD\xEB\xA9", // "Невероятный", "Гигантский", "Фантастичный", "Изумительный", "Поразительный",
-			"\x83\xE0\xA0\xAD\xA4\xA8\xAE\xA7\xAD\xEB\xA9", "\x83\xE0\xAE\xAC\xA0\xA4\xAD\xEB\xA9", "\x8A\xAE\xAB\xAE\xE1\xE1\xA0\xAB\xEC\xAD\xEB\xA9", "\x8F\xAE\xE2\xE0\xEF\xE1\xA0\xEE\xE9\xA8\xA9", "\x97\xE3\xA4\xAE\xA2\xA8\xE9\xAD\xEB\xA9",                     // "Грандиозный", "Громадный", "Колоссальный", "Потрясающий", "Чудовищный",
+			"\x8D\xA5\xE2 ", "\x8C\xA8\xA7\xA5\xE0\xAD\xEB\xA9 ", "\x86\xA0\xAB\xAA\xA8\xA9 ", "\x8E\xE7.\xAD\xA8\xA7\xAA\xA8\xA9 ", "\x8D\xA8\xA7\xAA\xA8\xA9 ", "\x91\xE0\xA5\xA4\xAD\xA8\xA9 ", "\x95\xAE\xE0\xAE\xE8\xA8\xA9 ",											// "Нет ", "Мизерный ", "Жалкий ", "Оч.низкий ", "Низкий ", "Средний ", "Хороший ",
+			"\x8E\xE2\xAB\xA8\xE7\xAD\xEB\xA9 ", "\x82\xEB\xE1\xAE\xAA\xA8\xA9 ", "\x82\xEB\xE1\xAE\xE7\xA5\xAD\xAD\xEB\xA9 ", "\x81\xAE\xAB\xEC\xE8\xAE\xA9 ", "\x8E\xA3\xE0\xAE\xAC\xAD\xEB\xA9 ", "\x93\xA4\xA8\xA2\xA8\xE2\xA5\xAB\xEC\xAD\xEB\xA9 ",                     // "Отличный ", "Высокий ", "Высоченный ", "Большой ", "Огромный ", "Удивительный ",
+			"\x8D\xA5\xA2\xA5\xE0\xAE\xEF\xE2\xAD\xEB\xA9 ", "\x83\xA8\xA3\xA0\xAD\xE2\xE1\xAA\xA8\xA9 ", "\x94\xA0\xAD\xE2\xA0\xE1\xE2\xA8\xE7\xAD\xEB\xA9 ", "\x88\xA7\xE3\xAC\xA8\xE2\xA5\xAB\xEC\xAD\xEB\xA9 ", "\x8F\xAE\xE0\xA0\xA7\xA8\xE2\xA5\xAB\xEC\xAD\xEB\xA9 ", // "Невероятный ", "Гигантский ", "Фантастичный ", "Изумительный ", "Поразительный ",
+			"\x83\xE0\xA0\xAD\xA4\xA8\xAE\xA7\xAD\xEB\xA9 ", "\x83\xE0\xAE\xAC\xA0\xA4\xAD\xEB\xA9 ", "\x8A\xAE\xAB\xAE\xE1\xE1\xA0\xAB\xEC\xAD\xEB\xA9 ", "\x8F\xAE\xE2\xE0\xEF\xE1\xA0\xEE\xE9\xA8\xA9 ", "\x97\xE3\xA4\xAE\xA2\xA8\xE9\xAD\xEB\xA9 ",                     // "Грандиозный ", "Громадный ", "Колоссальный ", "Потрясающий ", "Чудовищный ",
 			"\x82\xEB\xE1\xAE\xE7\xA0\xA9\xE8\xA8\xA9"                                                                                                                                                                                                                  // "Высочайший"
 		};
 		return _ratingText;
 	}
 
 	const char **BORN() {
-		static const char *_born[] = { "\x90\xAE\xA4\xA8\xAB\xE1\xEF", "\x90\xAE\xA4\xA8\xAB\xA0\xE1\xEC" }; // "Родился", "Родилась"
+		static const char *_born[] = { "\x90\xAE\xA4\xA8\xAB\xE1\xEF ", "\x90\xAE\xA4\xA8\xAB\xA0\xE1\xEC" }; // "Родился ", "Родилась"
 		return _born;
 	}
 
@@ -903,7 +903,7 @@ public:
 	}
 
 	const char **FOOD_ON_HAND() {
-		static const char *_onHand[] = { "\xAF\xAE\xE0\xE6\xA8\xEF", "\xAF\xAE\xE0\xE6\xA8\xA8", "\xAF\xAE\xE0\xE6\xA8\xA9" }; // "порция", "порции", "порций"
+		static const char *_onHand[] = { "\xAF\xAE\xE0\xE6\xA8\xEF ", "\xAF\xAE\xE0\xE6\xA8\xA8 ", "\xAF\xAE\xE0\xE6\xA8\xA9" }; // "порция ", "порции ", "порций"
 		return _onHand;
 	}
 
@@ -1012,186 +1012,186 @@ public:
 
 	const char **BONUS_NAMES() {
 		static const char *_bonusNames[] = {
-			"", "\x93\xA1\xA8\xA9\xE6\xEB \xA4\xE0\xA0\xAA\xAE\xAD\xAE\xA2", "\x88\xA7\xA3\xAE\xAD\xEF\xEE\xE9\xA5\xA3\xAE \xAC\xF1\xE0\xE2\xA2\xEB\xE5", "\x8A\xE0\xE3\xE8\xA8\xE2\xA5\xAB\xEF \xA3\xAE\xAB\xA5\xAC\xAE\xA2", // "", "Убийцы драконов", "Изгоняющего мёртвых", "Крушителя големов",
-			"\x84\xA0\xA2\xA8\xE2\xA5\xAB\xEF \xAD\xA0\xE1\xA5\xAA\xAE\xAC\xEB\xE5", "\x93\xA1\xA8\xA9\xE6\xEB \xAC\xAE\xAD\xE1\xE2\xE0\xAE\xA2", "\x93\xA1\xA8\xA9\xE6\xEB \xA7\xA2\xA5\xE0\xA5\xA9"                          // "Давителя насекомых", "Убийцы монстров", "Убийцы зверей"
+			" ", "\x93\xA1\xA8\xA9\xE6\xEB \xA4\xE0\xA0\xAA\xAE\xAD\xAE\xA2 ", "\x88\xA7\xA3\xAE\xAD\xEF\xEE\xE9\xA5\xA3\xAE \xAC\xF1\xE0\xE2\xA2\xEB\xE5 ", "\x8A\xE0\xE3\xE8\xA8\xE2\xA5\xAB\xEF \xA3\xAE\xAB\xA5\xAC\xAE\xA2 ", // " ", "Убийцы драконов ", "Изгоняющего мёртвых ", "Крушителя големов ",
+			"\x84\xA0\xA2\xA8\xE2\xA5\xAB\xEF \xAD\xA0\xE1\xA5\xAA\xAE\xAC\xEB\xE5 ", "\x93\xA1\xA8\xA9\xE6\xEB \xAC\xAE\xAD\xE1\xE2\xE0\xAE\xA2 ", "\x93\xA1\xA8\xA9\xE6\xEB \xA7\xA2\xA5\xE0\xA5\xA9"                          // "Давителя насекомых ", "Убийцы монстров ", "Убийцы зверей"
 		};
 		return _bonusNames;
 	}
 
 	const char **WEAPON_NAMES() {
 		static const char *_weaponNames[] = {
-			nullptr, "\xAC\xA5\xE7 ", "\xA3\xAB\xA0\xA4\xA8\xE3\xE1 ", "\xAF\xA0\xAB\xA0\xE8 ", "\xEF\xE2\xA0\xA3\xA0\xAD ",																			   // nullptr, "меч ", "гладиус ", "палаш ", "ятаган ",
-			"\xAA\xAE\xE0\xE2\xA8\xAA ", "\xE1\xA0\xA1\xAB\xEF ", "\xA4\xE3\xA1\xA8\xAD\xA0 ", "\xE2\xAE\xAF\xAE\xE0 ", "\xAA\xA0\xE2\xA0\xAD\xA0 ", "\xAD\xE3\xAD\xE7\xA0\xAA\xA8 ",                      // "кортик ", "сабля ", "дубина ", "топор ", "катана ", "нунчаки ",
-			"\xA2\xA0\xAA\xA8\xA4\xA7\xA0\xE1\xA8 ", "\xAA\xA8\xAD\xA6\xA0\xAB ", "\xA1\xE3\xAB\xA0\xA2\xA0 ", "\xE6\xA5\xAF ", "\xA6\xA5\xA7\xAB ", "\xAC\xAE\xAB\xAE\xE2 ", "\xAA\xAE\xAF\xEC\xF1 ",     // "вакидзаси ", "кинжал ", "булава ", "цеп ", "жезл ", "молот ", "копьё ",
-			"\xA1\xA5\xE0\xA4\xEB\xE8 ", "\xA3\xAB\xA5\xE4\xA0 ", "\xA0\xAB\xA5\xA1\xA0\xE0\xA4\xA0 ", "\xAF\xA8\xAA\xA0 ", "\xE4\xAB\xA0\xAC\xA1\xA5\xE0\xA3 ", "\xE2\xE0\xA5\xA7\xE3\xA1\xA5\xE6 ",      // "бердыш ", "глефа ", "алебарда ", "пика ", "фламберг ", "трезубец ",
-			"\xAF\xAE\xE1\xAE\xE5 ", "\xA1\xAE\xA5\xA2\xAE\xA9 \xAC\xAE\xAB\xAE\xE2 ", "\xAD\xA0\xA3\xA8\xAD\xA0\xE2\xA0 ", "\xA1\xAE\xA5\xA2\xAE\xA9 \xE2\xAE\xAF\xAE\xE0 ", "\xE1\xA5\xAA\xA8\xE0\xA0 ", // "посох ", "боевой молот ", "нагината ", "боевой топор ", "секира ",
-			"\xE2\xAE\xAF\xAE\xE0 \xAF\xA0\xAB\xA0\xE7\xA0 ", "\xAB\xE3\xAA ", "\xA1\xAE\xAB\xEC\xE8\xAE\xA9 \xAB\xE3\xAA ", "\xA0\xE0\xA1\xA0\xAB\xA5\xE2 ", "\xAF\xE0\xA0\xE9\xA0 ",                     // "топор палача ", "лук ", "большой лук ", "арбалет ", "праща ",
-			"\x8C\xA5\xE7 - \xE3\xA1\xA8\xA9\xE6\xA0 \x8A\xE1\xA8\xAD\xA0 ",                                                                                                                               // "Меч - убийца Ксина ",
-			"Elder LongSword ", "Elder Dagger ", "Elder Mace ", "Elder Spear ",                                                                                                                            // "Elder LongSword ", "Elder Dagger ", "Elder Mace ", "Elder Spear ",
-			"Elder Staff ", "Elder LongBow "                                                                                                                                                               // "Elder Staff ", "Elder LongBow "
+			nullptr, "\xAC\xA5\xE7  ", "\xA3\xAB\xA0\xA4\xA8\xE3\xE1  ", "\xAF\xA0\xAB\xA0\xE8  ", "\xEF\xE2\xA0\xA3\xA0\xAD  ",																			   // nullptr, "меч  ", "гладиус  ", "палаш  ", "ятаган  ",
+			"\xAA\xAE\xE0\xE2\xA8\xAA  ", "\xE1\xA0\xA1\xAB\xEF  ", "\xA4\xE3\xA1\xA8\xAD\xA0  ", "\xE2\xAE\xAF\xAE\xE0  ", "\xAA\xA0\xE2\xA0\xAD\xA0  ", "\xAD\xE3\xAD\xE7\xA0\xAA\xA8  ",                      // "кортик  ", "сабля  ", "дубина  ", "топор  ", "катана  ", "нунчаки  ",
+			"\xA2\xA0\xAA\xA8\xA4\xA7\xA0\xE1\xA8  ", "\xAA\xA8\xAD\xA6\xA0\xAB  ", "\xA1\xE3\xAB\xA0\xA2\xA0  ", "\xE6\xA5\xAF  ", "\xA6\xA5\xA7\xAB  ", "\xAC\xAE\xAB\xAE\xE2  ", "\xAA\xAE\xAF\xEC\xF1  ",     // "вакидзаси  ", "кинжал  ", "булава  ", "цеп  ", "жезл  ", "молот  ", "копьё  ",
+			"\xA1\xA5\xE0\xA4\xEB\xE8  ", "\xA3\xAB\xA5\xE4\xA0  ", "\xA0\xAB\xA5\xA1\xA0\xE0\xA4\xA0  ", "\xAF\xA8\xAA\xA0  ", "\xE4\xAB\xA0\xAC\xA1\xA5\xE0\xA3  ", "\xE2\xE0\xA5\xA7\xE3\xA1\xA5\xE6  ",      // "бердыш  ", "глефа  ", "алебарда  ", "пика  ", "фламберг  ", "трезубец  ",
+			"\xAF\xAE\xE1\xAE\xE5  ", "\xA1\xAE\xA5\xA2\xAE\xA9 \xAC\xAE\xAB\xAE\xE2  ", "\xAD\xA0\xA3\xA8\xAD\xA0\xE2\xA0  ", "\xA1\xAE\xA5\xA2\xAE\xA9 \xE2\xAE\xAF\xAE\xE0  ", "\xE1\xA5\xAA\xA8\xE0\xA0  ", // "посох  ", "боевой молот  ", "нагината  ", "боевой топор  ", "секира  ",
+			"\xE2\xAE\xAF\xAE\xE0 \xAF\xA0\xAB\xA0\xE7\xA0  ", "\xAB\xE3\xAA  ", "\xA1\xAE\xAB\xEC\xE8\xAE\xA9 \xAB\xE3\xAA  ", "\xA0\xE0\xA1\xA0\xAB\xA5\xE2  ", "\xAF\xE0\xA0\xE9\xA0  ",                     // "топор палача  ", "лук  ", "большой лук  ", "арбалет  ", "праща  ",
+			"\x8C\xA5\xE7 - \xE3\xA1\xA8\xA9\xE6\xA0 \x8A\xE1\xA8\xAD\xA0  ",                                                                                                                               // "Меч - убийца Ксина  ",
+			"Elder LongSword  ", "Elder Dagger  ", "Elder Mace  ", "Elder Spear  ",                                                                                                                            // "Elder LongSword  ", "Elder Dagger  ", "Elder Mace  ", "Elder Spear  ",
+			"Elder Staff  ", "Elder LongBow "                                                                                                                                                               // "Elder Staff  ", "Elder LongBow "
 		};
 		return _weaponNames;
 	}
 
 	const char **ARMOR_NAMES() {
 		static const char *_armorNames[] = {
-			nullptr, "\xAC\xA0\xAD\xE2\xA8\xEF ", "\xE7\xA5\xE8\xE3\xEF ", "\xAF\xA0\xAD\xE6\xA8\xE0\xEC ", "\xAA\xAE\xAB\xEC\xE7\xE3\xA3\xA0 ",		// nullptr, "мантия ", "чешуя ", "панцирь ", "кольчуга ",
-			"\xEE\xE8\xAC\xA0\xAD ", "\xA1\xA5\xE5\xE2\xA5\xE0\xA5\xE6 ", "\xAB\xA0\xE2\xEB ", "\xE9\xA8\xE2 ",                                         // "юшман ", "бехтерец ", "латы ", "щит ",
-			"\xE8\xAB\xA5\xAC ", "\xE1\xA0\xAF\xAE\xA3\xA8 ", "\xAF\xAB\xA0\xE9 ", "\xAD\xA0\xAA\xA8\xA4\xAA\xA0 ", "\xAF\xA5\xE0\xE7\xA0\xE2\xAA\xA8 " // "шлем ", "сапоги ", "плащ ", "накидка ", "перчатки "
+			nullptr, "\xAC\xA0\xAD\xE2\xA8\xEF  ", "\xE7\xA5\xE8\xE3\xEF  ", "\xAF\xA0\xAD\xE6\xA8\xE0\xEC  ", "\xAA\xAE\xAB\xEC\xE7\xE3\xA3\xA0  ",		// nullptr, "мантия  ", "чешуя  ", "панцирь  ", "кольчуга  ",
+			"\xEE\xE8\xAC\xA0\xAD  ", "\xA1\xA5\xE5\xE2\xA5\xE0\xA5\xE6  ", "\xAB\xA0\xE2\xEB  ", "\xE9\xA8\xE2  ",                                         // "юшман  ", "бехтерец  ", "латы  ", "щит  ",
+			"\xE8\xAB\xA5\xAC  ", "\xE1\xA0\xAF\xAE\xA3\xA8  ", "\xAF\xAB\xA0\xE9  ", "\xAD\xA0\xAA\xA8\xA4\xAA\xA0  ", "\xAF\xA5\xE0\xE7\xA0\xE2\xAA\xA8 " // "шлем  ", "сапоги  ", "плащ  ", "накидка  ", "перчатки "
 		};
 		return _armorNames;
 	}
 
 	const char **ACCESSORY_NAMES() {
 		static const char *_accessoryNames[] = {
-			nullptr, "\xAA\xAE\xAB\xEC\xE6\xAE ", "\xAF\xAE\xEF\xE1 ", "\xA1\xE0\xAE\xE8\xEC ", "\xAC\xA5\xA4\xA0\xAB\xEC ", "\xE2\xA0\xAB\xA8\xE1\xAC\xA0\xAD ", "\xAA\xA0\xAC\xA5\xEF ", // nullptr, "кольцо ", "пояс ", "брошь ", "медаль ", "талисман ", "камея ",
-			"\xE1\xAA\xA0\xE0\xA0\xA1\xA5\xA9 ", "\xAA\xE3\xAB\xAE\xAD ", "\xAE\xA6\xA5\xE0\xA5\xAB\xEC\xA5 ", "\xA0\xAC\xE3\xAB\xA5\xE2 "                                                 // "скарабей ", "кулон ", "ожерелье ", "амулет "
+			nullptr, "\xAA\xAE\xAB\xEC\xE6\xAE  ", "\xAF\xAE\xEF\xE1  ", "\xA1\xE0\xAE\xE8\xEC  ", "\xAC\xA5\xA4\xA0\xAB\xEC  ", "\xE2\xA0\xAB\xA8\xE1\xAC\xA0\xAD  ", "\xAA\xA0\xAC\xA5\xEF  ", // nullptr, "кольцо  ", "пояс  ", "брошь  ", "медаль  ", "талисман  ", "камея  ",
+			"\xE1\xAA\xA0\xE0\xA0\xA1\xA5\xA9  ", "\xAA\xE3\xAB\xAE\xAD  ", "\xAE\xA6\xA5\xE0\xA5\xAB\xEC\xA5  ", "\xA0\xAC\xE3\xAB\xA5\xE2 "                                                 // "скарабей  ", "кулон  ", "ожерелье  ", "амулет "
 		};
 		return _accessoryNames;
 	}
 
 	const char **MISC_NAMES() {
 		static const char *_miscNames[] = {
-			nullptr, "\xE1\xAA\xA8\xAF\xA5\xE2\xE0 ", "\xE1\xA0\xAC\xAE\xE6\xA2\xA5\xE2 ", "\xAA\xA0\xAC\xA5\xAD\xEC ", "\xE8\xAA\xA0\xE2\xE3\xAB\xAA\xA0 ", "\xE1\xE4\xA5\xE0\xA0 ", "\xE0\xAE\xA3 ",								// nullptr, "скипетр ", "самоцвет ", "камень ", "шкатулка ", "сфера ", "рог ",
-			"\xAC\xAE\xAD\xA5\xE2\xAA\xA0 ", "\xA6\xA5\xA7\xAB ", "\xE1\xA2\xA8\xE1\xE2\xAE\xAA ", "\xA7\xA5\xAB\xEC\xA5 ", "\xE1\xA2\xA8\xE2\xAE\xAA ", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0",    // "монетка ", "жезл ", "свисток ", "зелье ", "свиток ", "подделка", "подделка",
-			"\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0", // "подделка", "подделка", "подделка", "подделка", "подделка", "подделка",
-			"\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0"                                                                                                                                                  // "подделка", "подделка"
+			nullptr, "\xE1\xAA\xA8\xAF\xA5\xE2\xE0  ", "\xE1\xA0\xAC\xAE\xE6\xA2\xA5\xE2  ", "\xAA\xA0\xAC\xA5\xAD\xEC  ", "\xE8\xAA\xA0\xE2\xE3\xAB\xAA\xA0  ", "\xE1\xE4\xA5\xE0\xA0  ", "\xE0\xAE\xA3  ",								// nullptr, "скипетр  ", "самоцвет  ", "камень  ", "шкатулка  ", "сфера  ", "рог  ",
+			"\xAC\xAE\xAD\xA5\xE2\xAA\xA0  ", "\xA6\xA5\xA7\xAB  ", "\xE1\xA2\xA8\xE1\xE2\xAE\xAA  ", "\xA7\xA5\xAB\xEC\xA5  ", "\xE1\xA2\xA8\xE2\xAE\xAA  ", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0 ", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0 ",    // "монетка  ", "жезл  ", "свисток  ", "зелье  ", "свиток  ", "подделка ", "подделка ",
+			"\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0 ", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0 ", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0 ", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0 ", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0 ", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0 ", // "подделка ", "подделка ", "подделка ", "подделка ", "подделка ", "подделка ",
+			"\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0 ", "\xAF\xAE\xA4\xA4\xA5\xAB\xAA\xA0"                                                                                                                                                  // "подделка ", "подделка"
 		};
 		return _miscNames;
 	}
 
 	const char **SPECIAL_NAMES() {
 		static const char *_specialNames[] = {
-			nullptr, "\xE1\xA2\xA5\xE2\xA0", "\xAF\xE0\xAE\xA1\xE3\xA6\xA4\xA5\xAD\xA8\xEF", "\xA2\xAE\xAB\xE8\xA5\xA1\xAD\xEB\xE5 \xE1\xE2\xE0\xA5\xAB", "\xAF\xA5\xE0\xA2\xAE\xA9 \xAF\xAE\xAC\xAE\xE9\xA8",														  // nullptr, "света", "пробуждения", "волшебных стрел", "первой помощи",
-			"\xAA\xE3\xAB\xA0\xAA\xAE\xA2", "\xED\xAD\xA5\xE0\xA3\xA5\xE2\xA8\xE7\xA5\xE1\xAA\xAE\xA3\xAE \xA2\xA7\xE0\xEB\xA2\xA0", "\xE3\xE1\xEB\xAF\xAB\xA5\xAD\xA8\xEF", "\xAB\xA5\xE7\xA5\xAD\xA8\xEF \xE1\xAB\xA0\xA1\xAE\xE1\xE2\xA8",                         // "кулаков", "энергетического взрыва", "усыпления", "лечения слабости",
-			"\xAB\xA5\xE7\xA5\xAD\xA8\xEF", "\xA8\xE1\xAA\xE0", "\xE8\xE0\xA0\xAF\xAD\xA5\xAB\xA8", "\xE0\xA5\xAF\xA5\xAB\xAB\xA5\xAD\xE2\xA0", "\xEF\xA4\xAE\xA2\xA8\xE2\xEB\xE5 \xAE\xA1\xAB\xA0\xAA\xAE\xA2",                                                      // "лечения", "искр", "шрапнели", "репеллента", "ядовитых облаков",
-			"\xA7\xA0\xE9\xA8\xE2\xEB \xAE\xE2 \xE1\xE2\xA8\xE5\xA8\xA9", "\xA1\xAE\xAB\xA8", "\xAF\xE0\xEB\xA6\xAA\xAE\xA2", "\xAA\xAE\xAD\xE2\xE0\xAE\xAB\xEF \xAD\xA0\xA4 \xAC\xAE\xAD\xE1\xE2\xE0\xA0\xAC\xA8",                                                   // "защиты от стихий", "боли", "прыжков", "контроля над монстрами",
-			"\xEF\xE1\xAD\xAE\xA2\xA8\xA4\xA5\xAD\xA8\xEF", "\xA8\xA7\xA3\xAD\xA0\xAD\xA8\xEF \xAD\xA5\xA6\xA8\xE2\xA8", "\xAB\xA5\xA2\xA8\xE2\xA0\xE6\xA8\xA8", "\xA2\xAE\xAB\xE8\xA5\xA1\xAD\xAE\xA3\xAE \xA3\xAB\xA0\xA7\xA0",                                     // "ясновидения", "изгнания нежити", "левитации", "волшебного глаза",
-			"\xA1\xAB\xA0\xA3\xAE\xE1\xAB\xAE\xA2\xA5\xAD\xA8\xEF", "\xAE\xAF\xAE\xA7\xAD\xA0\xAD\xA8\xEF \xAC\xAE\xAD\xE1\xE2\xE0\xAE\xA2", "\xAC\xAE\xAB\xAD\xA8\xA9", "\xE1\xA2\xEF\xE2\xEB\xE5 \xA4\xA0\xE0\xAE\xA2", "\xA8\xE1\xE6\xA5\xAB\xA5\xAD\xA8\xEF",     // "благословения", "опознания монстров", "молний", "святых даров", "исцеления",
-			"\xAF\xE0\xA8\xE0\xAE\xA4\xAD\xAE\xA3\xAE \xAB\xA5\xE7\xA5\xAD\xA8\xEF", "\xAC\xA0\xEF\xAA\xAE\xA2", "\xE9\xA8\xE2\xA0", "\xAC\xE3\xA6\xA5\xE1\xE2\xA2\xA0", "\xA3\xA8\xAF\xAD\xAE\xA7\xA0",                                                              // "природного лечения", "маяков", "щита", "мужества", "гипноза",
-			"\xE5\xAE\xA6\xA4\xA5\xAD\xA8\xEF \xAF\xAE \xA2\xAE\xA4\xA5", "\xAE\xA1\xA6\xA8\xA3\xA0\xEE\xE9\xA5\xA3\xAE \xE5\xAE\xAB\xAE\xA4\xA0", "\xAF\xAE\xA8\xE1\xAA\xA0 \xAC\xAE\xAD\xE1\xE2\xE0\xAE\xA2",                                                       // "хождения по воде", "обжигающего холода", "поиска монстров",
-			"\xAE\xA3\xAD\xA5\xAD\xAD\xEB\xE5 \xE8\xA0\xE0\xAE\xA2", "\xAB\xE3\xE7\xA5\xA9 \xE5\xAE\xAB\xAE\xA4\xA0", "\xAF\xE0\xAE\xE2\xA8\xA2\xAE\xEF\xA4\xA8\xEF", "\xE0\xA0\xE1\xAF\xEB\xAB\xA5\xAD\xA8\xEF \xAA\xA8\xE1\xAB\xAE\xE2\xEB",                        // "огненных шаров", "лучей холода", "противоядия", "распыления кислоты",
-			"\xA2\xE0\xA5\xAC\xA5\xAD\xAD\xAE\xA3\xAE \xA8\xE1\xAA\xA0\xA6\xA5\xAD\xA8\xEF", "\xE3\xE1\xEB\xAF\xAB\xA5\xAD\xA8\xEF \xA4\xE0\xA0\xAA\xAE\xAD\xAE\xA2", "\xA2\xA0\xAA\xE6\xA8\xAD\xA0\xE6\xA8\xA8", "\xE2\xA5\xAB\xA5\xAF\xAE\xE0\xE2\xA0\xE6\xA8\xA8", // "временного искажения", "усыпления драконов", "вакцинации", "телепортации",
-			"\xE1\xAC\xA5\xE0\xE2\xA8", "\xE1\xA2\xAE\xA1\xAE\xA4\xAD\xAE\xA3\xAE \xA4\xA2\xA8\xA6\xA5\xAD\xA8\xEF", "\xAE\xE1\xE2\xA0\xAD\xAE\xA2\xAA\xA8 \xA3\xAE\xAB\xA5\xAC\xA0", "\xEF\xA4\xAE\xA2\xA8\xE2\xEB\xE5 \xA7\xA0\xAB\xAF\xAE\xA2",                    // "смерти", "свободного движения", "остановки голема", "ядовитых залпов",
-			"\xE1\xAC\xA5\xE0\xE2\xA5\xAB\xEC\xAD\xAE\xA3\xAE \xE0\xAE\xEF", "\xE3\xA1\xA5\xA6\xA8\xE9\xA0", "\xA4\xAD\xEF \xA7\xA0\xE9\xA8\xE2\xEB", "\xA4\xAD\xEF \xAC\xA0\xA3\xA8\xA8", "\xAF\xA8\xE0\xA0",                                                        // "смертельного роя", "убежища", "дня защиты", "дня магии", "пира",
-			"\xAE\xA3\xAD\xA5\xAD\xAD\xAE\xA3\xAE \xE6\xA5\xAF\xA0", "\xAF\xA5\xE0\xA5\xA7\xA0\xE0\xEF\xA4\xAA\xA8", "\xAC\xAE\xE0\xAE\xA7\xA0", "\xA3\xAE\xE0\xAE\xA4\xE1\xAA\xA8\xE5 \xAF\xAE\xE0\xE2\xA0\xAB\xAE\xA2",                                             // "огненного цепа", "перезарядки", "мороза", "городских порталов",
-			"\xE1\xAD\xEF\xE2\xA8\xEF \xAE\xAA\xA0\xAC\xA5\xAD\xA5\xAD\xA8\xEF", "\xAE\xA6\xA8\xA2\xAB\xA5\xAD\xA8\xEF \xAC\xF1\xE0\xE2\xA2\xEB\xE5", "\xA4\xA5\xAC\xA0\xE2\xA5\xE0\xA8\xA0\xAB\xA8\xA7\xA0\xE6\xA8\xA8",                                             // "снятия окаменения", "оживления мёртвых", "дематериализации",
-			"\xE2\xA0\xAD\xE6\xE3\xEE\xE9\xA8\xE5 \xAA\xAB\xA8\xAD\xAA\xAE\xA2", "\xAB\xE3\xAD\xAD\xEB\xE5 \xAB\xE3\xE7\xA5\xA9", "\xA8\xA7\xAC\xA5\xAD\xA5\xAD\xA8\xEF \xA2\xA5\xE1\xA0",                                                                            // "танцующих клинков", "лунных лучей", "изменения веса",
-			"\xAF\xE0\xA8\xA7\xAC\xA0\xE2\xA8\xE7\xA5\xE1\xAA\xAE\xA3\xAE \xE1\xA2\xA5\xE2\xA0", "\xE7\xA0\xE0", "\xA8\xE1\xAF\xA5\xAF\xA5\xAB\xA5\xAD\xA8\xEF", "\xE1\xA2\xEF\xE2\xEB\xE5 \xE1\xAB\xAE\xA2", "\xA2\xAE\xE1\xAA\xE0\xA5\xE8\xA5\xAD\xA8\xEF",         // "призматического света", "чар", "испепеления", "святых слов", "воскрешения",
-			"\xA1\xE3\xE0\xEC", "\xAC\xA5\xA3\xA0\xA2\xAE\xAB\xEC\xE2", "\xA8\xAD\xE4\xA5\xE0\xAD\xAE", "\xE1\xAE\xAB\xAD\xA5\xE7\xAD\xEB\xE5 \xAB\xE3\xE7\xA5\xA9", "\xA8\xAC\xAF\xAB\xAE\xA7\xA8\xA9",                                                              // "бурь", "мегавольт", "инферно", "солнечных лучей", "имплозий",
-			"\xA2\xA7\xE0\xEB\xA2\xA0 \xA7\xA2\xA5\xA7\xA4\xEB", "\x81\x8E\x83\x8E\x82!"                                                                                                                                                                              // "взрыва звезды", "БОГОВ!"
+			nullptr, "\xE1\xA2\xA5\xE2\xA0 ", "\xAF\xE0\xAE\xA1\xE3\xA6\xA4\xA5\xAD\xA8\xEF ", "\xA2\xAE\xAB\xE8\xA5\xA1\xAD\xEB\xE5 \xE1\xE2\xE0\xA5\xAB ", "\xAF\xA5\xE0\xA2\xAE\xA9 \xAF\xAE\xAC\xAE\xE9\xA8 ",														  // nullptr, "света ", "пробуждения ", "волшебных стрел ", "первой помощи ",
+			"\xAA\xE3\xAB\xA0\xAA\xAE\xA2 ", "\xED\xAD\xA5\xE0\xA3\xA5\xE2\xA8\xE7\xA5\xE1\xAA\xAE\xA3\xAE \xA2\xA7\xE0\xEB\xA2\xA0 ", "\xE3\xE1\xEB\xAF\xAB\xA5\xAD\xA8\xEF ", "\xAB\xA5\xE7\xA5\xAD\xA8\xEF \xE1\xAB\xA0\xA1\xAE\xE1\xE2\xA8 ",                         // "кулаков ", "энергетического взрыва ", "усыпления ", "лечения слабости ",
+			"\xAB\xA5\xE7\xA5\xAD\xA8\xEF ", "\xA8\xE1\xAA\xE0 ", "\xE8\xE0\xA0\xAF\xAD\xA5\xAB\xA8 ", "\xE0\xA5\xAF\xA5\xAB\xAB\xA5\xAD\xE2\xA0 ", "\xEF\xA4\xAE\xA2\xA8\xE2\xEB\xE5 \xAE\xA1\xAB\xA0\xAA\xAE\xA2 ",                                                      // "лечения ", "искр ", "шрапнели ", "репеллента ", "ядовитых облаков ",
+			"\xA7\xA0\xE9\xA8\xE2\xEB \xAE\xE2 \xE1\xE2\xA8\xE5\xA8\xA9 ", "\xA1\xAE\xAB\xA8 ", "\xAF\xE0\xEB\xA6\xAA\xAE\xA2 ", "\xAA\xAE\xAD\xE2\xE0\xAE\xAB\xEF \xAD\xA0\xA4 \xAC\xAE\xAD\xE1\xE2\xE0\xA0\xAC\xA8 ",                                                   // "защиты от стихий ", "боли ", "прыжков ", "контроля над монстрами ",
+			"\xEF\xE1\xAD\xAE\xA2\xA8\xA4\xA5\xAD\xA8\xEF ", "\xA8\xA7\xA3\xAD\xA0\xAD\xA8\xEF \xAD\xA5\xA6\xA8\xE2\xA8 ", "\xAB\xA5\xA2\xA8\xE2\xA0\xE6\xA8\xA8 ", "\xA2\xAE\xAB\xE8\xA5\xA1\xAD\xAE\xA3\xAE \xA3\xAB\xA0\xA7\xA0 ",                                     // "ясновидения ", "изгнания нежити ", "левитации ", "волшебного глаза ",
+			"\xA1\xAB\xA0\xA3\xAE\xE1\xAB\xAE\xA2\xA5\xAD\xA8\xEF ", "\xAE\xAF\xAE\xA7\xAD\xA0\xAD\xA8\xEF \xAC\xAE\xAD\xE1\xE2\xE0\xAE\xA2 ", "\xAC\xAE\xAB\xAD\xA8\xA9 ", "\xE1\xA2\xEF\xE2\xEB\xE5 \xA4\xA0\xE0\xAE\xA2 ", "\xA8\xE1\xE6\xA5\xAB\xA5\xAD\xA8\xEF ",     // "благословения ", "опознания монстров ", "молний ", "святых даров ", "исцеления ",
+			"\xAF\xE0\xA8\xE0\xAE\xA4\xAD\xAE\xA3\xAE \xAB\xA5\xE7\xA5\xAD\xA8\xEF ", "\xAC\xA0\xEF\xAA\xAE\xA2 ", "\xE9\xA8\xE2\xA0 ", "\xAC\xE3\xA6\xA5\xE1\xE2\xA2\xA0 ", "\xA3\xA8\xAF\xAD\xAE\xA7\xA0 ",                                                              // "природного лечения ", "маяков ", "щита ", "мужества ", "гипноза ",
+			"\xE5\xAE\xA6\xA4\xA5\xAD\xA8\xEF \xAF\xAE \xA2\xAE\xA4\xA5 ", "\xAE\xA1\xA6\xA8\xA3\xA0\xEE\xE9\xA5\xA3\xAE \xE5\xAE\xAB\xAE\xA4\xA0 ", "\xAF\xAE\xA8\xE1\xAA\xA0 \xAC\xAE\xAD\xE1\xE2\xE0\xAE\xA2 ",                                                       // "хождения по воде ", "обжигающего холода ", "поиска монстров ",
+			"\xAE\xA3\xAD\xA5\xAD\xAD\xEB\xE5 \xE8\xA0\xE0\xAE\xA2 ", "\xAB\xE3\xE7\xA5\xA9 \xE5\xAE\xAB\xAE\xA4\xA0 ", "\xAF\xE0\xAE\xE2\xA8\xA2\xAE\xEF\xA4\xA8\xEF ", "\xE0\xA0\xE1\xAF\xEB\xAB\xA5\xAD\xA8\xEF \xAA\xA8\xE1\xAB\xAE\xE2\xEB ",                        // "огненных шаров ", "лучей холода ", "противоядия ", "распыления кислоты ",
+			"\xA2\xE0\xA5\xAC\xA5\xAD\xAD\xAE\xA3\xAE \xA8\xE1\xAA\xA0\xA6\xA5\xAD\xA8\xEF ", "\xE3\xE1\xEB\xAF\xAB\xA5\xAD\xA8\xEF \xA4\xE0\xA0\xAA\xAE\xAD\xAE\xA2 ", "\xA2\xA0\xAA\xE6\xA8\xAD\xA0\xE6\xA8\xA8 ", "\xE2\xA5\xAB\xA5\xAF\xAE\xE0\xE2\xA0\xE6\xA8\xA8 ", // "временного искажения ", "усыпления драконов ", "вакцинации ", "телепортации ",
+			"\xE1\xAC\xA5\xE0\xE2\xA8 ", "\xE1\xA2\xAE\xA1\xAE\xA4\xAD\xAE\xA3\xAE \xA4\xA2\xA8\xA6\xA5\xAD\xA8\xEF ", "\xAE\xE1\xE2\xA0\xAD\xAE\xA2\xAA\xA8 \xA3\xAE\xAB\xA5\xAC\xA0 ", "\xEF\xA4\xAE\xA2\xA8\xE2\xEB\xE5 \xA7\xA0\xAB\xAF\xAE\xA2 ",                    // "смерти ", "свободного движения ", "остановки голема ", "ядовитых залпов ",
+			"\xE1\xAC\xA5\xE0\xE2\xA5\xAB\xEC\xAD\xAE\xA3\xAE \xE0\xAE\xEF ", "\xE3\xA1\xA5\xA6\xA8\xE9\xA0 ", "\xA4\xAD\xEF \xA7\xA0\xE9\xA8\xE2\xEB ", "\xA4\xAD\xEF \xAC\xA0\xA3\xA8\xA8 ", "\xAF\xA8\xE0\xA0 ",                                                        // "смертельного роя ", "убежища ", "дня защиты ", "дня магии ", "пира ",
+			"\xAE\xA3\xAD\xA5\xAD\xAD\xAE\xA3\xAE \xE6\xA5\xAF\xA0 ", "\xAF\xA5\xE0\xA5\xA7\xA0\xE0\xEF\xA4\xAA\xA8 ", "\xAC\xAE\xE0\xAE\xA7\xA0 ", "\xA3\xAE\xE0\xAE\xA4\xE1\xAA\xA8\xE5 \xAF\xAE\xE0\xE2\xA0\xAB\xAE\xA2 ",                                             // "огненного цепа ", "перезарядки ", "мороза ", "городских порталов ",
+			"\xE1\xAD\xEF\xE2\xA8\xEF \xAE\xAA\xA0\xAC\xA5\xAD\xA5\xAD\xA8\xEF ", "\xAE\xA6\xA8\xA2\xAB\xA5\xAD\xA8\xEF \xAC\xF1\xE0\xE2\xA2\xEB\xE5 ", "\xA4\xA5\xAC\xA0\xE2\xA5\xE0\xA8\xA0\xAB\xA8\xA7\xA0\xE6\xA8\xA8 ",                                             // "снятия окаменения ", "оживления мёртвых ", "дематериализации ",
+			"\xE2\xA0\xAD\xE6\xE3\xEE\xE9\xA8\xE5 \xAA\xAB\xA8\xAD\xAA\xAE\xA2 ", "\xAB\xE3\xAD\xAD\xEB\xE5 \xAB\xE3\xE7\xA5\xA9 ", "\xA8\xA7\xAC\xA5\xAD\xA5\xAD\xA8\xEF \xA2\xA5\xE1\xA0 ",                                                                            // "танцующих клинков ", "лунных лучей ", "изменения веса ",
+			"\xAF\xE0\xA8\xA7\xAC\xA0\xE2\xA8\xE7\xA5\xE1\xAA\xAE\xA3\xAE \xE1\xA2\xA5\xE2\xA0 ", "\xE7\xA0\xE0 ", "\xA8\xE1\xAF\xA5\xAF\xA5\xAB\xA5\xAD\xA8\xEF ", "\xE1\xA2\xEF\xE2\xEB\xE5 \xE1\xAB\xAE\xA2 ", "\xA2\xAE\xE1\xAA\xE0\xA5\xE8\xA5\xAD\xA8\xEF ",         // "призматического света ", "чар ", "испепеления ", "святых слов ", "воскрешения ",
+			"\xA1\xE3\xE0\xEC ", "\xAC\xA5\xA3\xA0\xA2\xAE\xAB\xEC\xE2 ", "\xA8\xAD\xE4\xA5\xE0\xAD\xAE ", "\xE1\xAE\xAB\xAD\xA5\xE7\xAD\xEB\xE5 \xAB\xE3\xE7\xA5\xA9 ", "\xA8\xAC\xAF\xAB\xAE\xA7\xA8\xA9 ",                                                              // "бурь ", "мегавольт ", "инферно ", "солнечных лучей ", "имплозий ",
+			"\xA2\xA7\xE0\xEB\xA2\xA0 \xA7\xA2\xA5\xA7\xA4\xEB ", "\x81\x8E\x83\x8E\x82!"                                                                                                                                                                              // "взрыва звезды ", "БОГОВ!"
 		};
 		return _specialNames;
 	}
 
 	const char **ELEMENTAL_NAMES() {
 		static const char *_elementalNames[] = {
-			"\x8E\xA3\xAD\xEF", "\x83\xE0\xAE\xAC\xA0", "\x95\xAE\xAB\xAE\xA4\xA0", "\x8A\xA8\xE1\xAB\xAE\xE2\xEB/\x9F\xA4\xA0", "\x9D\xAD\xA5\xE0\xA3\xA8\xA8", "\x8C\xA0\xA3\xA8\xA8" // "Огня", "Грома", "Холода", "Кислоты/Яда", "Энергии", "Магии"
+			"\x8E\xA3\xAD\xEF ", "\x83\xE0\xAE\xAC\xA0 ", "\x95\xAE\xAB\xAE\xA4\xA0 ", "\x8A\xA8\xE1\xAB\xAE\xE2\xEB/\x9F\xA4\xA0 ", "\x9D\xAD\xA5\xE0\xA3\xA8\xA8 ", "\x8C\xA0\xA3\xA8\xA8" // "Огня ", "Грома ", "Холода ", "Кислоты/Яда ", "Энергии ", "Магии"
 		};
 		return _elementalNames;
 	}
 
 	const char **ATTRIBUTE_NAMES() {
 		static const char *_attributeNames[] = {
-			"\x91\xA8\xAB\xA0", "\x88\xAD\xE2\xA5\xAB\xAB\xA5\xAA\xE2", "\x91\xA8\xAB\xA0 \xA4\xE3\xE5\xA0", "\x91\xAA\xAE\xE0\xAE\xE1\xE2\xEC", "\x8C\xA5\xE2\xAA\xAE\xE1\xE2\xEC", "\x93\xA4\xA0\xE7\xA0", // "Сила", "Интеллект", "Сила духа", "Скорость", "Меткость", "Удача",
-			"\x87\xA4\xAE\xE0\xAE\xA2\xEC\xA5", "\x8E\xE7\xAA\xA8 \xAC\xA0\xA3\xA8\xA8", "\x8A\xAB\xA0\xE1\xE1 \xA7\xA0\xE9\xA8\xE2\xEB", "\x82\xAE\xE0\xAE\xA2\xE1\xE2\xA2\xAE"                             // "Здоровье", "Очки магии", "Класс защиты", "Воровство"
+			"\x91\xA8\xAB\xA0 ", "\x88\xAD\xE2\xA5\xAB\xAB\xA5\xAA\xE2 ", "\x91\xA8\xAB\xA0 \xA4\xE3\xE5\xA0 ", "\x91\xAA\xAE\xE0\xAE\xE1\xE2\xEC ", "\x8C\xA5\xE2\xAA\xAE\xE1\xE2\xEC ", "\x93\xA4\xA0\xE7\xA0 ", // "Сила ", "Интеллект ", "Сила духа ", "Скорость ", "Меткость ", "Удача ",
+			"\x87\xA4\xAE\xE0\xAE\xA2\xEC\xA5 ", "\x8E\xE7\xAA\xA8 \xAC\xA0\xA3\xA8\xA8 ", "\x8A\xAB\xA0\xE1\xE1 \xA7\xA0\xE9\xA8\xE2\xEB ", "\x82\xAE\xE0\xAE\xA2\xE1\xE2\xA2\xAE"                             // "Здоровье ", "Очки магии ", "Класс защиты ", "Воровство"
 		};
 		return _attributeNames;
 	}
 
 	const char **EFFECTIVENESS_NAMES() {
 		static const char *_effectivenessNames[] = {
-			nullptr, "\x84\xE0\xA0\xAA\xAE\xAD\xAE\xA2", "\x8C\xF1\xE0\xE2\xA2\xEB\xE5", "\x83\xAE\xAB\xA5\xAC\xAE\xA2", "\x8D\xA0\xE1\xA5\xAA\xAE\xAC\xEB\xE5", "\x8C\xAE\xAD\xE1\xE2\xE0\xAE\xA2", "\x87\xA2\xA5\xE0\xA5\xA9" // nullptr, "Драконов", "Мёртвых", "Големов", "Насекомых", "Монстров", "Зверей"
+			nullptr, "\x84\xE0\xA0\xAA\xAE\xAD\xAE\xA2 ", "\x8C\xF1\xE0\xE2\xA2\xEB\xE5 ", "\x83\xAE\xAB\xA5\xAC\xAE\xA2 ", "\x8D\xA0\xE1\xA5\xAA\xAE\xAC\xEB\xE5 ", "\x8C\xAE\xAD\xE1\xE2\xE0\xAE\xA2 ", "\x87\xA2\xA5\xE0\xA5\xA9" // nullptr, "Драконов ", "Мёртвых ", "Големов ", "Насекомых ", "Монстров ", "Зверей"
 		};
 		return _effectivenessNames;
 	}
 
 	const char **QUEST_ITEM_NAMES() {
 		static const char *_questItemNames[] = {
-			"\x8F\xE0\xA0\xA2\xAE \xA2\xAB\xA0\xA4\xA5\xAD\xA8\xEF \x8D\xEC\xEE\xAA\xA0\xE1\xAB\xAE\xAC",											   // "Право владения Ньюкаслом",
-			"\x95\xE0\xE3\xE1\xE2\xA0\xAB\xEC\xAD\xEB\xA9 \xAA\xAB\xEE\xE7 \xAE\xE2 \x82\xA5\xA4\xEC\xAC\xA8\xAD\xAE\xA9 \xA1\xA0\xE8\xAD\xA8",        // "Хрустальный ключ от Ведьминой башни",
-			"\x8E\xE2\xAC\xEB\xE7\xAA\xA0 \xA4\xAB\xEF \xA1\xA0\xE8\xAD\xA8 \x84\xA0\xE0\xA7\xAE\xA3\xA0",                                             // "Отмычка для башни Дарзога",
-			"\x8A\xAB\xEE\xE7 \xAE\xE2 \x81\xA0\xE8\xAD\xA8 \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8",                                            // "Ключ от Башни высшей магии",
-			"\x84\xE0\xA0\xA3\xAE\xE6\xA5\xAD\xAD\xEB\xA9 \xA0\xAC\xE3\xAB\xA5\xE2 \x91\xA5\xA2\xA5\xE0\xAD\xAE\xA3\xAE \x91\xE4\xA8\xAD\xAA\xE1\xA0", // "Драгоценный амулет Северного Сфинкса",
-			"\x8A\xA0\xAC\xA5\xAD\xEC \x92\xEB\xE1\xEF\xE7\xA8 \x93\xA6\xA0\xE1\xAE\xA2",                                                              // "Камень Тысячи Ужасов",
-			"\x8E\xE2\xAF\xA8\xE0\xA0\xEE\xE9\xA8\xA9 \xAA\xA0\xAC\xA5\xAD\xEC \xA3\xAE\xAB\xA5\xAC\xAE\xA2",                                          // "Отпирающий камень големов",
-			"\x8E\xE2\xAF\xA8\xE0\xA0\xEE\xE9\xA8\xA9 \xAA\xA0\xAC\xA5\xAD\xEC \x9F\xAA\xA0",                                                          // "Отпирающий камень Яка",
-			"\x91\xAA\xA8\xAF\xA5\xE2\xE0 \x82\xE0\xA5\xAC\xA5\xAD\xAD\xAE\xA3\xAE \x88\xE1\xAA\xA0\xA6\xA5\xAD\xA8\xEF",                              // "Скипетр Временного Искажения",
-			"\x90\xAE\xA3 \x94\xA0\xAB\xA8\xE1\xE2\xEB",                                                                                               // "Рог Фалисты",
-			"\x9D\xAB\xA8\xAA\xE1\xA8\xE0 \x82\xAE\xE1\xE1\xE2\xA0\xAD\xAE\xA2\xAB\xA5\xAD\xA8\xEF",                                                   // "Эликсир Восстановления",
-			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xEB\xA9 \xA6\xA5\xA7\xAB \xE4\xA5\xA9",                                                                      // "Волшебный жезл фей",
-			"\x84\xA8\xA0\xA4\xA5\xAC\xA0 \xAF\xE0\xA8\xAD\xE6\xA5\xE1\xE1\xEB \x90\xAE\xAA\xE1\xA0\xAD\xEB",                                          // "Диадема принцессы Роксаны",
-			"\x91\xA2\xEF\xE9\xA5\xAD\xAD\xA0\xEF \x8A\xAD\xA8\xA3\xA0 \x9D\xAB\xEC\xE4\xAE\xA2",                                                      // "Священная Книга Эльфов",
-			"\x91\xAA\xA0\xE0\xA0\xA1\xA5\xA9 \x82\xAE\xAF\xAB\xAE\xE9\xA5\xAD\xA8\xEF",                                                               // "Скарабей Воплощения",
-			"\x8A\xE0\xA8\xE1\xE2\xA0\xAB\xAB\xEB \x8F\xEC\xA5\xA7\xAE\xED\xAB\xA5\xAA\xE2\xE0\xA8\xE7\xA5\xE1\xE2\xA2\xA0",                           // "Кристаллы Пьезоэлектричества",
-			"\x91\xA2\xA8\xE2\xAE\xAA \x8C\xE3\xA4\xE0\xAE\xE1\xE2\xA8",                                                                               // "Свиток Мудрости",
-			"\x8A\xAE\xE0\xA5\xAD\xEC \xE4\xA8\xE0\xAD\xEB",                                                                                           // "Корень фирны",
-			"\x8A\xAE\xE1\xE2\xEF\xAD\xAE\xA9 \xE1\xA2\xA8\xE1\xE2\xAE\xAA \x8E\xE0\xAE\xE4\xA8\xAD\xA0",                                              // "Костяной свисток Орофина",
-			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xEB\xA9 \xAA\xE3\xAB\xAE\xAD \x81\xA0\xE0\xAE\xAA\xA0",                                                      // "Волшебный кулон Барока",
-			"\x8F\xE0\xAE\xAF\xA0\xA2\xE8\xA8\xA9 \xE7\xA5\xE0\xA5\xAF \x8B\xA8\xA3\xAE\xAD\xAE",                                                      // "Пропавший череп Лигоно",
-			"\x8F\xAE\xE1\xAB\xA5\xA4\xAD\xA8\xA9 \xE6\xA2\xA5\xE2\xAE\xAA \xAB\xA5\xE2\xA0",                                                          // "Последний цветок лета",
-			"\x8F\xAE\xE1\xAB\xA5\xA4\xAD\xEF\xEF \xA4\xAE\xA6\xA4\xA5\xA2\xA0\xEF \xAA\xA0\xAF\xA5\xAB\xEC\xAA\xA0 \xA2\xA5\xE1\xAD\xEB",             // "Последняя дождевая капелька весны",
-			"\x8F\xAE\xE1\xAB\xA5\xA4\xAD\xEF\xEF \xE1\xAD\xA5\xA6\xA8\xAD\xAA\xA0 \xA7\xA8\xAC\xEB",                                                  // "Последняя снежинка зимы",
-			"\x8F\xAE\xE1\xAB\xA5\xA4\xAD\xA8\xA9 \xAB\xA8\xE1\xE2 \xAE\xE1\xA5\xAD\xA8",                                                              // "Последний лист осени",
-			"\x82\xA5\xE7\xAD\xAE \xA3\xAE\xE0\xEF\xE7\xA8\xA9 \xAA\xE3\xE1\xAE\xAA \xAF\xA5\xAC\xA7\xEB",                                             // "Вечно горячий кусок пемзы",
-			"\x8C\xA5\xA3\xA0\xAA\xE0\xA5\xA4\xA8\xE2 \xAA\xAE\xE0\xAE\xAB\xEF",                                                                       // "Мегакредит короля",
-			"\x90\xA0\xA7\xE0\xA5\xE8\xA5\xAD\xA8\xA5 \xAD\xA0 \xE0\xA0\xE1\xAA\xAE\xAF\xAA\xA8",                                                      // "Разрешение на раскопки",
-			"\x8A\xE3\xAA\xAE\xAB\xAA\xA0",                                                                                                            // "Куколка",
-			"\x8A\xE3\xAA\xAB\xA0 \x91\xA8\xAB\xEB",                                                                                                   // "Кукла Силы",
-			"\x8A\xE3\xAA\xAB\xA0 \x91\xAA\xAE\xE0\xAE\xE1\xE2\xA8",                                                                                   // "Кукла Скорости",
-			"\x8A\xE3\xAA\xAB\xA0 \x91\xAB\xAE\xA6\xA5\xAD\xA8\xEF",                                                                                   // "Кукла Сложения",
-			"\x8A\xE3\xAA\xAB\xA0 \x8C\xA5\xE2\xAA\xAE\xE1\xE2\xA8",                                                                                   // "Кукла Меткости",
-			"\x8A\xE3\xAA\xAB\xA0 \x93\xA4\xA0\xE7\xA8",                                                                                               // "Кукла Удачи",
-			"\x93\xE1\xE2\xE0\xAE\xA9\xE1\xE2\xA2\xAE",                                                                                                // "Устройство",
-			"Pass to Castleview",                                                                                                                      // "Pass to Castleview",
-			"Pass to Sandcaster",                                                                                                                      // "Pass to Sandcaster",
-			"Pass to Lakeside",                                                                                                                        // "Pass to Lakeside",
-			"Pass to Necropolis",                                                                                                                      // "Pass to Necropolis",
-			"Pass to Olympus",                                                                                                                         // "Pass to Olympus",
-			"Key to Great Western Tower",                                                                                                              // "Key to Great Western Tower",
-			"Key to Great Southern Tower",                                                                                                             // "Key to Great Southern Tower",
-			"Key to Great Eastern Tower",                                                                                                              // "Key to Great Eastern Tower",
-			"Key to Great Northern Tower",                                                                                                             // "Key to Great Northern Tower",
-			"Key to Ellinger's Tower",                                                                                                                 // "Key to Ellinger's Tower",
-			"Key to Dragon Tower",                                                                                                                     // "Key to Dragon Tower",
-			"Key to Darkstone Tower",                                                                                                                  // "Key to Darkstone Tower",
-			"Key to Temple of Bark",                                                                                                                   // "Key to Temple of Bark",
-			"Key to Dungeon of Lost Souls",                                                                                                            // "Key to Dungeon of Lost Souls",
-			"Key to Ancient Pyramid",                                                                                                                  // "Key to Ancient Pyramid",
-			"Key to Dungeon of Death",                                                                                                                 // "Key to Dungeon of Death",
-			"Amulet of the Southern Sphinx",                                                                                                           // "Amulet of the Southern Sphinx",
-			"Dragon Pharoah's Orb",                                                                                                                    // "Dragon Pharoah's Orb",
-			"Cube of Power",                                                                                                                           // "Cube of Power",
-			"Chime of Opening",                                                                                                                        // "Chime of Opening",
-			"Gold ID Card",                                                                                                                            // "Gold ID Card",
-			"Silver ID Card",                                                                                                                          // "Silver ID Card",
-			"Vulture Repellant",                                                                                                                       // "Vulture Repellant",
-			"Bridle",                                                                                                                                  // "Bridle",
-			"Enchanted Bridle",                                                                                                                        // "Enchanted Bridle",
-			"Treasure Map (Goto E1 x1, y11)",                                                                                                          // "Treasure Map (Goto E1 x1, y11)",
-			"",                                                                                                                                        // "",
-			"Fake Map",                                                                                                                                // "Fake Map",
-			"Onyx Necklace",                                                                                                                           // "Onyx Necklace",
-			"Dragon Egg",                                                                                                                              // "Dragon Egg",
-			"Tribble",                                                                                                                                 // "Tribble",
-			"Golden Pegasus Statuette",                                                                                                                // "Golden Pegasus Statuette",
-			"Golden Dragon Statuette",                                                                                                                 // "Golden Dragon Statuette",
-			"Golden Griffin Statuette",                                                                                                                // "Golden Griffin Statuette",
-			"Chalice of Protection",                                                                                                                   // "Chalice of Protection",
-			"Jewel of Ages",                                                                                                                           // "Jewel of Ages",
-			"Songbird of Serenity",                                                                                                                    // "Songbird of Serenity",
-			"Sandro's Heart",                                                                                                                          // "Sandro's Heart",
-			"Ector's Ring",                                                                                                                            // "Ector's Ring",
-			"Vespar's Emerald Handle",                                                                                                                 // "Vespar's Emerald Handle",
-			"Queen Kalindra's Crown",                                                                                                                  // "Queen Kalindra's Crown",
-			"Caleb's Magnifying Glass",                                                                                                                // "Caleb's Magnifying Glass",
-			"Soul Box",                                                                                                                                // "Soul Box",
-			"Soul Box with Corak inside",                                                                                                              // "Soul Box with Corak inside",
-			"Ruby Rock",                                                                                                                               // "Ruby Rock",
-			"Emerald Rock",                                                                                                                            // "Emerald Rock",
-			"Sapphire Rock",                                                                                                                           // "Sapphire Rock",
-			"Diamond Rock",                                                                                                                            // "Diamond Rock",
-			"Monga Melon",                                                                                                                             // "Monga Melon",
+			"\x8F\xE0\xA0\xA2\xAE \xA2\xAB\xA0\xA4\xA5\xAD\xA8\xEF \x8D\xEC\xEE\xAA\xA0\xE1\xAB\xAE\xAC ",											   // "Право владения Ньюкаслом ",
+			"\x95\xE0\xE3\xE1\xE2\xA0\xAB\xEC\xAD\xEB\xA9 \xAA\xAB\xEE\xE7 \xAE\xE2 \x82\xA5\xA4\xEC\xAC\xA8\xAD\xAE\xA9 \xA1\xA0\xE8\xAD\xA8 ",        // "Хрустальный ключ от Ведьминой башни ",
+			"\x8E\xE2\xAC\xEB\xE7\xAA\xA0 \xA4\xAB\xEF \xA1\xA0\xE8\xAD\xA8 \x84\xA0\xE0\xA7\xAE\xA3\xA0 ",                                             // "Отмычка для башни Дарзога ",
+			"\x8A\xAB\xEE\xE7 \xAE\xE2 \x81\xA0\xE8\xAD\xA8 \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 ",                                            // "Ключ от Башни высшей магии ",
+			"\x84\xE0\xA0\xA3\xAE\xE6\xA5\xAD\xAD\xEB\xA9 \xA0\xAC\xE3\xAB\xA5\xE2 \x91\xA5\xA2\xA5\xE0\xAD\xAE\xA3\xAE \x91\xE4\xA8\xAD\xAA\xE1\xA0 ", // "Драгоценный амулет Северного Сфинкса ",
+			"\x8A\xA0\xAC\xA5\xAD\xEC \x92\xEB\xE1\xEF\xE7\xA8 \x93\xA6\xA0\xE1\xAE\xA2 ",                                                              // "Камень Тысячи Ужасов ",
+			"\x8E\xE2\xAF\xA8\xE0\xA0\xEE\xE9\xA8\xA9 \xAA\xA0\xAC\xA5\xAD\xEC \xA3\xAE\xAB\xA5\xAC\xAE\xA2 ",                                          // "Отпирающий камень големов ",
+			"\x8E\xE2\xAF\xA8\xE0\xA0\xEE\xE9\xA8\xA9 \xAA\xA0\xAC\xA5\xAD\xEC \x9F\xAA\xA0 ",                                                          // "Отпирающий камень Яка ",
+			"\x91\xAA\xA8\xAF\xA5\xE2\xE0 \x82\xE0\xA5\xAC\xA5\xAD\xAD\xAE\xA3\xAE \x88\xE1\xAA\xA0\xA6\xA5\xAD\xA8\xEF ",                              // "Скипетр Временного Искажения ",
+			"\x90\xAE\xA3 \x94\xA0\xAB\xA8\xE1\xE2\xEB ",                                                                                               // "Рог Фалисты ",
+			"\x9D\xAB\xA8\xAA\xE1\xA8\xE0 \x82\xAE\xE1\xE1\xE2\xA0\xAD\xAE\xA2\xAB\xA5\xAD\xA8\xEF ",                                                   // "Эликсир Восстановления ",
+			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xEB\xA9 \xA6\xA5\xA7\xAB \xE4\xA5\xA9 ",                                                                      // "Волшебный жезл фей ",
+			"\x84\xA8\xA0\xA4\xA5\xAC\xA0 \xAF\xE0\xA8\xAD\xE6\xA5\xE1\xE1\xEB \x90\xAE\xAA\xE1\xA0\xAD\xEB ",                                          // "Диадема принцессы Роксаны ",
+			"\x91\xA2\xEF\xE9\xA5\xAD\xAD\xA0\xEF \x8A\xAD\xA8\xA3\xA0 \x9D\xAB\xEC\xE4\xAE\xA2 ",                                                      // "Священная Книга Эльфов ",
+			"\x91\xAA\xA0\xE0\xA0\xA1\xA5\xA9 \x82\xAE\xAF\xAB\xAE\xE9\xA5\xAD\xA8\xEF ",                                                               // "Скарабей Воплощения ",
+			"\x8A\xE0\xA8\xE1\xE2\xA0\xAB\xAB\xEB \x8F\xEC\xA5\xA7\xAE\xED\xAB\xA5\xAA\xE2\xE0\xA8\xE7\xA5\xE1\xE2\xA2\xA0 ",                           // "Кристаллы Пьезоэлектричества ",
+			"\x91\xA2\xA8\xE2\xAE\xAA \x8C\xE3\xA4\xE0\xAE\xE1\xE2\xA8 ",                                                                               // "Свиток Мудрости ",
+			"\x8A\xAE\xE0\xA5\xAD\xEC \xE4\xA8\xE0\xAD\xEB ",                                                                                           // "Корень фирны ",
+			"\x8A\xAE\xE1\xE2\xEF\xAD\xAE\xA9 \xE1\xA2\xA8\xE1\xE2\xAE\xAA \x8E\xE0\xAE\xE4\xA8\xAD\xA0 ",                                              // "Костяной свисток Орофина ",
+			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xEB\xA9 \xAA\xE3\xAB\xAE\xAD \x81\xA0\xE0\xAE\xAA\xA0 ",                                                      // "Волшебный кулон Барока ",
+			"\x8F\xE0\xAE\xAF\xA0\xA2\xE8\xA8\xA9 \xE7\xA5\xE0\xA5\xAF \x8B\xA8\xA3\xAE\xAD\xAE ",                                                      // "Пропавший череп Лигоно ",
+			"\x8F\xAE\xE1\xAB\xA5\xA4\xAD\xA8\xA9 \xE6\xA2\xA5\xE2\xAE\xAA \xAB\xA5\xE2\xA0 ",                                                          // "Последний цветок лета ",
+			"\x8F\xAE\xE1\xAB\xA5\xA4\xAD\xEF\xEF \xA4\xAE\xA6\xA4\xA5\xA2\xA0\xEF \xAA\xA0\xAF\xA5\xAB\xEC\xAA\xA0 \xA2\xA5\xE1\xAD\xEB ",             // "Последняя дождевая капелька весны ",
+			"\x8F\xAE\xE1\xAB\xA5\xA4\xAD\xEF\xEF \xE1\xAD\xA5\xA6\xA8\xAD\xAA\xA0 \xA7\xA8\xAC\xEB ",                                                  // "Последняя снежинка зимы ",
+			"\x8F\xAE\xE1\xAB\xA5\xA4\xAD\xA8\xA9 \xAB\xA8\xE1\xE2 \xAE\xE1\xA5\xAD\xA8 ",                                                              // "Последний лист осени ",
+			"\x82\xA5\xE7\xAD\xAE \xA3\xAE\xE0\xEF\xE7\xA8\xA9 \xAA\xE3\xE1\xAE\xAA \xAF\xA5\xAC\xA7\xEB ",                                             // "Вечно горячий кусок пемзы ",
+			"\x8C\xA5\xA3\xA0\xAA\xE0\xA5\xA4\xA8\xE2 \xAA\xAE\xE0\xAE\xAB\xEF ",                                                                       // "Мегакредит короля ",
+			"\x90\xA0\xA7\xE0\xA5\xE8\xA5\xAD\xA8\xA5 \xAD\xA0 \xE0\xA0\xE1\xAA\xAE\xAF\xAA\xA8 ",                                                      // "Разрешение на раскопки ",
+			"\x8A\xE3\xAA\xAE\xAB\xAA\xA0 ",                                                                                                            // "Куколка ",
+			"\x8A\xE3\xAA\xAB\xA0 \x91\xA8\xAB\xEB ",                                                                                                   // "Кукла Силы ",
+			"\x8A\xE3\xAA\xAB\xA0 \x91\xAA\xAE\xE0\xAE\xE1\xE2\xA8 ",                                                                                   // "Кукла Скорости ",
+			"\x8A\xE3\xAA\xAB\xA0 \x91\xAB\xAE\xA6\xA5\xAD\xA8\xEF ",                                                                                   // "Кукла Сложения ",
+			"\x8A\xE3\xAA\xAB\xA0 \x8C\xA5\xE2\xAA\xAE\xE1\xE2\xA8 ",                                                                                   // "Кукла Меткости ",
+			"\x8A\xE3\xAA\xAB\xA0 \x93\xA4\xA0\xE7\xA8 ",                                                                                               // "Кукла Удачи ",
+			"\x93\xE1\xE2\xE0\xAE\xA9\xE1\xE2\xA2\xAE ",                                                                                                // "Устройство ",
+			"Pass to Castleview ",                                                                                                                      // "Pass to Castleview ",
+			"Pass to Sandcaster ",                                                                                                                      // "Pass to Sandcaster ",
+			"Pass to Lakeside ",                                                                                                                        // "Pass to Lakeside ",
+			"Pass to Necropolis ",                                                                                                                      // "Pass to Necropolis ",
+			"Pass to Olympus ",                                                                                                                         // "Pass to Olympus ",
+			"Key to Great Western Tower ",                                                                                                              // "Key to Great Western Tower ",
+			"Key to Great Southern Tower ",                                                                                                             // "Key to Great Southern Tower ",
+			"Key to Great Eastern Tower ",                                                                                                              // "Key to Great Eastern Tower ",
+			"Key to Great Northern Tower ",                                                                                                             // "Key to Great Northern Tower ",
+			"Key to Ellinger's Tower ",                                                                                                                 // "Key to Ellinger's Tower ",
+			"Key to Dragon Tower ",                                                                                                                     // "Key to Dragon Tower ",
+			"Key to Darkstone Tower ",                                                                                                                  // "Key to Darkstone Tower ",
+			"Key to Temple of Bark ",                                                                                                                   // "Key to Temple of Bark ",
+			"Key to Dungeon of Lost Souls ",                                                                                                            // "Key to Dungeon of Lost Souls ",
+			"Key to Ancient Pyramid ",                                                                                                                  // "Key to Ancient Pyramid ",
+			"Key to Dungeon of Death ",                                                                                                                 // "Key to Dungeon of Death ",
+			"Amulet of the Southern Sphinx ",                                                                                                           // "Amulet of the Southern Sphinx ",
+			"Dragon Pharoah's Orb ",                                                                                                                    // "Dragon Pharoah's Orb ",
+			"Cube of Power ",                                                                                                                           // "Cube of Power ",
+			"Chime of Opening ",                                                                                                                        // "Chime of Opening ",
+			"Gold ID Card ",                                                                                                                            // "Gold ID Card ",
+			"Silver ID Card ",                                                                                                                          // "Silver ID Card ",
+			"Vulture Repellant ",                                                                                                                       // "Vulture Repellant ",
+			"Bridle ",                                                                                                                                  // "Bridle ",
+			"Enchanted Bridle ",                                                                                                                        // "Enchanted Bridle ",
+			"Treasure Map (Goto E1 x1, y11) ",                                                                                                          // "Treasure Map (Goto E1 x1, y11) ",
+			" ",                                                                                                                                        // " ",
+			"Fake Map ",                                                                                                                                // "Fake Map ",
+			"Onyx Necklace ",                                                                                                                           // "Onyx Necklace ",
+			"Dragon Egg ",                                                                                                                              // "Dragon Egg ",
+			"Tribble ",                                                                                                                                 // "Tribble ",
+			"Golden Pegasus Statuette ",                                                                                                                // "Golden Pegasus Statuette ",
+			"Golden Dragon Statuette ",                                                                                                                 // "Golden Dragon Statuette ",
+			"Golden Griffin Statuette ",                                                                                                                // "Golden Griffin Statuette ",
+			"Chalice of Protection ",                                                                                                                   // "Chalice of Protection ",
+			"Jewel of Ages ",                                                                                                                           // "Jewel of Ages ",
+			"Songbird of Serenity ",                                                                                                                    // "Songbird of Serenity ",
+			"Sandro's Heart ",                                                                                                                          // "Sandro's Heart ",
+			"Ector's Ring ",                                                                                                                            // "Ector's Ring ",
+			"Vespar's Emerald Handle ",                                                                                                                 // "Vespar's Emerald Handle ",
+			"Queen Kalindra's Crown ",                                                                                                                  // "Queen Kalindra's Crown ",
+			"Caleb's Magnifying Glass ",                                                                                                                // "Caleb's Magnifying Glass ",
+			"Soul Box ",                                                                                                                                // "Soul Box ",
+			"Soul Box with Corak inside ",                                                                                                              // "Soul Box with Corak inside ",
+			"Ruby Rock ",                                                                                                                               // "Ruby Rock ",
+			"Emerald Rock ",                                                                                                                            // "Emerald Rock ",
+			"Sapphire Rock ",                                                                                                                           // "Sapphire Rock ",
+			"Diamond Rock ",                                                                                                                            // "Diamond Rock ",
+			"Monga Melon ",                                                                                                                             // "Monga Melon ",
 			"Energy Disk"                                                                                                                              // "Energy Disk"
 		};
 		return _questItemNames;
@@ -1199,18 +1199,18 @@ public:
 
 	const char **QUEST_ITEM_NAMES_SWORDS() {
 		static const char *_questItemNamesSwords[] = {
-			"Pass to Hart", "Pass to Impery", "Pass to town3", "Pass to town4", "Pass to town5",
-				"Key to Hart Sewers", "Key to Rettig's Pyramid", "Key to the Old Temple",
-				"Key to Canegtut's Pyramid", "Key to Ascihep's Pyramid", "Key to Dragon Tower",
-				"Key to Darkstone Tower", "Key to Temple of Bark", "Key to Dungeon of Lost Souls",
-				"Key to Ancient Pyramid", "Key to Dungeon of Death", "Red Magic Hammer",
-				"Green Magic Hammer", "Golden Magic Wand", "Silver Magic Hammer", "Magic Coin",
-				"Ruby", "Diamond Mineral", "Emerald", "Sapphire", "Treasure Map (Goto E1 x1, y11)",
-				"NOTUSED", "Melon", "Princess Crown", "Emerald Wand", "Druid Carving", "High Sign",
-				"Holy Wheel", "Double Cross", "Sky Hook", "Sacred Cow", "Staff of the Mountain",
-				"Hard Rock", "Soft Rock", "Rock Candy", "Ivy Plant", "Spirit Gem", "Temple of Sun holy lamp oil",
-				"Noams Hammer", "Positive Orb", "Negative Orb", "FireBane Staff", "Diamond Edged Pick",
-				"Monga Melon", "Energy Disk", "Old XEEN Quest Item"
+			"Pass to Hart ", "Pass to Impery ", "Pass to town3 ", "Pass to town4 ", "Pass to town5 ",
+				"Key to Hart Sewers ", "Key to Rettig's Pyramid ", "Key to the Old Temple ",
+				"Key to Canegtut's Pyramid ", "Key to Ascihep's Pyramid ", "Key to Dragon Tower ",
+				"Key to Darkstone Tower ", "Key to Temple of Bark ", "Key to Dungeon of Lost Souls ",
+				"Key to Ancient Pyramid ", "Key to Dungeon of Death ", "Red Magic Hammer ",
+				"Green Magic Hammer ", "Golden Magic Wand ", "Silver Magic Hammer ", "Magic Coin ",
+				"Ruby ", "Diamond Mineral ", "Emerald ", "Sapphire ", "Treasure Map (Goto E1 x1, y11) ",
+				"NOTUSED ", "Melon ", "Princess Crown ", "Emerald Wand ", "Druid Carving ", "High Sign ",
+				"Holy Wheel ", "Double Cross ", "Sky Hook ", "Sacred Cow ", "Staff of the Mountain ",
+				"Hard Rock ", "Soft Rock ", "Rock Candy ", "Ivy Plant ", "Spirit Gem ", "Temple of Sun holy lamp oil ",
+				"Noams Hammer ", "Positive Orb ", "Negative Orb ", "FireBane Staff ", "Diamond Edged Pick ",
+				"Monga Melon ", "Energy Disk ", "Old XEEN Quest Item"
 		};
 		return _questItemNamesSwords;
 	}
@@ -1224,7 +1224,7 @@ public:
 	}
 
 	const char **CATEGORY_NAMES() {
-		static const char *_categoryNames[] = { "\x8E\xE0\xE3\xA6\xA8\xA5", "\x81\xE0\xAE\xAD\xEF", "\x93\xAA\xE0\xA0\xE8\xA5\xAD\xA8\xEF", "\x90\xA0\xA7\xAD\xAE\xA5" }; // "Оружие", "Броня", "Украшения", "Разное"
+		static const char *_categoryNames[] = { "\x8E\xE0\xE3\xA6\xA8\xA5 ", "\x81\xE0\xAE\xAD\xEF ", "\x93\xAA\xE0\xA0\xE8\xA5\xAD\xA8\xEF ", "\x90\xA0\xA7\xAD\xAE\xA5" }; // "Оружие ", "Броня ", "Украшения ", "Разное"
 		return _categoryNames;
 	}
 
@@ -1264,7 +1264,7 @@ public:
 
 	const char **ITEM_ACTIONS() {
 		static const char *_itemActions[] = {
-			"\xAD\xA0\xA4\xA5\xE2\xEC", "\xE1\xAD\xEF\xE2\xEC", "\xA8\xE1\xAF\xAE\xAB\xEC\xA7\xAE\xA2\xA0\xE2\xEC", "\xA2\xEB\xAA\xA8\xAD\xE3\xE2\xEC", "\xA7\xA0\xE7\xA0\xE0\xAE\xA2\xA0\xE2\xEC", "\xAF\xA5\xE0\xA5\xA7\xA0\xE0\xEF\xA4\xA8\xE2\xEC", // "надеть", "снять", "использовать", "выкинуть", "зачаровать", "перезарядить",
+			"\xAD\xA0\xA4\xA5\xE2\xEC ", "\xE1\xAD\xEF\xE2\xEC ", "\xA8\xE1\xAF\xAE\xAB\xEC\xA7\xAE\xA2\xA0\xE2\xEC ", "\xA2\xEB\xAA\xA8\xAD\xE3\xE2\xEC ", "\xA7\xA0\xE7\xA0\xE0\xAE\xA2\xA0\xE2\xEC ", "\xAF\xA5\xE0\xA5\xA7\xA0\xE0\xEF\xA4\xA8\xE2\xEC ", // "надеть ", "снять ", "использовать ", "выкинуть ", "зачаровать ", "перезарядить ",
 			"\x8F\xE0\xA5\xA2\xE0\xA0\xE2\xA8\xE2\xEC \xA2 \xA7\xAE\xAB\xAE\xE2\xAE"                                                                                                                                                                    // "Превратить в золото"
 		};
 		return _itemActions;
@@ -1325,9 +1325,9 @@ public:
 
 	const char **CATEGORY_BACKPACK_IS_FULL() {
 		static const char *_categoryBackpackIsFull[] = {
-			"\v010\t000\x3""c%s! \x82\xA0\xE8 \xE0\xEE\xAA\xA7\xA0\xAA \xAF\xAE\xAB\xAE\xAD.", // "\v010\t000\x3""c%s! Ваш рюкзак полон.",
-			"\v010\t000\x3""c%s! \x82\xA0\xE8 \xE0\xEE\xAA\xA7\xA0\xAA \xAF\xAE\xAB\xAE\xAD.", // "\v010\t000\x3""c%s! Ваш рюкзак полон.",
-			"\v010\t000\x3""c%s! \x82\xA0\xE8 \xE0\xEE\xAA\xA7\xA0\xAA \xAF\xAE\xAB\xAE\xAD.", // "\v010\t000\x3""c%s! Ваш рюкзак полон.",
+			"\v010\t000\x3""c%s! \x82\xA0\xE8 \xE0\xEE\xAA\xA7\xA0\xAA \xAF\xAE\xAB\xAE\xAD. ", // "\v010\t000\x3""c%s! Ваш рюкзак полон. ",
+			"\v010\t000\x3""c%s! \x82\xA0\xE8 \xE0\xEE\xAA\xA7\xA0\xAA \xAF\xAE\xAB\xAE\xAD. ", // "\v010\t000\x3""c%s! Ваш рюкзак полон. ",
+			"\v010\t000\x3""c%s! \x82\xA0\xE8 \xE0\xEE\xAA\xA7\xA0\xAA \xAF\xAE\xAB\xAE\xAD. ", // "\v010\t000\x3""c%s! Ваш рюкзак полон. ",
 			"\v010\t000\x3""c%s! \x82\xA0\xE8 \xE0\xEE\xAA\xA7\xA0\xAA \xAF\xAE\xAB\xAE\xAD."  // "\v010\t000\x3""c%s! Ваш рюкзак полон."
 		};
 		return _categoryBackpackIsFull;
@@ -1342,7 +1342,7 @@ public:
 	}
 
 	const char **GOLDS() {
-		static const char *_sellXForYGoldEndings[] = { "\xA7\xAE\xAB\xAE\xE2\xAE\xA9", "\xA7\xAE\xAB\xAE\xE2\xEB\xE5" }; // "золотой", "золотых"
+		static const char *_sellXForYGoldEndings[] = { "\xA7\xAE\xAB\xAE\xE2\xAE\xA9 ", "\xA7\xAE\xAB\xAE\xE2\xEB\xE5" }; // "золотой ", "золотых"
 		return _sellXForYGoldEndings;
 	}
 
@@ -1367,7 +1367,7 @@ public:
 	}
 
 	const char **FIX_IDENTIFY() {
-		static const char *_fixIdentify[] = { "\x8F\xAE\xE7\xA8\xAD\xA8\xE2\xEC", "\x8E\xAF\xAE\xA7\xAD\xA0\xE2\xEC" }; // "Починить", "Опознать"
+		static const char *_fixIdentify[] = { "\x8F\xAE\xE7\xA8\xAD\xA8\xE2\xEC ", "\x8E\xAF\xAE\xA7\xAD\xA0\xE2\xEC" }; // "Починить ", "Опознать"
 		return _fixIdentify;
 	}
 
@@ -1522,7 +1522,7 @@ public:
 	}
 
 	const char **REMOVE_DELETE() {
-		static const char *_removeDelete[] = { "\x82\xEB\xA3\xAD\xA0\xE2\xEC", "\xE3\xA4\xA0\xAB\xA8\xE2\xEC" }; // "Выгнать", "удалить"
+		static const char *_removeDelete[] = { "\x82\xEB\xA3\xAD\xA0\xE2\xEC ", "\xE3\xA4\xA0\xAB\xA8\xE2\xEC" }; // "Выгнать ", "удалить"
 		return _removeDelete;
 	}
 
@@ -1587,7 +1587,7 @@ public:
 	}
 
 	const char **SPELL_CAST_COMPONENTS() {
-		static const char *_spellCastComponents[] = { "\xAE\xE7\xAA\xAE\xA2 \xAC\xA0\xA3\xA8\xA8", "\xA0\xAB\xAC\xA0\xA7\xAE\xA2" }; // "очков магии", "алмазов"
+		static const char *_spellCastComponents[] = { "\xAE\xE7\xAA\xAE\xA2 \xAC\xA0\xA3\xA8\xA8 ", "\xA0\xAB\xAC\xA0\xA7\xAE\xA2" }; // "очков магии ", "алмазов"
 		return _spellCastComponents;
 	}
 
@@ -1636,7 +1636,7 @@ public:
 	}
 
 	const char **FOUND() {
-		static const char *_found[] = { "\xAD\xA0\xE8\xF1\xAB", "\xAD\xA0\xE8\xAB\xA0" }; // "нашёл", "нашла"
+		static const char *_found[] = { "\xAD\xA0\xE8\xF1\xAB ", "\xAD\xA0\xE8\xAB\xA0" }; // "нашёл ", "нашла"
 		return _found;
 	}
 
@@ -1710,10 +1710,10 @@ public:
 
 	const char **MONSTER_SPECIAL_ATTACKS() {
 		static const char *_monsterSpecialAttacks[] = {
-			"\x8D\xA5\xE2", "\x8C\xA0\xA3\xA8\xEF", "\x8E\xA3\xAD\xEF", "\x83\xE0\xAE\xAC\xA0", "\x95\xAE\xAB\xAE\xA4\xA0", "\x8E\xE2\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xA5", "\x9D\xAD\xA5\xE0\xA3\xA8\xA8",								// "Нет", "Магия", "Огня", "Грома", "Холода", "Отравление", "Энергии",
-			"\x81\xAE\xAB\xA5\xA7\xAD\xEC", "\x81\xA5\xA7\xE3\xAC\xA8\xA5", "\x91\xAE\xAD", "\x8F\xE0\xAA\xAB\x8F\xE0\xA4\xAC", "\x82\xAB\xEE\xA1\xAB", "\x8E\xE1\xE3\xE8\x87\xA4\xAE\xE0", "\x8F\xE0\xAE\xAA\xAB\xEF\xE2\xA8\xA5",	// "Болезнь", "Безумие", "Сон", "ПрклПрдм", "Влюбл", "ОсушЗдор", "Проклятие",
-			"\x8F\xA0\xE0\xA0\xAB\xA8\xE7", "\x81\xA5\xE1\xE1\xAE\xA7\xAD", "\x91\xAC\xEF\xE2\xA5\xAD\xA8\xA5", "\x8B\xAE\xAC\x81\xE0\xAE\xAD", "\x91\xAB\xA0\xA1\xAE\xE1\xE2\xEC", "\x93\xAD\xA8\xE7\xE2\xAE\xA6",					// "Паралич", "Бессозн", "Смятение", "ЛомБрон", "Слабость", "Уничтож",
-			"\x82\xAE\xA7\xE0\xA0\xE1\xE2+5", "\x8C\xA5\xE0\xE2\xA2", "\x8A\xA0\xAC\xA5\xAD\xEC"																																	// "Возраст+5", "Мертв", "Камень"
+			"\x8D\xA5\xE2 ", "\x8C\xA0\xA3\xA8\xEF ", "\x8E\xA3\xAD\xEF ", "\x83\xE0\xAE\xAC\xA0 ", "\x95\xAE\xAB\xAE\xA4\xA0 ", "\x8E\xE2\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xA5 ", "\x9D\xAD\xA5\xE0\xA3\xA8\xA8 ",								// "Нет ", "Магия ", "Огня ", "Грома ", "Холода ", "Отравление ", "Энергии ",
+			"\x81\xAE\xAB\xA5\xA7\xAD\xEC ", "\x81\xA5\xA7\xE3\xAC\xA8\xA5 ", "\x91\xAE\xAD ", "\x8F\xE0\xAA\xAB\x8F\xE0\xA4\xAC ", "\x82\xAB\xEE\xA1\xAB ", "\x8E\xE1\xE3\xE8\x87\xA4\xAE\xE0 ", "\x8F\xE0\xAE\xAA\xAB\xEF\xE2\xA8\xA5 ",	// "Болезнь ", "Безумие ", "Сон ", "ПрклПрдм ", "Влюбл ", "ОсушЗдор ", "Проклятие ",
+			"\x8F\xA0\xE0\xA0\xAB\xA8\xE7 ", "\x81\xA5\xE1\xE1\xAE\xA7\xAD ", "\x91\xAC\xEF\xE2\xA5\xAD\xA8\xA5 ", "\x8B\xAE\xAC\x81\xE0\xAE\xAD ", "\x91\xAB\xA0\xA1\xAE\xE1\xE2\xEC ", "\x93\xAD\xA8\xE7\xE2\xAE\xA6 ",					// "Паралич ", "Бессозн ", "Смятение ", "ЛомБрон ", "Слабость ", "Уничтож ",
+			"\x82\xAE\xA7\xE0\xA0\xE1\xE2+5 ", "\x8C\xA5\xE0\xE2\xA2 ", "\x8A\xA0\xAC\xA5\xAD\xEC"																																	// "Возраст+5 ", "Мертв ", "Камень"
 		};
 		return _monsterSpecialAttacks;
 	}
@@ -1760,7 +1760,7 @@ public:
 	}
 
 	const char **PICK_FORM() {
-		static const char *_pickForm[] = { "\xA2\xA7\xAB\xAE\xAC\xA0\xAB", "\xA2\xA7\xAB\xAE\xAC\xA0\xAB\xA0" }; // "взломал", "взломала"
+		static const char *_pickForm[] = { "\xA2\xA7\xAB\xAE\xAC\xA0\xAB ", "\xA2\xA7\xAB\xAE\xAC\xA0\xAB\xA0" }; // "взломал ", "взломала"
 		return _pickForm;
 	}
 
@@ -1769,7 +1769,7 @@ public:
 	}
 
 	const char **UNABLE_TO_PICK_FORM() {
-		static const char *_unableToPickForm[] = { "\xAD\xA5 \xE1\xAC\xAE\xA3", "\xAD\xA5 \xE1\xAC\xAE\xA3\xAB\xA0" }; // "не смог", "не смогла"
+		static const char *_unableToPickForm[] = { "\xAD\xA5 \xE1\xAC\xAE\xA3 ", "\xAD\xA5 \xE1\xAC\xAE\xA3\xAB\xA0" }; // "не смог ", "не смогла"
 		return _unableToPickForm;
 	}
 
@@ -1821,7 +1821,7 @@ public:
 	}
 
 	const char **QUICK_FIGHT_OPTIONS() {
-		static const char *_quickFightOptions[] = { "\x80\xE2\xA0\xAA\xA0", "\x87\xA0\xAA\xAB\xA8\xAD\xA0\xAD\xA8\xA5", "\x81\xAB\xAE\xAA", "\x81\xA5\xA3\xE1\xE2\xA2\xAE" }; // "Атака", "Заклинание", "Блок", "Бегство"
+		static const char *_quickFightOptions[] = { "\x80\xE2\xA0\xAA\xA0 ", "\x87\xA0\xAA\xAB\xA8\xAD\xA0\xAD\xA8\xA5 ", "\x81\xAB\xAE\xAA ", "\x81\xA5\xA3\xE1\xE2\xA2\xAE" }; // "Атака ", "Заклинание ", "Блок ", "Бегство"
 		return _quickFightOptions;
 	}
 
@@ -1829,16 +1829,16 @@ public:
 		static const char *_worldEndText[] = {
 			"\n\n\n\n\n\n\n"
 			"Congratulations Adventurers!\n\n"
-			"Let the unification ceremony begin!",
+			"Let the unification ceremony begin! ",
 				"And so the call went out to the people throughout the lands of Xeen"
-				" that the prophecy was nearing completion.",
-				"They came in great numbers to witness the momentous occasion.",
-				"\v026The Dragon Pharoah presided over the ceremony.",
-				"\v026Queen Kalindra presented the Cube of Power.",
-				"\v026Prince Roland presented the Xeen Sceptre.",
-				"\v026Together, they placed the Cube of Power...",
-				"\v026and the Sceptre, onto the Altar of Joining.",
-				"With the prophecy complete, the two sides of Xeen were united as one",
+				" that the prophecy was nearing completion. ",
+				"They came in great numbers to witness the momentous occasion. ",
+				"\v026The Dragon Pharoah presided over the ceremony. ",
+				"\v026Queen Kalindra presented the Cube of Power. ",
+				"\v026Prince Roland presented the Xeen Sceptre. ",
+				"\v026Together, they placed the Cube of Power... ",
+				"\v026and the Sceptre, onto the Altar of Joining. ",
+				"With the prophecy complete, the two sides of Xeen were united as one ",
 		};
 		return _worldEndText;
 	}
@@ -1886,7 +1886,7 @@ public:
 
 	const char **GOOBER() {
 		static const char *_goober[] = {
-			"", "I am a Goober!", "I am a Super Goober!"
+			" ", "I am a Goober! ", "I am a Super Goober!"
 		};
 		return _goober;
 	}
@@ -1950,293 +1950,293 @@ public:
 
 	const char **CLOUDS_MAE_NAMES() {	// mae.cld
 		static const char *_maeNames[] = {
-			"",
-			"\xA6\xA0\xE0\xA0",                                             //жара
-			"\xAE\xA3\xAD\xA5\xA9",                                         //огней
-			"\xAE\xA3\xAD\xEF",                                             //огня
-			"\xA4\xEB\xAC\xA0",                                             //дыма
-			"\xAF\xAB\xA0\xAC\xA5\xAD\xA8",                                 //пламени
-			"\xAA\xA8\xAF\xA5\xAD\xA8\xEF",                                 //кипения
-			"\xA2\xE1\xAF\xEB\xE8\xAA\xA8",                                 //вспышки
-			"\xA0\xA4\xA0",                                                 //ада
-			"\xAC\xA5\xE0\xE6\xA0\xAD\xA8\xEF",                             //мерцания
-			"\xA8\xE1\xAA\xE0",                                             //искр
-			"\xE1\xE2\xA0\xE2\xA8\xAA\xA8",                                 //статики
-			"\xA3\xE0\xAE\xAC\xA0",                                         //грома
-			"\xE8\xAE\xAA\xA0",                                             //шока
-			"\xED\xAB\xA5\xAA\xE2\xE0\xA8\xE7\xA5\xE1\xE2\xA2\xA0",         //электричества
-			"\xAC\xAE\xAB\xAD\xA8\xA8",                                     //молнии
-			"\xAB\xEC\xA4\xA0",                                             //льда
-			"\xAC\xAE\xE0\xAE\xA7\xA0",                                     //мороза
-			"\xE1\xE2\xE3\xA6\xA8",                                         //стужи
-			"\xE5\xAE\xAB\xAE\xA4\xA0",                                     //холода
-			"\xAA\xE0\xA8\xAE",                                             //крио
-			"\xAA\xA8\xE1\xAB\xAE\xE2\xEB",                                 //кислоты
-			"\xA7\xA5\xAB\xEC\xEF",                                         //зелья
-			"\xEF\xA4\xA0",                                                 //яда
-			"\xE2\xAE\xAA\xE1\xA8\xAD\xA0",                                 //токсина
-			"\xAE\xE2\xE0\xA0\xA2\xEB",                                     //отравы
-			"\xE1\xA2\xA5\xE2\xA0",                                         //света
-			"\xAD\xA0\xAA\xA0\xAB\xA0",                                     //накала
-			"\xAF\xAB\xAE\xE2\xAD\xAE\xE1\xE2\xA8",                         //плотности
-			"\xA7\xA2\xE3\xAA\xA0",                                         //звука
-			"\xED\xAD\xA5\xE0\xA3\xA8\xA8",                                 //энергии
-			"\xE2\xA5\xAF\xAB\xA0",                                         //тепла
-			"\xE1\xA8\xEF\xAD\xA8\xEF",                                     //сияния
-			"\xAA\xA8\xAD\xA5\xE2\xA8\xAA\xA8",                             //кинетики
-			"\xAC\xA8\xE1\xE2\xA8\xAA\xA8",                                 //мистики
-			"\xAC\xA0\xA3\xA8\xA8",                                         //магии
-			"\xED\xAA\xE2\xAE\xAF\xAB\xA0\xA7\xAC\xEB",                     //эктоплазмы
-			"\xA8\xA7 \xA4\xA5\xE0\xA5\xA2\xA0",                            //из дерева
-			"\xA8\xA7 \xAA\xAE\xA6\xA8",                                    //из кожи
-			"\xA8\xA7 \xAC\xA5\xA4\xA8",                                    //из меди
-			"\xA8\xA7 \xA1\xE0\xAE\xAD\xA7\xEB",                            //из бронзы
-			"\xA8\xA7 \xA6\xA5\xAB\xA5\xA7\xA0",                            //из железа
-			"\xA8\xA7 \xE1\xA5\xE0\xA5\xA1\xE0\xA0",                        //из серебра
-			"\xA8\xA7 \xE1\xE2\xA0\xAB\xA8",                                //из стали
-			"\xA8\xA7 \xA7\xAE\xAB\xAE\xE2\xA0",                            //из золота
-			"\xA8\xA7 \xAF\xAB\xA0\xE2\xA8\xAD\xEB",                        //из платины
-			"\xA8\xA7 \xE1\xE2\xA5\xAA\xAB\xA0",                            //из стекла
-			"\xA8\xA7 \xAA\xAE\xE0\xA0\xAB\xAB\xAE\xA2",                    //из кораллов
-			"\xA8\xA7 \xE5\xE0\xE3\xE1\xE2\xA0\xAB\xEF",                    //из хрусталя
-			"\xA8\xA7 \xAB\xA0\xA7\xE3\xE0\xA8\xE2\xA0",                    //из лазурита
-			"\xA8\xA7 \xAF\xA5\xE0\xAB\xA0\xAC\xE3\xE2\xE0\xA0",            //из перламутра
-			"\xA8\xA7 \xEF\xAD\xE2\xA0\xE0\xEF",                            //из янтаря
-			"\xA8\xA7 \xED\xA1\xA5\xAD\xA0",                                //из эбена
-			"\xA8\xA7 \xAA\xA2\xA0\xE0\xE6\xA0",                            //из кварца
-			"\xA8\xA7 \xE0\xE3\xA1\xA8\xAD\xA0",                            //из рубина
-			"\xA8\xA7 \xA8\xA7\xE3\xAC\xE0\xE3\xA4\xA0",                    //из изумруда
-			"\xA8\xA7 \xE1\xA0\xAF\xE4\xA8\xE0\xA0",                        //из сапфира
-			"\xA8\xA7 \xA0\xAB\xAC\xA0\xA7\xA0",                            //из алмаза
-			"\xA8\xA7 \xAE\xA1\xE1\xA8\xA4\xA8\xA0\xAD\xA0",                //из обсидиана
-			"\xE1\xA8\xAB\xEB",                                             //силы
-			"\xAA\xE0\xA5\xAF\xAE\xE1\xE2\xA8",                             //крепости
-			"\xA2\xAE\xA8\xAD\xA0",                                         //воина
-			"\xAE\xA3\xE0\xA0",                                             //огра
-			"\xA3\xA8\xA3\xA0\xAD\xE2\xA0",                                 //гиганта
-			"\xA3\xE0\xAE\xAC\xA0",                                         //грома
-			"\xAC\xAE\xE9\xA8",                                             //мощи
-			"\xA4\xE0\xA0\xAA\xAE\xAD\xA0",                                 //дракона
-			"\xE4\xAE\xE2\xAE\xAD\xA0",                                     //фотона
-			"\xE3\xAC\xA0",                                                 //ума
-			"\xE0\xA0\xA7\xE3\xAC\xA0",                                     //разума
-			"\xA2\xAE\xAB\xE5\xA2\xA0",                                     //волхва
-			"\xAC\xEB\xE1\xAB\xA8",                                         //мысли
-			"\xA7\xAD\xA0\xAD\xA8\xEF",                                     //знания
-			"\xA8\xAD\xE2\xA5\xAB\xAB\xA5\xAA\xE2\xA0",                     //интеллекта
-			"\xAC\xE3\xA4\xE0\xAE\xE1\xE2\xA8",                             //мудрости
-			"\xA3\xA5\xAD\xA8\xEF",                                         //гения
-			"\xE1\xA8\xAC\xAF\xA0\xE2\xA8\xA8",                             //симпатии
-			"\xA4\xE0\xE3\xA6\xA1\xEB",                                     //дружбы
-			"\xAE\xA1\xA0\xEF\xAD\xA8\xEF",                                 //обаяния
-			"\xE2\xA0\xAB\xA8\xE1\xAC\xA0\xAD",                             //талисман
-			"\xE1\xA8\xAB\xEB \xA4\xE3\xE5\xA0",                            //силы духа
-			"\xE5\xA0\xE0\xA8\xA7\xAC\xEB",                                 //харизмы
-			"\xAB\xA8\xA4\xA5\xE0\xE1\xE2\xA2\xA0",                         //лидерства
-			"\xED\xA3\xAE",                                                 //эго
-			"\xE1\xA2\xEF\xE2\xAE\xE1\xE2\xA8",                             //святости
-			"\xAF\xE0\xEB\xE2\xAA\xAE\xE1\xE2\xA8",                         //прыткости
-			"\xE0\xA5\xA7\xA2\xAE\xE1\xE2\xA8",                             //резвости
-			"\xA1\xEB\xE1\xE2\xE0\xAE\xE2\xEB",                             //быстроты
-			"\xE1\xE2\xE0\xA5\xAC\xA8\xE2\xA5\xAB\xEC\xAD\xAE\xE1\xE2\xA8", //стремительности
-			"\xE1\xAA\xAE\xE0\xAE\xE1\xE2\xA8",                             //скорости
-			"\xA2\xA5\xE2\xE0\xA0",                                         //ветра
-			"\xE3\xE1\xAA\xAE\xE0\xA5\xAD\xA8\xEF",                         //ускорения
-			"\xE3\xE0\xA0\xA3\xA0\xAD\xA0",                                 //урагана
-			"\xE2\xAE\xE7\xAD\xAE\xE1\xE2\xA8",                             //точности
-			"\xAC\xA5\xE2\xAA\xAE\xE1\xE2\xA8",                             //меткости
-			"\xE1\xE2\xE0\xA5\xAB\xAA\xA0",                                 //стрелка
-			"\xAF\xE0\xA8\xE6\xA5\xAB\xEC\xAD\xAE\xE1\xE2\xA8",             //прицельности
-			"\xAD\xA0\xE6\xA5\xAB\xA5\xAD\xAD\xAE\xE1\xE2\xA8",             //нацеленности
-			"\xEF\xE1\xE2\xE0\xA5\xA1\xA0",                                 //ястреба
-			"\xAA\xAB\xA5\xA2\xA5\xE0\xA0",                                 //клевера
-			"\xE8\xA0\xAD\xE1\xA0",                                         //шанса
-			"\xAF\xAE\xA1\xA5\xA4\xA8\xE2\xA5\xAB\xEF",                     //победителя
-			"\xE3\xA4\xA0\xE7\xA8",                                         //удачи
-			"\xA8\xA3\xE0\xAE\xAA\xA0",                                     //игрока
-			"\xAB\xA5\xAF\xE0\xA5\xAA\xAE\xAD\xA0",                         //лепрекона
-			"\xA1\xAE\xA4\xE0\xAE\xE1\xE2\xA8",                             //бодрости
-			"\xA7\xA4\xAE\xE0\xAE\xA2\xEC\xEF",                             //здоровья
-			"\xA6\xA8\xA7\xAD\xA8",                                         //жизни
-			"\xE2\xE0\xAE\xAB\xAB\xEF",                                     //тролля
-			"\xA2\xA0\xAC\xAF\xA8\xE0\xA0",                                 //вампира
-			"\xE7\xA0\xE0",                                                 //чар
-			"\xA7\xA0\xAA\xAB\xA8\xAD\xA0\xE2\xA5\xAB\xEF",                 //заклинателя
-			"\xA2\xA5\xA4\xEC\xAC\xEB",                                     //ведьмы
-			"\xAC\xA0\xA3\xA0",                                             //мага
-			"\xA0\xE0\xE5\xA8\xAC\xA0\xA3\xA0",                             //архимага
-			"\xE2\xA0\xA9\xAD\xEB\xE5 \xA7\xAD\xA0\xAD\xA8\xA9",            //тайных знаний
-			"\xA7\xA0\xE9\xA8\xE2\xEB",                                     //защиты
-			"\xA1\xE0\xAE\xAD\xA8",                                         //брони
-			"\xA7\xA0\xE9\xA8\xE2\xAD\xA8\xAA\xA0",                         //защитника
-			"\xAB\xAE\xA2\xAA\xAE\xE1\xE2\xA8",                             //ловкости
-			"\xAF\xE0\xA5\xA4\xE1\xAA\xA0\xA7\xA0\xE2\xA5\xAB\xEF",         //предсказателя
-			"\xAC\xAE\xE8\xA5\xAD\xAD\xA8\xAA\xA0",                         //мошенника
-			"\xA2\xA7\xAB\xAE\xAC\xE9\xA8\xAA\xA0",                         //взломщика
-			"\xAC\xA0\xE0\xAE\xA4\xF1\xE0\xA0",                             //мародёра
-			"\xA1\xA0\xAD\xA4\xA8\xE2\xA0",                                 //бандита
-			"\xAA\xA0\xE0\xAC\xA0\xAD\xAD\xA8\xAA\xA0",                     //карманника
-			"\xA2\xAE\xE0\xA0",                                             //вора
-			"\xE0\xA0\xA7\xA1\xAE\xA9\xAD\xA8\xAA\xA0",                     //разбойника
-			"\xA3\xE0\xA0\xA1\xA8\xE2\xA5\xAB\xEF",                         //грабителя
-			"\xAF\xE0\xA5\xE1\xE2\xE3\xAF\xAD\xA8\xAA\xA0",                 //преступника
-			"\xAF\xA8\xE0\xA0\xE2\xA0"                                      //пирата
+			" ",
+			"\xA6\xA0\xE0\xA0 ",                                             //жара
+			"\xAE\xA3\xAD\xA5\xA9 ",                                         //огней
+			"\xAE\xA3\xAD\xEF ",                                             //огня
+			"\xA4\xEB\xAC\xA0 ",                                             //дыма
+			"\xAF\xAB\xA0\xAC\xA5\xAD\xA8 ",                                 //пламени
+			"\xAA\xA8\xAF\xA5\xAD\xA8\xEF ",                                 //кипения
+			"\xA2\xE1\xAF\xEB\xE8\xAA\xA8 ",                                 //вспышки
+			"\xA0\xA4\xA0 ",                                                 //ада
+			"\xAC\xA5\xE0\xE6\xA0\xAD\xA8\xEF ",                             //мерцания
+			"\xA8\xE1\xAA\xE0 ",                                             //искр
+			"\xE1\xE2\xA0\xE2\xA8\xAA\xA8 ",                                 //статики
+			"\xA3\xE0\xAE\xAC\xA0 ",                                         //грома
+			"\xE8\xAE\xAA\xA0 ",                                             //шока
+			"\xED\xAB\xA5\xAA\xE2\xE0\xA8\xE7\xA5\xE1\xE2\xA2\xA0 ",         //электричества
+			"\xAC\xAE\xAB\xAD\xA8\xA8 ",                                     //молнии
+			"\xAB\xEC\xA4\xA0 ",                                             //льда
+			"\xAC\xAE\xE0\xAE\xA7\xA0 ",                                     //мороза
+			"\xE1\xE2\xE3\xA6\xA8 ",                                         //стужи
+			"\xE5\xAE\xAB\xAE\xA4\xA0 ",                                     //холода
+			"\xAA\xE0\xA8\xAE ",                                             //крио
+			"\xAA\xA8\xE1\xAB\xAE\xE2\xEB ",                                 //кислоты
+			"\xA7\xA5\xAB\xEC\xEF ",                                         //зелья
+			"\xEF\xA4\xA0 ",                                                 //яда
+			"\xE2\xAE\xAA\xE1\xA8\xAD\xA0 ",                                 //токсина
+			"\xAE\xE2\xE0\xA0\xA2\xEB ",                                     //отравы
+			"\xE1\xA2\xA5\xE2\xA0 ",                                         //света
+			"\xAD\xA0\xAA\xA0\xAB\xA0 ",                                     //накала
+			"\xAF\xAB\xAE\xE2\xAD\xAE\xE1\xE2\xA8 ",                         //плотности
+			"\xA7\xA2\xE3\xAA\xA0 ",                                         //звука
+			"\xED\xAD\xA5\xE0\xA3\xA8\xA8 ",                                 //энергии
+			"\xE2\xA5\xAF\xAB\xA0 ",                                         //тепла
+			"\xE1\xA8\xEF\xAD\xA8\xEF ",                                     //сияния
+			"\xAA\xA8\xAD\xA5\xE2\xA8\xAA\xA8 ",                             //кинетики
+			"\xAC\xA8\xE1\xE2\xA8\xAA\xA8 ",                                 //мистики
+			"\xAC\xA0\xA3\xA8\xA8 ",                                         //магии
+			"\xED\xAA\xE2\xAE\xAF\xAB\xA0\xA7\xAC\xEB ",                     //эктоплазмы
+			"\xA8\xA7 \xA4\xA5\xE0\xA5\xA2\xA0 ",                            //из дерева
+			"\xA8\xA7 \xAA\xAE\xA6\xA8 ",                                    //из кожи
+			"\xA8\xA7 \xAC\xA5\xA4\xA8 ",                                    //из меди
+			"\xA8\xA7 \xA1\xE0\xAE\xAD\xA7\xEB ",                            //из бронзы
+			"\xA8\xA7 \xA6\xA5\xAB\xA5\xA7\xA0 ",                            //из железа
+			"\xA8\xA7 \xE1\xA5\xE0\xA5\xA1\xE0\xA0 ",                        //из серебра
+			"\xA8\xA7 \xE1\xE2\xA0\xAB\xA8 ",                                //из стали
+			"\xA8\xA7 \xA7\xAE\xAB\xAE\xE2\xA0 ",                            //из золота
+			"\xA8\xA7 \xAF\xAB\xA0\xE2\xA8\xAD\xEB ",                        //из платины
+			"\xA8\xA7 \xE1\xE2\xA5\xAA\xAB\xA0 ",                            //из стекла
+			"\xA8\xA7 \xAA\xAE\xE0\xA0\xAB\xAB\xAE\xA2 ",                    //из кораллов
+			"\xA8\xA7 \xE5\xE0\xE3\xE1\xE2\xA0\xAB\xEF ",                    //из хрусталя
+			"\xA8\xA7 \xAB\xA0\xA7\xE3\xE0\xA8\xE2\xA0 ",                    //из лазурита
+			"\xA8\xA7 \xAF\xA5\xE0\xAB\xA0\xAC\xE3\xE2\xE0\xA0 ",            //из перламутра
+			"\xA8\xA7 \xEF\xAD\xE2\xA0\xE0\xEF ",                            //из янтаря
+			"\xA8\xA7 \xED\xA1\xA5\xAD\xA0 ",                                //из эбена
+			"\xA8\xA7 \xAA\xA2\xA0\xE0\xE6\xA0 ",                            //из кварца
+			"\xA8\xA7 \xE0\xE3\xA1\xA8\xAD\xA0 ",                            //из рубина
+			"\xA8\xA7 \xA8\xA7\xE3\xAC\xE0\xE3\xA4\xA0 ",                    //из изумруда
+			"\xA8\xA7 \xE1\xA0\xAF\xE4\xA8\xE0\xA0 ",                        //из сапфира
+			"\xA8\xA7 \xA0\xAB\xAC\xA0\xA7\xA0 ",                            //из алмаза
+			"\xA8\xA7 \xAE\xA1\xE1\xA8\xA4\xA8\xA0\xAD\xA0 ",                //из обсидиана
+			"\xE1\xA8\xAB\xEB ",                                             //силы
+			"\xAA\xE0\xA5\xAF\xAE\xE1\xE2\xA8 ",                             //крепости
+			"\xA2\xAE\xA8\xAD\xA0 ",                                         //воина
+			"\xAE\xA3\xE0\xA0 ",                                             //огра
+			"\xA3\xA8\xA3\xA0\xAD\xE2\xA0 ",                                 //гиганта
+			"\xA3\xE0\xAE\xAC\xA0 ",                                         //грома
+			"\xAC\xAE\xE9\xA8 ",                                             //мощи
+			"\xA4\xE0\xA0\xAA\xAE\xAD\xA0 ",                                 //дракона
+			"\xE4\xAE\xE2\xAE\xAD\xA0 ",                                     //фотона
+			"\xE3\xAC\xA0 ",                                                 //ума
+			"\xE0\xA0\xA7\xE3\xAC\xA0 ",                                     //разума
+			"\xA2\xAE\xAB\xE5\xA2\xA0 ",                                     //волхва
+			"\xAC\xEB\xE1\xAB\xA8 ",                                         //мысли
+			"\xA7\xAD\xA0\xAD\xA8\xEF ",                                     //знания
+			"\xA8\xAD\xE2\xA5\xAB\xAB\xA5\xAA\xE2\xA0 ",                     //интеллекта
+			"\xAC\xE3\xA4\xE0\xAE\xE1\xE2\xA8 ",                             //мудрости
+			"\xA3\xA5\xAD\xA8\xEF ",                                         //гения
+			"\xE1\xA8\xAC\xAF\xA0\xE2\xA8\xA8 ",                             //симпатии
+			"\xA4\xE0\xE3\xA6\xA1\xEB ",                                     //дружбы
+			"\xAE\xA1\xA0\xEF\xAD\xA8\xEF ",                                 //обаяния
+			"\xE2\xA0\xAB\xA8\xE1\xAC\xA0\xAD ",                             //талисман
+			"\xE1\xA8\xAB\xEB \xA4\xE3\xE5\xA0 ",                            //силы духа
+			"\xE5\xA0\xE0\xA8\xA7\xAC\xEB ",                                 //харизмы
+			"\xAB\xA8\xA4\xA5\xE0\xE1\xE2\xA2\xA0 ",                         //лидерства
+			"\xED\xA3\xAE ",                                                 //эго
+			"\xE1\xA2\xEF\xE2\xAE\xE1\xE2\xA8 ",                             //святости
+			"\xAF\xE0\xEB\xE2\xAA\xAE\xE1\xE2\xA8 ",                         //прыткости
+			"\xE0\xA5\xA7\xA2\xAE\xE1\xE2\xA8 ",                             //резвости
+			"\xA1\xEB\xE1\xE2\xE0\xAE\xE2\xEB ",                             //быстроты
+			"\xE1\xE2\xE0\xA5\xAC\xA8\xE2\xA5\xAB\xEC\xAD\xAE\xE1\xE2\xA8 ", //стремительности
+			"\xE1\xAA\xAE\xE0\xAE\xE1\xE2\xA8 ",                             //скорости
+			"\xA2\xA5\xE2\xE0\xA0 ",                                         //ветра
+			"\xE3\xE1\xAA\xAE\xE0\xA5\xAD\xA8\xEF ",                         //ускорения
+			"\xE3\xE0\xA0\xA3\xA0\xAD\xA0 ",                                 //урагана
+			"\xE2\xAE\xE7\xAD\xAE\xE1\xE2\xA8 ",                             //точности
+			"\xAC\xA5\xE2\xAA\xAE\xE1\xE2\xA8 ",                             //меткости
+			"\xE1\xE2\xE0\xA5\xAB\xAA\xA0 ",                                 //стрелка
+			"\xAF\xE0\xA8\xE6\xA5\xAB\xEC\xAD\xAE\xE1\xE2\xA8 ",             //прицельности
+			"\xAD\xA0\xE6\xA5\xAB\xA5\xAD\xAD\xAE\xE1\xE2\xA8 ",             //нацеленности
+			"\xEF\xE1\xE2\xE0\xA5\xA1\xA0 ",                                 //ястреба
+			"\xAA\xAB\xA5\xA2\xA5\xE0\xA0 ",                                 //клевера
+			"\xE8\xA0\xAD\xE1\xA0 ",                                         //шанса
+			"\xAF\xAE\xA1\xA5\xA4\xA8\xE2\xA5\xAB\xEF ",                     //победителя
+			"\xE3\xA4\xA0\xE7\xA8 ",                                         //удачи
+			"\xA8\xA3\xE0\xAE\xAA\xA0 ",                                     //игрока
+			"\xAB\xA5\xAF\xE0\xA5\xAA\xAE\xAD\xA0 ",                         //лепрекона
+			"\xA1\xAE\xA4\xE0\xAE\xE1\xE2\xA8 ",                             //бодрости
+			"\xA7\xA4\xAE\xE0\xAE\xA2\xEC\xEF ",                             //здоровья
+			"\xA6\xA8\xA7\xAD\xA8 ",                                         //жизни
+			"\xE2\xE0\xAE\xAB\xAB\xEF ",                                     //тролля
+			"\xA2\xA0\xAC\xAF\xA8\xE0\xA0 ",                                 //вампира
+			"\xE7\xA0\xE0 ",                                                 //чар
+			"\xA7\xA0\xAA\xAB\xA8\xAD\xA0\xE2\xA5\xAB\xEF ",                 //заклинателя
+			"\xA2\xA5\xA4\xEC\xAC\xEB ",                                     //ведьмы
+			"\xAC\xA0\xA3\xA0 ",                                             //мага
+			"\xA0\xE0\xE5\xA8\xAC\xA0\xA3\xA0 ",                             //архимага
+			"\xE2\xA0\xA9\xAD\xEB\xE5 \xA7\xAD\xA0\xAD\xA8\xA9 ",            //тайных знаний
+			"\xA7\xA0\xE9\xA8\xE2\xEB ",                                     //защиты
+			"\xA1\xE0\xAE\xAD\xA8 ",                                         //брони
+			"\xA7\xA0\xE9\xA8\xE2\xAD\xA8\xAA\xA0 ",                         //защитника
+			"\xAB\xAE\xA2\xAA\xAE\xE1\xE2\xA8 ",                             //ловкости
+			"\xAF\xE0\xA5\xA4\xE1\xAA\xA0\xA7\xA0\xE2\xA5\xAB\xEF ",         //предсказателя
+			"\xAC\xAE\xE8\xA5\xAD\xAD\xA8\xAA\xA0 ",                         //мошенника
+			"\xA2\xA7\xAB\xAE\xAC\xE9\xA8\xAA\xA0 ",                         //взломщика
+			"\xAC\xA0\xE0\xAE\xA4\xF1\xE0\xA0 ",                             //мародёра
+			"\xA1\xA0\xAD\xA4\xA8\xE2\xA0 ",                                 //бандита
+			"\xAA\xA0\xE0\xAC\xA0\xAD\xAD\xA8\xAA\xA0 ",                     //карманника
+			"\xA2\xAE\xE0\xA0 ",                                             //вора
+			"\xE0\xA0\xA7\xA1\xAE\xA9\xAD\xA8\xAA\xA0 ",                     //разбойника
+			"\xA3\xE0\xA0\xA1\xA8\xE2\xA5\xAB\xEF ",                         //грабителя
+			"\xAF\xE0\xA5\xE1\xE2\xE3\xAF\xAD\xA8\xAA\xA0 ",                 //преступника
+			"\xAF\xA8\xE0\xA0\xE2\xA0 "                                      //пирата
 		};
 		return _maeNames;
 	}
 
 	const char **CLOUDS_MIRROR_LOCATIONS() {	// xeenmirr.txt
 		static const char *_mirrLocs[] = {
-			"\xA2\xA5\xE0\xE2\xA8\xA3\xAE",                                                                            // вертиго
-			"\xAD\xA0\xA9\xE2\xE8\xED\xA4\xAE\xE3",                                                                    // найтшэдоу
-			"\xE0\xA8\xA2\xA5\xE0\xE1\xA8\xE2\xA8",                                                                    // риверсити
-			"\xED\xE1\xAF",                                                                                            // эсп
-			"\xA2\xA8\xAD\xE2\xA5\xE0\xAA\xA8\xAB\xAB",                                                                // винтеркилл
-			"\xA7\xA0\xAC\xAE\xAA \xA1\xA0\xE0\xAB\xAE\xAA",                                                           // замок барлок
-			"\xAD\xEC\xEE\xAA\xA0\xE1\xAB",                                                                            // ньюкасл
-			"\xA7\xA0\xAC\xAE\xAA \xA1\xA0\xA7\xA5\xAD\xA4\xA6\xA8",                                                   // замок базенджи
-			"\xA2\xA5\xA4\xEC\xAC\xA8\xAD\xA0 \xA1\xA0\xE8\xAD\xEF",                                                   // ведьмина башня
-			"\xA1\xA0\xE8\xAD\xEF \xA4\xA0\xE0\xA7\xAE\xA3\xA0",                                                       // башня дарзога
-			"\xA1\xA0\xE8\xAD\xEF \xA4\xA0\xE0\xA7\xAE\xA3\xA0",                                                       // башня дарзога
-			"\xA1\xA0\xE8\xAD\xEF \xA4\xE0\xA0\xAA\xAE\xAD\xAE\xA2",                                                   // башня драконов
-			"\xA1\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8",                                      // башня высшей магии
-			"\xA1\xA0\xE8\xAD\xEF \xE2\xF1\xAC\xAD\xAE\xA3\xAE \xAA\xA0\xAC\xAD\xEF",                                  // башня тёмного камня
-			"\xA4\xE0\xA0\xAA\xAE\xAD\xEC\xA5 \xAB\xAE\xA3\xAE\xA2\xAE",                                               // драконье логово
-			"\xAF\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9",                                                   // пещера иллюзий
-			"\xA0\xE0\xA5\xAD\xA0",                                                                                    // арена
-			"\xA3\xAE\xE0\xA0 \xE4\xA0\xA9\xA5\xE0\xE1\xE2\xAE\xE3\xAD",                                               // гора файерстоун
-			"\xA3\xAE\xE0\xEB \xA2\xA0\xE0\xA2\xA0\xE0\xAE\xA2",                                                       // горы варваров
-			"\xE5\xE0\xA5\xA1\xA5\xE2 \xA3\xAE\xE0\xA3\xE3\xAB\xA8\xA9",                                               // хребет горгулий
-			"\xA3\xAE\xE0\xEB \xE0\xEB\xA6\xA8\xE5 \xA4\xA2\xAE\xE0\xE4\xAE\xA2",                                      // горы рыжих дворфов
-			"\xE5\xAE\xAB\xAC\xEB \xAE\xA3\xE0\xAE\xA2",                                                               // холмы огров
-			"\xA2\xA8\xAB\xAE\xAE\xA1\xE0\xA0\xA7\xAD\xA0\xEF \xA1\xE3\xE5\xE2\xA0",                                   // вилообразная бухта
-			"\xA2\xAE\xAB\xE8\xA5\xA1\xAD\xA0\xEF \xA4\xA5\xAB\xEC\xE2\xA0",                                           // волшебная дельта
-			"\xAB\xA0\xA3\xE3\xAD\xA0 \xA6\xA8\xA7\xAD\xA5\xAD\xAD\xAE\xA9 \xE1\xA8\xAB\xEB",                          // лагуна жизненной силы
-			"\xAB\xA0\xA2\xAE\xA2\xAE\xA5 \xAE\xA7\xA5\xE0\xAE",                                                       // лавовое озеро
-			"\xA1\xA0\xE1\xE1\xA5\xA9\xAD \xAA\xE0\xA0\xE1\xAD\xAE\xA9 \xE0\xA5\xAA\xA8",                              // бассейн красной реки
-			"\xA6\xA0\xA1\xEC\xA8 \xAB\xE3\xA3\xA0",                                                                   // жабьи луга
-			"\xA2\xA5\xE7\xAD\xAE \xE6\xA2\xA5\xE2\xE3\xE9\xA8\xA9 \xE4\xE0\xE3\xAA\xE2\xAE\xA2\xEB\xA9 \xE1\xA0\xA4", // вечно цветущий фруктовый сад
-			"\xAB\xA5\xE1 \xA6\xA8\xA2\xEB\xE5 \xAC\xA5\xE0\xE2\xA2\xA5\xE6\xAE\xA2",                                  // лес живых мертвецов
-			"\xA2\xAE\xAB\xE8\xA5\xA1\xAD\xEB\xA9 \xAB\xA5\xE1",                                                       // волшебный лес
-			"\xAB\xA5\xE1 \xE2\xE0\xAE\xAB\xAB\xA5\xA9",                                                               // лес троллей
-			"\xE1\xA0\xA2\xA0\xAD\xAD\xA0 \xA2\xE1\xA0\xA4\xAD\xA8\xAA\xAE\xA2",                                       // саванна всадников
-			"\xE1\xA0\xA2\xA0\xAD\xAD\xA0 \xA2\xE1\xA0\xA4\xAD\xA8\xAA\xAE\xA2",                                       // саванна всадников
-			"\xAF\xE3\xE1\xE2\xEB\xAD\xEF \xE1\xE4\xA8\xAD\xAA\xE1\xA0",                                               // пустыня сфинкса
-			"\xA7\xA5\xAC\xAB\xEF \xA3\xA8\xA3\xA0\xAD\xE2\xAE\xA2",                                                   // земля гигантов
-			"\xE8\xA0\xAD\xA3\xE0\xA8-\xAB\xA0",                                                                       // шангри-ла
-			"\xA3\xE0\xA0\xE4 \xA4\xEE \xAC\xAE\xAD\xA5\xE2\xA0",                                                      // граф дю монета
-			"\xAB\xAE\xE0\xA4 \xAA\xE1\xA8\xAD",                                                                       // лорд ксин
-			"\xE8\xAE\xE3 \xAD\xA0\xE7\xA8\xAD\xA0\xA5\xE2\xE1\xEF",                                                   // шоу начинается
-			"\xE8\xA0\xE5\xE2\xA0""1",                                                                                 // шахта1
-			"\xE8\xA0\xE5\xE2\xA0 1",                                                                                  // шахта 1
-			"\xE8\xA0\xE5\xE2\xA0""2",                                                                                 // шахта2
-			"\xE8\xA0\xE5\xE2\xA0 2",                                                                                  // шахта 2
-			"\xE8\xA0\xE5\xE2\xA0""3",                                                                                 // шахта3
-			"\xE8\xA0\xE5\xE2\xA0 3",                                                                                  // шахта 3
-			"\xE8\xA0\xE5\xE2\xA0""4",                                                                                 // шахта4
-			"\xE8\xA0\xE5\xE2\xA0 4",                                                                                  // шахта 4
-			"\xE8\xA0\xE5\xE2\xA0""5",                                                                                 // шахта5
-			"\xE8\xA0\xE5\xE2\xA0 5",                                                                                  // шахта 5
-			"\xA0\xAB\xEC\xE4\xA0",                                                                                    // альфа
-			"\xA3\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \xA0\xAB\xEC\xE4\xA0",                              // глубокая шахта альфа
-			"\xE2\xA5\xE2\xA0",                                                                                        // тета
-			"\xA3\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \xE2\xA5\xE2\xA0",                                  // глубокая шахта тета
-			"\xAA\xA0\xAF\xAF\xA0",                                                                                    // каппа
-			"\xA3\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \xAA\xA0\xAF\xAF\xA0",                              // глубокая шахта каппа
-			"\xAE\xAC\xA5\xA3\xA0",                                                                                    // омега
-			"\xA3\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \xAE\xAC\xA5\xA3\xA0",                              // глубокая шахта омега
-			"\xEF \xAF\xAE\xE2\xA5\xE0\xEF\xAB \xED\xE2\xAE",                                                          // я потерял это
+			"\xA2\xA5\xE0\xE2\xA8\xA3\xAE ",                                                                            // вертиго
+			"\xAD\xA0\xA9\xE2\xE8\xED\xA4\xAE\xE3 ",                                                                    // найтшэдоу
+			"\xE0\xA8\xA2\xA5\xE0\xE1\xA8\xE2\xA8 ",                                                                    // риверсити
+			"\xED\xE1\xAF ",                                                                                            // эсп
+			"\xA2\xA8\xAD\xE2\xA5\xE0\xAA\xA8\xAB\xAB ",                                                                // винтеркилл
+			"\xA7\xA0\xAC\xAE\xAA \xA1\xA0\xE0\xAB\xAE\xAA ",                                                           // замок барлок
+			"\xAD\xEC\xEE\xAA\xA0\xE1\xAB ",                                                                            // ньюкасл
+			"\xA7\xA0\xAC\xAE\xAA \xA1\xA0\xA7\xA5\xAD\xA4\xA6\xA8 ",                                                   // замок базенджи
+			"\xA2\xA5\xA4\xEC\xAC\xA8\xAD\xA0 \xA1\xA0\xE8\xAD\xEF ",                                                   // ведьмина башня
+			"\xA1\xA0\xE8\xAD\xEF \xA4\xA0\xE0\xA7\xAE\xA3\xA0 ",                                                       // башня дарзога
+			"\xA1\xA0\xE8\xAD\xEF \xA4\xA0\xE0\xA7\xAE\xA3\xA0 ",                                                       // башня дарзога
+			"\xA1\xA0\xE8\xAD\xEF \xA4\xE0\xA0\xAA\xAE\xAD\xAE\xA2 ",                                                   // башня драконов
+			"\xA1\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 ",                                      // башня высшей магии
+			"\xA1\xA0\xE8\xAD\xEF \xE2\xF1\xAC\xAD\xAE\xA3\xAE \xAA\xA0\xAC\xAD\xEF ",                                  // башня тёмного камня
+			"\xA4\xE0\xA0\xAA\xAE\xAD\xEC\xA5 \xAB\xAE\xA3\xAE\xA2\xAE ",                                               // драконье логово
+			"\xAF\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 ",                                                   // пещера иллюзий
+			"\xA0\xE0\xA5\xAD\xA0 ",                                                                                    // арена
+			"\xA3\xAE\xE0\xA0 \xE4\xA0\xA9\xA5\xE0\xE1\xE2\xAE\xE3\xAD ",                                               // гора файерстоун
+			"\xA3\xAE\xE0\xEB \xA2\xA0\xE0\xA2\xA0\xE0\xAE\xA2 ",                                                       // горы варваров
+			"\xE5\xE0\xA5\xA1\xA5\xE2 \xA3\xAE\xE0\xA3\xE3\xAB\xA8\xA9 ",                                               // хребет горгулий
+			"\xA3\xAE\xE0\xEB \xE0\xEB\xA6\xA8\xE5 \xA4\xA2\xAE\xE0\xE4\xAE\xA2 ",                                      // горы рыжих дворфов
+			"\xE5\xAE\xAB\xAC\xEB \xAE\xA3\xE0\xAE\xA2 ",                                                               // холмы огров
+			"\xA2\xA8\xAB\xAE\xAE\xA1\xE0\xA0\xA7\xAD\xA0\xEF \xA1\xE3\xE5\xE2\xA0 ",                                   // вилообразная бухта
+			"\xA2\xAE\xAB\xE8\xA5\xA1\xAD\xA0\xEF \xA4\xA5\xAB\xEC\xE2\xA0 ",                                           // волшебная дельта
+			"\xAB\xA0\xA3\xE3\xAD\xA0 \xA6\xA8\xA7\xAD\xA5\xAD\xAD\xAE\xA9 \xE1\xA8\xAB\xEB ",                          // лагуна жизненной силы
+			"\xAB\xA0\xA2\xAE\xA2\xAE\xA5 \xAE\xA7\xA5\xE0\xAE ",                                                       // лавовое озеро
+			"\xA1\xA0\xE1\xE1\xA5\xA9\xAD \xAA\xE0\xA0\xE1\xAD\xAE\xA9 \xE0\xA5\xAA\xA8 ",                              // бассейн красной реки
+			"\xA6\xA0\xA1\xEC\xA8 \xAB\xE3\xA3\xA0 ",                                                                   // жабьи луга
+			"\xA2\xA5\xE7\xAD\xAE \xE6\xA2\xA5\xE2\xE3\xE9\xA8\xA9 \xE4\xE0\xE3\xAA\xE2\xAE\xA2\xEB\xA9 \xE1\xA0\xA4 ", // вечно цветущий фруктовый сад
+			"\xAB\xA5\xE1 \xA6\xA8\xA2\xEB\xE5 \xAC\xA5\xE0\xE2\xA2\xA5\xE6\xAE\xA2 ",                                  // лес живых мертвецов
+			"\xA2\xAE\xAB\xE8\xA5\xA1\xAD\xEB\xA9 \xAB\xA5\xE1 ",                                                       // волшебный лес
+			"\xAB\xA5\xE1 \xE2\xE0\xAE\xAB\xAB\xA5\xA9 ",                                                               // лес троллей
+			"\xE1\xA0\xA2\xA0\xAD\xAD\xA0 \xA2\xE1\xA0\xA4\xAD\xA8\xAA\xAE\xA2 ",                                       // саванна всадников
+			"\xE1\xA0\xA2\xA0\xAD\xAD\xA0 \xA2\xE1\xA0\xA4\xAD\xA8\xAA\xAE\xA2 ",                                       // саванна всадников
+			"\xAF\xE3\xE1\xE2\xEB\xAD\xEF \xE1\xE4\xA8\xAD\xAA\xE1\xA0 ",                                               // пустыня сфинкса
+			"\xA7\xA5\xAC\xAB\xEF \xA3\xA8\xA3\xA0\xAD\xE2\xAE\xA2 ",                                                   // земля гигантов
+			"\xE8\xA0\xAD\xA3\xE0\xA8-\xAB\xA0 ",                                                                       // шангри-ла
+			"\xA3\xE0\xA0\xE4 \xA4\xEE \xAC\xAE\xAD\xA5\xE2\xA0 ",                                                      // граф дю монета
+			"\xAB\xAE\xE0\xA4 \xAA\xE1\xA8\xAD ",                                                                       // лорд ксин
+			"\xE8\xAE\xE3 \xAD\xA0\xE7\xA8\xAD\xA0\xA5\xE2\xE1\xEF ",                                                   // шоу начинается
+			"\xE8\xA0\xE5\xE2\xA0""1 ",                                                                                 // шахта1
+			"\xE8\xA0\xE5\xE2\xA0 1 ",                                                                                  // шахта 1
+			"\xE8\xA0\xE5\xE2\xA0""2 ",                                                                                 // шахта2
+			"\xE8\xA0\xE5\xE2\xA0 2 ",                                                                                  // шахта 2
+			"\xE8\xA0\xE5\xE2\xA0""3 ",                                                                                 // шахта3
+			"\xE8\xA0\xE5\xE2\xA0 3 ",                                                                                  // шахта 3
+			"\xE8\xA0\xE5\xE2\xA0""4 ",                                                                                 // шахта4
+			"\xE8\xA0\xE5\xE2\xA0 4 ",                                                                                  // шахта 4
+			"\xE8\xA0\xE5\xE2\xA0""5 ",                                                                                 // шахта5
+			"\xE8\xA0\xE5\xE2\xA0 5 ",                                                                                  // шахта 5
+			"\xA0\xAB\xEC\xE4\xA0 ",                                                                                    // альфа
+			"\xA3\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \xA0\xAB\xEC\xE4\xA0 ",                              // глубокая шахта альфа
+			"\xE2\xA5\xE2\xA0 ",                                                                                        // тета
+			"\xA3\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \xE2\xA5\xE2\xA0 ",                                  // глубокая шахта тета
+			"\xAA\xA0\xAF\xAF\xA0 ",                                                                                    // каппа
+			"\xA3\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \xAA\xA0\xAF\xAF\xA0 ",                              // глубокая шахта каппа
+			"\xAE\xAC\xA5\xA3\xA0 ",                                                                                    // омега
+			"\xA3\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \xAE\xAC\xA5\xA3\xA0 ",                              // глубокая шахта омега
+			"\xEF \xAF\xAE\xE2\xA5\xE0\xEF\xAB \xED\xE2\xAE ",                                                          // я потерял это
 		};
 		return _mirrLocs;
 	}
 
 	const char **CLOUDS_MAP_NAMES() {
 		static const char *_mapNames[] = {	// mapnames.cld
-			"",
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A1",                                                      // Область A1
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A2",                                                      // Область A2
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A3",                                                      // Область A3
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A4",                                                      // Область A4
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B1",                                                      // Область B1
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B2",                                                      // Область B2
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B3",                                                      // Область B3
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B4",                                                      // Область B4
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C1",                                                      // Область C1
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C2",                                                      // Область C2
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C3",                                                      // Область C3
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C4",                                                      // Область C4
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D1",                                                      // Область D1
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D2",                                                      // Область D2
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D3",                                                      // Область D3
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D4",                                                      // Область D4
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E1",                                                      // Область E1
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E2",                                                      // Область E2
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E3",                                                      // Область E3
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E4",                                                      // Область E4
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F1",                                                      // Область F1
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F2",                                                      // Область F2
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F3",                                                      // Область F3
-			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F4",                                                      // Область F4
-			"\x8E\xA1\xAB\xA0\xAA\xA0 \xA2\xA5\xA4\xEC\xAC",                                        // Облака ведьм
-			"\x8E\xA1\xAB\xA0\xAA\xA0 \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8",               // Облака высшей магии
-			"\x8E\xA1\xAB\xA0\xAA\xA0 \x8A\xE1\xA8\xAD\xA0",                                        // Облака Ксина
-			"\x82\xA5\xE0\xE2\xA8\xA3\xAE",                                                         // Вертиго
-			"\x8D\xA0\xA9\xE2\xE8\xED\xA4\xAE\xE3",                                                 // Найтшэдоу
-			"\x90\xA8\xA2\xA5\xE0\xE1\xA8\xE2\xA8",                                                 // Риверсити
-			"\x9D\xE1\xAF",                                                                         // Эсп
-			"\x82\xA8\xAD\xE2\xA5\xE0\xAA\xA8\xAB\xAB",                                             // Винтеркилл
-			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 1",                                  // Шахты дворфов 1
-			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 2",                                  // Шахты дворфов 2
-			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 3",                                  // Шахты дворфов 3
-			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 4",                                  // Шахты дворфов 4
-			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 5",                                  // Шахты дворфов 5
-			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x80\xAB\xEC\xE4\xA0",           // Глубокая шахта Альфа
-			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x92\xA5\xE2\xA0",               // Глубокая шахта Тета
-			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x8A\xA0\xAF\xAF\xA0",           // Глубокая шахта Каппа
-			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x8E\xAC\xA5\xA3\xA0",           // Глубокая шахта Омега
-			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 1", // Пещера иллюзий Уровень 1
-			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 2", // Пещера иллюзий Уровень 2
-			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 3", // Пещера иллюзий Уровень 3
-			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 4", // Пещера иллюзий Уровень 4
-			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA2\xE3\xAB\xAA\xA0\xAD\xA0 \x93\xE0\xAE\xA2\xA5\xAD\xEC 1", // Пещера вулкана Уровень 1
-			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA2\xE3\xAB\xAA\xA0\xAD\xA0 \x93\xE0\xAE\xA2\xA5\xAD\xEC 2", // Пещера вулкана Уровень 2
-			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA2\xE3\xAB\xAA\xA0\xAD\xA0 \x93\xE0\xAE\xA2\xA5\xAD\xEC 3", // Пещера вулкана Уровень 3
-			"\x98\xA0\xAD\xA3\xE0\xA8-\x8B\xA0",                                                    // Шангри-Ла
-			"\x84\xE0\xA0\xAA\xAE\xAD\xEC\xA5 \xAB\xAE\xA3\xAE\xA2\xAE",                            // Драконье логово
-			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 1",                        // Башня ведьм. Этаж 1
-			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 2",                        // Башня ведьм. Этаж 2
-			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 3",                        // Башня ведьм. Этаж 3
-			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 4",                        // Башня ведьм. Этаж 4
-			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 1",        // Башня высшей магии Эт 1
-			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 2",        // Башня высшей магии Эт 2
-			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 3",        // Башня высшей магии Эт 3
-			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 4",        // Башня высшей магии Эт 4
-			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 1",                // Башня Дарзога. Этаж 1
-			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 2",                // Башня Дарзога. Этаж 2
-			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 3",                // Башня Дарзога. Этаж 3
-			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 4",                // Башня Дарзога. Этаж 4
-			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x81\xA0\xE0\xAB\xAE\xAA\xA0",                // Подземелье Барлока
-			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xE0\xAB\xAE\xAA. \x9D\xE2\xA0\xA6 1",                    // Замок Барлок. Этаж 1
-			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xE0\xAB\xAE\xAA. \x9D\xE2\xA0\xA6 2",                    // Замок Барлок. Этаж 2
-			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xE0\xAB\xAE\xAA. \x9D\xE2\xA0\xA6 3",                    // Замок Барлок. Этаж 3
-			"\x8F\xAE\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8",                // Поземелье Базенджи
-			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8. \x9D\xE2\xA0\xA6 1",            // Замок Базенджи. Этаж 1
-			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8. \x9D\xE2\xA0\xA6 2",            // Замок Базенджи. Этаж 2
-			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8. \x9D\xE2\xA0\xA6 3",            // Замок Базенджи. Этаж 3
-			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x8D\xEC\xEE\xAA\xA0\xE1\xAB\xA0",            // Подземелье Ньюкасла
-			"\x94\xE3\xAD\xA4\xA0\xAC\xA5\xAD\xE2 \x8D\xEC\xEE\xAA\xA0\xE1\xAB\xA0",                // Фундамент Ньюкасла
-			"\x8D\xEC\xEE\xAA\xA0\xE1\xAB. \x9D\xE2\xA0\xA6 1",                                     // Ньюкасл. Этаж 1
-			"\x8D\xEC\xEE\xAA\xA0\xE1\xAB. \x9D\xE2\xA0\xA6 2",                                     // Ньюкасл. Этаж 2
-			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 1",                        // Замок Ксина. Этаж 1
-			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 2",                        // Замок Ксина. Этаж 2
-			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 3",                        // Замок Ксина. Этаж 3
-			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 4",                        // Замок Ксина. Этаж 4
-			"\x84\xE0\xA5\xA2\xAD\xA8\xA9 \xE5\xE0\xA0\xAC \x9F\xAA\xA0",                           // Древний храм Яка
-			"\x91\xAA\xAB\xA5\xAF \x92\xEB\xE1\xEF\xE7\xA8 \x93\xA6\xA0\xE1\xAE\xA2",               // Склеп Тысячи Ужасов
-			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \xA3\xAE\xAB\xA5\xAC\xAE\xA2",                // Подземелье големов
-			"\x92\xA5\xAB\xAE \x91\xE4\xA8\xAD\xAA\xE1\xA0",                                        // Тело Сфинкса
-			"\x83\xAE\xAB\xAE\xA2\xA0 \x91\xE4\xA8\xAD\xAA\xE1\xA0",                                // Голова Сфинкса
-			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x91\xE4\xA8\xAD\xAA\xE1\xA0",                // Подземелье Сфинкса
+			" ",
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A1 ",                                                      // Область A1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A2 ",                                                      // Область A2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A3 ",                                                      // Область A3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC A4 ",                                                      // Область A4
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B1 ",                                                      // Область B1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B2 ",                                                      // Область B2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B3 ",                                                      // Область B3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC B4 ",                                                      // Область B4
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C1 ",                                                      // Область C1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C2 ",                                                      // Область C2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C3 ",                                                      // Область C3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC C4 ",                                                      // Область C4
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D1 ",                                                      // Область D1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D2 ",                                                      // Область D2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D3 ",                                                      // Область D3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC D4 ",                                                      // Область D4
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E1 ",                                                      // Область E1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E2 ",                                                      // Область E2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E3 ",                                                      // Область E3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC E4 ",                                                      // Область E4
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F1 ",                                                      // Область F1
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F2 ",                                                      // Область F2
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F3 ",                                                      // Область F3
+			"\x8E\xA1\xAB\xA0\xE1\xE2\xEC F4 ",                                                      // Область F4
+			"\x8E\xA1\xAB\xA0\xAA\xA0 \xA2\xA5\xA4\xEC\xAC ",                                        // Облака ведьм
+			"\x8E\xA1\xAB\xA0\xAA\xA0 \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 ",               // Облака высшей магии
+			"\x8E\xA1\xAB\xA0\xAA\xA0 \x8A\xE1\xA8\xAD\xA0 ",                                        // Облака Ксина
+			"\x82\xA5\xE0\xE2\xA8\xA3\xAE ",                                                         // Вертиго
+			"\x8D\xA0\xA9\xE2\xE8\xED\xA4\xAE\xE3 ",                                                 // Найтшэдоу
+			"\x90\xA8\xA2\xA5\xE0\xE1\xA8\xE2\xA8 ",                                                 // Риверсити
+			"\x9D\xE1\xAF ",                                                                         // Эсп
+			"\x82\xA8\xAD\xE2\xA5\xE0\xAA\xA8\xAB\xAB ",                                             // Винтеркилл
+			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 1 ",                                  // Шахты дворфов 1
+			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 2 ",                                  // Шахты дворфов 2
+			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 3 ",                                  // Шахты дворфов 3
+			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 4 ",                                  // Шахты дворфов 4
+			"\x98\xA0\xE5\xE2\xEB \xA4\xA2\xAE\xE0\xE4\xAE\xA2 5 ",                                  // Шахты дворфов 5
+			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x80\xAB\xEC\xE4\xA0 ",           // Глубокая шахта Альфа
+			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x92\xA5\xE2\xA0 ",               // Глубокая шахта Тета
+			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x8A\xA0\xAF\xAF\xA0 ",           // Глубокая шахта Каппа
+			"\x83\xAB\xE3\xA1\xAE\xAA\xA0\xEF \xE8\xA0\xE5\xE2\xA0 \x8E\xAC\xA5\xA3\xA0 ",           // Глубокая шахта Омега
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 1 ", // Пещера иллюзий Уровень 1
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 2 ", // Пещера иллюзий Уровень 2
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 3 ", // Пещера иллюзий Уровень 3
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA8\xAB\xAB\xEE\xA7\xA8\xA9 \x93\xE0\xAE\xA2\xA5\xAD\xEC 4 ", // Пещера иллюзий Уровень 4
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA2\xE3\xAB\xAA\xA0\xAD\xA0 \x93\xE0\xAE\xA2\xA5\xAD\xEC 1 ", // Пещера вулкана Уровень 1
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA2\xE3\xAB\xAA\xA0\xAD\xA0 \x93\xE0\xAE\xA2\xA5\xAD\xEC 2 ", // Пещера вулкана Уровень 2
+			"\x8F\xA5\xE9\xA5\xE0\xA0 \xA2\xE3\xAB\xAA\xA0\xAD\xA0 \x93\xE0\xAE\xA2\xA5\xAD\xEC 3 ", // Пещера вулкана Уровень 3
+			"\x98\xA0\xAD\xA3\xE0\xA8-\x8B\xA0 ",                                                    // Шангри-Ла
+			"\x84\xE0\xA0\xAA\xAE\xAD\xEC\xA5 \xAB\xAE\xA3\xAE\xA2\xAE ",                            // Драконье логово
+			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 1 ",                        // Башня ведьм. Этаж 1
+			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 2 ",                        // Башня ведьм. Этаж 2
+			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 3 ",                        // Башня ведьм. Этаж 3
+			"\x81\xA0\xE8\xAD\xEF \xA2\xA5\xA4\xEC\xAC. \x9D\xE2\xA0\xA6 4 ",                        // Башня ведьм. Этаж 4
+			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 1 ",        // Башня высшей магии Эт 1
+			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 2 ",        // Башня высшей магии Эт 2
+			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 3 ",        // Башня высшей магии Эт 3
+			"\x81\xA0\xE8\xAD\xEF \xA2\xEB\xE1\xE8\xA5\xA9 \xAC\xA0\xA3\xA8\xA8 \x9D\xE2 4 ",        // Башня высшей магии Эт 4
+			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 1 ",                // Башня Дарзога. Этаж 1
+			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 2 ",                // Башня Дарзога. Этаж 2
+			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 3 ",                // Башня Дарзога. Этаж 3
+			"\x81\xA0\xE8\xAD\xEF \x84\xA0\xE0\xA7\xAE\xA3\xA0. \x9D\xE2\xA0\xA6 4 ",                // Башня Дарзога. Этаж 4
+			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x81\xA0\xE0\xAB\xAE\xAA\xA0 ",                // Подземелье Барлока
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xE0\xAB\xAE\xAA. \x9D\xE2\xA0\xA6 1 ",                    // Замок Барлок. Этаж 1
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xE0\xAB\xAE\xAA. \x9D\xE2\xA0\xA6 2 ",                    // Замок Барлок. Этаж 2
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xE0\xAB\xAE\xAA. \x9D\xE2\xA0\xA6 3 ",                    // Замок Барлок. Этаж 3
+			"\x8F\xAE\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8 ",                // Поземелье Базенджи
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8. \x9D\xE2\xA0\xA6 1 ",            // Замок Базенджи. Этаж 1
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8. \x9D\xE2\xA0\xA6 2 ",            // Замок Базенджи. Этаж 2
+			"\x87\xA0\xAC\xAE\xAA \x81\xA0\xA7\xA5\xAD\xA4\xA6\xA8. \x9D\xE2\xA0\xA6 3 ",            // Замок Базенджи. Этаж 3
+			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x8D\xEC\xEE\xAA\xA0\xE1\xAB\xA0 ",            // Подземелье Ньюкасла
+			"\x94\xE3\xAD\xA4\xA0\xAC\xA5\xAD\xE2 \x8D\xEC\xEE\xAA\xA0\xE1\xAB\xA0 ",                // Фундамент Ньюкасла
+			"\x8D\xEC\xEE\xAA\xA0\xE1\xAB. \x9D\xE2\xA0\xA6 1 ",                                     // Ньюкасл. Этаж 1
+			"\x8D\xEC\xEE\xAA\xA0\xE1\xAB. \x9D\xE2\xA0\xA6 2 ",                                     // Ньюкасл. Этаж 2
+			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 1 ",                        // Замок Ксина. Этаж 1
+			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 2 ",                        // Замок Ксина. Этаж 2
+			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 3 ",                        // Замок Ксина. Этаж 3
+			"\x87\xA0\xAC\xAE\xAA \x8A\xE1\xA8\xAD\xA0. \x9D\xE2\xA0\xA6 4 ",                        // Замок Ксина. Этаж 4
+			"\x84\xE0\xA5\xA2\xAD\xA8\xA9 \xE5\xE0\xA0\xAC \x9F\xAA\xA0 ",                           // Древний храм Яка
+			"\x91\xAA\xAB\xA5\xAF \x92\xEB\xE1\xEF\xE7\xA8 \x93\xA6\xA0\xE1\xAE\xA2 ",               // Склеп Тысячи Ужасов
+			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \xA3\xAE\xAB\xA5\xAC\xAE\xA2 ",                // Подземелье големов
+			"\x92\xA5\xAB\xAE \x91\xE4\xA8\xAD\xAA\xE1\xA0 ",                                        // Тело Сфинкса
+			"\x83\xAE\xAB\xAE\xA2\xA0 \x91\xE4\xA8\xAD\xAA\xE1\xA0 ",                                // Голова Сфинкса
+			"\x8F\xAE\xA4\xA7\xA5\xAC\xA5\xAB\xEC\xA5 \x91\xE4\xA8\xAD\xAA\xE1\xA0 ",                // Подземелье Сфинкса
 			"\x80\xE0\xA5\xAD\xA0"                                                                  // Арена
 		};
 		return _mapNames;
@@ -2244,96 +2244,96 @@ public:
 
 	const char **CLOUDS_MONSTERS() {	// monsters.cld
 		static const char *_monsters[] = {
-			"\x91\xAB\xA8\xA7\xA5\xAD\xEC",                                               // Слизень
-			"\x81\xAE\xAB\xEC\xE8\xA0\xEF \xAB\xA5\xE2\xE3\xE7\xA0\xEF \xAC\xEB\xE8\xEC", // Большая летучая мышь
-			"\x97\xE3\xA4\xAE\xA2\xA8\xE9\xAD\xA0\xEF \xE1\xA0\xE0\xA0\xAD\xE7\xA0",      // Чудовищная саранча
-			"\x81\xAE\xAB\xEC\xE8\xA0\xEF \xA7\xAC\xA5\xEF",                              // Большая змея
-			"\x83\xA8\xA3\xA0\xAD\xE2\xE1\xAA\xA8\xA9 \xAF\xA0\xE3\xAA",                  // Гигантский паук
-			"\x83\xAE\xA1\xAB\xA8\xAD",                                                   // Гоблин
-			"\x8E\xE0\xAA",                                                               // Орк
-			"\x81\xA5\xA7\xE3\xAC\xAD\xEB\xA9 \xA4\xA2\xAE\xE0\xE4",                      // Безумный дворф
-			"\x91\xAA\xA5\xAB\xA5\xE2",                                                   // Скелет
-			"\x87\xAE\xAC\xA1\xA8",                                                       // Зомби
-			"\x81\xE3\xA9\xAD\xEB\xA9 \xA4\xE3\xE0\xA0\xAA",                              // Буйный дурак
-			"\x92\xA8\xA3\xE0\xAE\xA2\xEB\xA9 \xAA\xE0\xAE\xE2",                          // Тигровый крот
-			"\x81\xA5\xA7\xE3\xAC\xAD\xEB\xA9 \xAD\xA8\xE9\xA8\xA9",                      // Безумный нищий
-			"\x8E\xA3\xE0\xAE\xAC\xAD\xA0\xEF \xA6\xA0\xA1\xA0",                          // Огромная жаба
-			"\x87\xAB\xA0\xEF \xA2\xA5\xA4\xEC\xAC\xA0",                                  // Злая ведьма
-			"\x90\xAE\xA9 \xAD\xA0\xE1\xA5\xAA\xAE\xAC\xEB\xE5",                          // Рой насекомых
-			"\x8A\xAE\xE0\xAE\xAB\xA5\xA2\xA0 \xAD\xA5\xE2\xAE\xAF\xEB\xE0\xA5\xA9",      // Королева нетопырей
-			"\x8A\xAB\xA8\xE0\xA8\xAA \x9F\xAA\xA0",                                      // Клирик Яка
-			"\x90\xA0\xA7\xA1\xAE\xA9\xAD\xA8\xAA",                                       // Разбойник
-			"\x81\xAE\xAB\xEC\xE8\xAE\xA9 \xE1\xAA\xAE\xE0\xAF\xA8\xAE\xAD",              // Большой скорпион
-			"\x83\xA0\xE0\xAF\xA8\xEF",                                                   // Гарпия
-			"\x91\xE2\xE0\xA0\xA6",                                                       // Страж
-			"\x8F\xA8\xAA\xE1\xA8-\xE3\xA1\xA8\xA9\xE6\xA0",                              // Пикси-убийца
-			"\x86\xA0\xAB\xEF\xE9\xA8\xA5 \xAD\xA0\xE1\xA5\xAA\xAE\xAC\xEB\xA5",          // Жалящие насекомые
-			"\x8D\xA8\xAD\xA4\xA7\xEF",                                                   // Ниндзя
-			"\x86\xE0\xA5\xE6 \x9F\xAA\xA0",                                              // Жрец Яка
-			"\x8A\xE0\xEB\xAB\xA0\xE2\xEB\xA5 \xE1\xE2\xE3\xAF\xAD\xA8",                  // Крылатые ступни
-			"\x93\xAF\xEB\xE0\xEC",                                                       // Упырь
-			"\x82\xAE\xA4\xEF\xAD\xAE\xA9 \xA3\xAE\xAB\xA5\xAC",                          // Водяной голем
-			"\x82\xE1\xA0\xA4\xAD\xA8\xAA",                                               // Всадник
-			"\x97\xA5\xAB\xAE\xA2\xA5\xAA-\xA7\xAC\xA5\xEF",                              // Человек-змея
-			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xA8\xE6\xA0",                                   // Волшебница
-			"\x8E\xA3\xE0",                                                               // Огр
-			"\x91\xE2\xE0\xA0\xA6 \xE1\xAA\xAB\xA5\xAF\xA0",                              // Страж склепа
-			"\x81\xAE\xAB\xAE\xE2\xAD\xA0\xEF \xE2\xA2\xA0\xE0\xEC",                      // Болотная тварь
-			"\x92\xF1\xAC\xAD\xEB\xA9 \xE1\xAB\xA5\xA4\xAE\xAF\xEB\xE2",                  // Тёмный следопыт
-			"\x91\xAD\xA5\xA6\xAD\xEB\xA9 \xA7\xA2\xA5\xE0\xEC",                          // Снежный зверь
-			"\x8F\xA5\xE1\xE7\xA0\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC",                      // Песчаный голем
-			"\x90\xEB\xE6\xA0\xE0\xEC \x9F\xAD\xEC",                                      // Рыцарь Янь
-			"\x8E\xA1\xAE\xE0\xAE\xE2\xA5\xAD\xEC",                                       // Оборотень
-			"\x8C\xE3\xAC\xA8\xEF",                                                       // Мумия
-			"\x8B\xA8\xE7 \x9F\xAA\xA0",                                                  // Лич Яка
-			"\x8A\xAE\xAB\xA4\xE3\xAD",                                                   // Колдун
-			"\x92\xF1\xAC\xAD\xEB\xA9 \xAB\xE3\xE7\xAD\xA8\xAA",                          // Тёмный лучник
-			"\x84\xA5\xE0\xA5\xA2\xEF\xAD\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC",              // Деревянный голем
-			"\x82\xA0\xE0\xA2\xA0\xE0",                                                   // Варвар
-			"\x91\xE2\xE0\xA0\xA6 \xA7\xA0\xAC\xAA\xA0",                                  // Страж замка
-			"\x83\xAE\xE0\xA3\xE3\xAB\xEC\xEF",                                           // Горгулья
-			"\x83\xAD\xAE\xAC-\xA2\xA0\xAC\xAF\xA8\xE0",                                  // Гном-вампир
-			"\x84\xAB\xA0\xAD\xEC \xE0\xA5\xA7\xAD\xA8",                                  // Длань резни
-			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xA8\xAA",                                       // Волшебник
-			"\x93\xA6\xA0\xE1 \xE1\xAA\xAB\xA5\xAF\xA0",                                  // Ужас склепа
-			"\x87\xA5\xAC\xAB\xEF\xAD\xAE\xA9 \xA3\xAE\xAB\xA5\xAC",                      // Земляной голем
-			"\x8B\xA5\xA4\xEF\xAD\xAE\xA9 \xE2\xE0\xAE\xAB\xAB\xEC",                      // Ледяной тролль
-			"\x83\xA0\xA4\xEE\xAA\xA0-\xE1\xE2\xE0\xA0\xA6",                              // Гадюка-страж
-			"\x8A\xA0\xAC\xA5\xAD\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC",                      // Каменный голем
-			"\x8F\xA5\xE1\xE7\xA0\xAD\xEB\xA9 \xE7\xA5\xE0\xA2\xEC",                      // Песчаный червь
-			"\x96\xA8\xAA\xAB\xAE\xAF",                                                   // Циклоп
-			"\x86\xA5\xAB\xA5\xA7\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC",                      // Железный голем
-			"\x82\xAE\xA4\xAD\xEB\xA9 \xA4\xE0\xA0\xAA\xAE\xAD",                          // Водный дракон
-			"\x8D\xA5\xA1\xA5\xE1\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC",                      // Небесный голем
-			"\x8A\xA8\xE1\xAB\xAE\xE2\xAD\xEB\xA9 \xA4\xE0\xA0\xAA\xAE\xAD",              // Кислотный дракон
-			"\x91\xE2\xE0\xA0\xA6 \x8A\xE1\xA8\xAD\xA0",                                  // Страж Ксина
-			"\x8A\xAB\xAE\xAD \x84\xA0\xE0\xA7\xAE\xA3\xA0",                              // Клон Дарзога
-			"\x84\xA5\xAC\xAE\xAD",                                                       // Демон
-			"\x8B\xA0\xA2\xAE\xA2\xEB\xA9 \xA3\xAE\xAB\xA5\xAC",                          // Лавовый голем
-			"\x90\xE3\xE5",                                                               // Рух
-			"\x80\xAB\xAC\xA0\xA7\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC",                      // Алмазный голем
-			"\x8E\xA3\xAD\xA5\xAD\xAD\xEB\xA9 \xA4\xE0\xA0\xAA\xAE\xAD",                  // Огненный дракон
-			"\x8B\xA5\xA4\xEF\xAD\xAE\xA9 \xA4\xE0\xA0\xAA\xAE\xAD",                      // Ледяной дракон
-			"\x84\xEC\xEF\xA2\xAE\xAB",                                                   // Дьявол
-			"\x82\xA5\xAB\xA8\xAA\xA0\xEF \xA3\xA8\xA4\xE0\xA0",                          // Великая гидра
-			"\x8A\xAE\xE0\xAE\xAB\xEC \xA4\xE0\xA0\xAA\xAE\xAD\xAE\xA2",                  // Король драконов
-			"\x91\xAB\xA8\xA7\xAE\xAC\xA0\xE2\xAA\xA0",                                   // Слизоматка
-			"\x91\xE2\xA0\xE0\xE8\xA8\xAD\xA0 \xAA\xAB\xA0\xAD\xA0",                      // Старшина клана
-			"\x8A\xAE\xE0\xAE\xAB\xEC \xAA\xAB\xA0\xAD\xA0",                              // Король клана
-			"\x91\xE2\xA0\xE0\xE8\xA0\xEF \xA2\xA5\xA4\xEC\xAC\xA0",                      // Старшая ведьма
-			"\x8F\xE0\xA8\xA7\xE0\xA0\xE7\xAD\xEB\xA9 \xE1\xAA\xA5\xAB\xA5\xE2",          // Призрачный скелет
-			"\x8F\xAE\xAB\xE2\xA5\xE0\xA4\xE3\xE0",                                       // Полтердур
-			"\x8F\xE0\xA8\xA7\xE0\xA0\xE7\xAD\xEB\xA9 \xA2\xE1\xA0\xA4\xAD\xA8\xAA",      // Призрачный всадник
-			"\x83\xAB\xA0\xA2\xA0\xE0\xEC \xE0\xA0\xA7\xA1\xAE\xA9\xAD\xA8\xAA\xAE\xA2",  // Главарь разбойников
-			"\x8A\xAE\xE0\xAE\xAB\xA5\xA2\xA0 \xA3\xA0\xE0\xAF\xA8\xA9",                  // Королева гарпий
-			"\x8A\xA0\xAF\xA8\xE2\xA0\xAD \x9F\xAD\xEC",                                  // Капитан Янь
-			"\x8C\xA0\xA3\xA8\xE1\xE2\xE0 \x9F\xAA",                                      // Магистр Як
-			"\x8A\xAE\xE0\xAE\xAB\xA5\xA2\xE1\xAA\xA8\xA9 \xE1\xE2\xE0\xA0\xA6",          // Королевский страж
-			"\x83\xAB\xA0\xA2\xA0 \xE1\xA5\xAA\xE2\xEB",                                  // Глава секты
-			"\x83\xE0\xA0\xE4 \x84\xE0\xA0\xAA\xAE",                                      // Граф Драко
-			"\x84\xA0\xE0\xA7\xAE\xA3",                                                   // Дарзог
-			"\x87\xA2\xA5\xE0\xE3\xE8\xAA\xA0 \x8A\xE1\xA8\xAD\xA0",                      // Зверушка Ксина
-			"\x8B\xAE\xE0\xA4 \x8A\xE1\xA8\xAD",                                          // Лорд Ксин
+			"\x91\xAB\xA8\xA7\xA5\xAD\xEC ",                                               // Слизень
+			"\x81\xAE\xAB\xEC\xE8\xA0\xEF \xAB\xA5\xE2\xE3\xE7\xA0\xEF \xAC\xEB\xE8\xEC ", // Большая летучая мышь
+			"\x97\xE3\xA4\xAE\xA2\xA8\xE9\xAD\xA0\xEF \xE1\xA0\xE0\xA0\xAD\xE7\xA0 ",      // Чудовищная саранча
+			"\x81\xAE\xAB\xEC\xE8\xA0\xEF \xA7\xAC\xA5\xEF ",                              // Большая змея
+			"\x83\xA8\xA3\xA0\xAD\xE2\xE1\xAA\xA8\xA9 \xAF\xA0\xE3\xAA ",                  // Гигантский паук
+			"\x83\xAE\xA1\xAB\xA8\xAD ",                                                   // Гоблин
+			"\x8E\xE0\xAA ",                                                               // Орк
+			"\x81\xA5\xA7\xE3\xAC\xAD\xEB\xA9 \xA4\xA2\xAE\xE0\xE4 ",                      // Безумный дворф
+			"\x91\xAA\xA5\xAB\xA5\xE2 ",                                                   // Скелет
+			"\x87\xAE\xAC\xA1\xA8 ",                                                       // Зомби
+			"\x81\xE3\xA9\xAD\xEB\xA9 \xA4\xE3\xE0\xA0\xAA ",                              // Буйный дурак
+			"\x92\xA8\xA3\xE0\xAE\xA2\xEB\xA9 \xAA\xE0\xAE\xE2 ",                          // Тигровый крот
+			"\x81\xA5\xA7\xE3\xAC\xAD\xEB\xA9 \xAD\xA8\xE9\xA8\xA9 ",                      // Безумный нищий
+			"\x8E\xA3\xE0\xAE\xAC\xAD\xA0\xEF \xA6\xA0\xA1\xA0 ",                          // Огромная жаба
+			"\x87\xAB\xA0\xEF \xA2\xA5\xA4\xEC\xAC\xA0 ",                                  // Злая ведьма
+			"\x90\xAE\xA9 \xAD\xA0\xE1\xA5\xAA\xAE\xAC\xEB\xE5 ",                          // Рой насекомых
+			"\x8A\xAE\xE0\xAE\xAB\xA5\xA2\xA0 \xAD\xA5\xE2\xAE\xAF\xEB\xE0\xA5\xA9 ",      // Королева нетопырей
+			"\x8A\xAB\xA8\xE0\xA8\xAA \x9F\xAA\xA0 ",                                      // Клирик Яка
+			"\x90\xA0\xA7\xA1\xAE\xA9\xAD\xA8\xAA ",                                       // Разбойник
+			"\x81\xAE\xAB\xEC\xE8\xAE\xA9 \xE1\xAA\xAE\xE0\xAF\xA8\xAE\xAD ",              // Большой скорпион
+			"\x83\xA0\xE0\xAF\xA8\xEF ",                                                   // Гарпия
+			"\x91\xE2\xE0\xA0\xA6 ",                                                       // Страж
+			"\x8F\xA8\xAA\xE1\xA8-\xE3\xA1\xA8\xA9\xE6\xA0 ",                              // Пикси-убийца
+			"\x86\xA0\xAB\xEF\xE9\xA8\xA5 \xAD\xA0\xE1\xA5\xAA\xAE\xAC\xEB\xA5 ",          // Жалящие насекомые
+			"\x8D\xA8\xAD\xA4\xA7\xEF ",                                                   // Ниндзя
+			"\x86\xE0\xA5\xE6 \x9F\xAA\xA0 ",                                              // Жрец Яка
+			"\x8A\xE0\xEB\xAB\xA0\xE2\xEB\xA5 \xE1\xE2\xE3\xAF\xAD\xA8 ",                  // Крылатые ступни
+			"\x93\xAF\xEB\xE0\xEC ",                                                       // Упырь
+			"\x82\xAE\xA4\xEF\xAD\xAE\xA9 \xA3\xAE\xAB\xA5\xAC ",                          // Водяной голем
+			"\x82\xE1\xA0\xA4\xAD\xA8\xAA ",                                               // Всадник
+			"\x97\xA5\xAB\xAE\xA2\xA5\xAA-\xA7\xAC\xA5\xEF ",                              // Человек-змея
+			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xA8\xE6\xA0 ",                                   // Волшебница
+			"\x8E\xA3\xE0 ",                                                               // Огр
+			"\x91\xE2\xE0\xA0\xA6 \xE1\xAA\xAB\xA5\xAF\xA0 ",                              // Страж склепа
+			"\x81\xAE\xAB\xAE\xE2\xAD\xA0\xEF \xE2\xA2\xA0\xE0\xEC ",                      // Болотная тварь
+			"\x92\xF1\xAC\xAD\xEB\xA9 \xE1\xAB\xA5\xA4\xAE\xAF\xEB\xE2 ",                  // Тёмный следопыт
+			"\x91\xAD\xA5\xA6\xAD\xEB\xA9 \xA7\xA2\xA5\xE0\xEC ",                          // Снежный зверь
+			"\x8F\xA5\xE1\xE7\xA0\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC ",                      // Песчаный голем
+			"\x90\xEB\xE6\xA0\xE0\xEC \x9F\xAD\xEC ",                                      // Рыцарь Янь
+			"\x8E\xA1\xAE\xE0\xAE\xE2\xA5\xAD\xEC ",                                       // Оборотень
+			"\x8C\xE3\xAC\xA8\xEF ",                                                       // Мумия
+			"\x8B\xA8\xE7 \x9F\xAA\xA0 ",                                                  // Лич Яка
+			"\x8A\xAE\xAB\xA4\xE3\xAD ",                                                   // Колдун
+			"\x92\xF1\xAC\xAD\xEB\xA9 \xAB\xE3\xE7\xAD\xA8\xAA ",                          // Тёмный лучник
+			"\x84\xA5\xE0\xA5\xA2\xEF\xAD\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC ",              // Деревянный голем
+			"\x82\xA0\xE0\xA2\xA0\xE0 ",                                                   // Варвар
+			"\x91\xE2\xE0\xA0\xA6 \xA7\xA0\xAC\xAA\xA0 ",                                  // Страж замка
+			"\x83\xAE\xE0\xA3\xE3\xAB\xEC\xEF ",                                           // Горгулья
+			"\x83\xAD\xAE\xAC-\xA2\xA0\xAC\xAF\xA8\xE0 ",                                  // Гном-вампир
+			"\x84\xAB\xA0\xAD\xEC \xE0\xA5\xA7\xAD\xA8 ",                                  // Длань резни
+			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xA8\xAA ",                                       // Волшебник
+			"\x93\xA6\xA0\xE1 \xE1\xAA\xAB\xA5\xAF\xA0 ",                                  // Ужас склепа
+			"\x87\xA5\xAC\xAB\xEF\xAD\xAE\xA9 \xA3\xAE\xAB\xA5\xAC ",                      // Земляной голем
+			"\x8B\xA5\xA4\xEF\xAD\xAE\xA9 \xE2\xE0\xAE\xAB\xAB\xEC ",                      // Ледяной тролль
+			"\x83\xA0\xA4\xEE\xAA\xA0-\xE1\xE2\xE0\xA0\xA6 ",                              // Гадюка-страж
+			"\x8A\xA0\xAC\xA5\xAD\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC ",                      // Каменный голем
+			"\x8F\xA5\xE1\xE7\xA0\xAD\xEB\xA9 \xE7\xA5\xE0\xA2\xEC ",                      // Песчаный червь
+			"\x96\xA8\xAA\xAB\xAE\xAF ",                                                   // Циклоп
+			"\x86\xA5\xAB\xA5\xA7\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC ",                      // Железный голем
+			"\x82\xAE\xA4\xAD\xEB\xA9 \xA4\xE0\xA0\xAA\xAE\xAD ",                          // Водный дракон
+			"\x8D\xA5\xA1\xA5\xE1\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC ",                      // Небесный голем
+			"\x8A\xA8\xE1\xAB\xAE\xE2\xAD\xEB\xA9 \xA4\xE0\xA0\xAA\xAE\xAD ",              // Кислотный дракон
+			"\x91\xE2\xE0\xA0\xA6 \x8A\xE1\xA8\xAD\xA0 ",                                  // Страж Ксина
+			"\x8A\xAB\xAE\xAD \x84\xA0\xE0\xA7\xAE\xA3\xA0 ",                              // Клон Дарзога
+			"\x84\xA5\xAC\xAE\xAD ",                                                       // Демон
+			"\x8B\xA0\xA2\xAE\xA2\xEB\xA9 \xA3\xAE\xAB\xA5\xAC ",                          // Лавовый голем
+			"\x90\xE3\xE5 ",                                                               // Рух
+			"\x80\xAB\xAC\xA0\xA7\xAD\xEB\xA9 \xA3\xAE\xAB\xA5\xAC ",                      // Алмазный голем
+			"\x8E\xA3\xAD\xA5\xAD\xAD\xEB\xA9 \xA4\xE0\xA0\xAA\xAE\xAD ",                  // Огненный дракон
+			"\x8B\xA5\xA4\xEF\xAD\xAE\xA9 \xA4\xE0\xA0\xAA\xAE\xAD ",                      // Ледяной дракон
+			"\x84\xEC\xEF\xA2\xAE\xAB ",                                                   // Дьявол
+			"\x82\xA5\xAB\xA8\xAA\xA0\xEF \xA3\xA8\xA4\xE0\xA0 ",                          // Великая гидра
+			"\x8A\xAE\xE0\xAE\xAB\xEC \xA4\xE0\xA0\xAA\xAE\xAD\xAE\xA2 ",                  // Король драконов
+			"\x91\xAB\xA8\xA7\xAE\xAC\xA0\xE2\xAA\xA0 ",                                   // Слизоматка
+			"\x91\xE2\xA0\xE0\xE8\xA8\xAD\xA0 \xAA\xAB\xA0\xAD\xA0 ",                      // Старшина клана
+			"\x8A\xAE\xE0\xAE\xAB\xEC \xAA\xAB\xA0\xAD\xA0 ",                              // Король клана
+			"\x91\xE2\xA0\xE0\xE8\xA0\xEF \xA2\xA5\xA4\xEC\xAC\xA0 ",                      // Старшая ведьма
+			"\x8F\xE0\xA8\xA7\xE0\xA0\xE7\xAD\xEB\xA9 \xE1\xAA\xA5\xAB\xA5\xE2 ",          // Призрачный скелет
+			"\x8F\xAE\xAB\xE2\xA5\xE0\xA4\xE3\xE0 ",                                       // Полтердур
+			"\x8F\xE0\xA8\xA7\xE0\xA0\xE7\xAD\xEB\xA9 \xA2\xE1\xA0\xA4\xAD\xA8\xAA ",      // Призрачный всадник
+			"\x83\xAB\xA0\xA2\xA0\xE0\xEC \xE0\xA0\xA7\xA1\xAE\xA9\xAD\xA8\xAA\xAE\xA2 ",  // Главарь разбойников
+			"\x8A\xAE\xE0\xAE\xAB\xA5\xA2\xA0 \xA3\xA0\xE0\xAF\xA8\xA9 ",                  // Королева гарпий
+			"\x8A\xA0\xAF\xA8\xE2\xA0\xAD \x9F\xAD\xEC ",                                  // Капитан Янь
+			"\x8C\xA0\xA3\xA8\xE1\xE2\xE0 \x9F\xAA ",                                      // Магистр Як
+			"\x8A\xAE\xE0\xAE\xAB\xA5\xA2\xE1\xAA\xA8\xA9 \xE1\xE2\xE0\xA0\xA6 ",          // Королевский страж
+			"\x83\xAB\xA0\xA2\xA0 \xE1\xA5\xAA\xE2\xEB ",                                  // Глава секты
+			"\x83\xE0\xA0\xE4 \x84\xE0\xA0\xAA\xAE ",                                      // Граф Драко
+			"\x84\xA0\xE0\xA7\xAE\xA3 ",                                                   // Дарзог
+			"\x87\xA2\xA5\xE0\xE3\xE8\xAA\xA0 \x8A\xE1\xA8\xAD\xA0 ",                      // Зверушка Ксина
+			"\x8B\xAE\xE0\xA4 \x8A\xE1\xA8\xAD ",                                          // Лорд Ксин
 			""
 		};
 		return _monsters;
@@ -2341,82 +2341,82 @@ public:
 
 	const char **CLOUDS_SPELLS() {	// spells.cld
 		static const char *_spells[] = {
-			"\x90\xA0\xE1\xAF\xEB\xAB\xA5\xAD\xA8\xA5 \xAA\xA8\xE1\xAB\xAE\xE2\xEB", // Распыление кислоты
-			"\x8F\xE0\xAE\xA1\xE3\xA6\xA4\xA5\xAD\xA8\xA5",                          // Пробуждение
-			"\x8F\xAE\xA2\xA5\xAB\xA8\xE2\xA5\xAB\xEC \xA7\xA2\xA5\xE0\xA5\xA9",     // Повелитель зверей
-			"\x81\xAB\xA0\xA3\xAE\xE1\xAB\xAE\xA2\xA5\xAD\xA8\xA5",                  // Благословение
-			"\x9F\xE1\xAD\xAE\xA2\xA8\xA4\xA5\xAD\xA8\xA5",                          // Ясновидение
-			"\x8B\xE3\xE7 \xE5\xAE\xAB\xAE\xA4\xA0",                                 // Луч холода
-			"\x91\xAE\xE2\xA2\xAE\xE0\xA5\xAD\xA8\xA5 \xA5\xA4\xEB",                 // Сотворение еды
-			"\x8B\xA5\xE7\xA5\xAD\xA8\xA5 \xA1\xAE\xAB\xA5\xA7\xAD\xA8",             // Лечение болезни
-			"\x8B\xA5\xE7\xA5\xAD\xA8\xA5 \xAF\xA0\xE0\xA0\xAB\xA8\xE7\xA0",         // Лечение паралича
-			"\x8B\xA5\xE7\xA5\xAD\xA8\xA5 \xAE\xE2\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xEF", // Лечение отравления
-			"\x8B\xA5\xE7\xA5\xAD\xA8\xA5 \xE0\xA0\xAD",                             // Лечение ран
-			"\x92\xA0\xAD\xE6\xE3\xEE\xE9\xA8\xA9 \xAA\xAB\xA8\xAD\xAE\xAA",         // Танцующий клинок
-			"\x84\xA5\xAD\xEC \xA7\xA0\xE9\xA8\xE2\xEB",                             // День защиты
-			"\x84\xA5\xAD\xEC \xAC\xA0\xA3\xA8\xA8",                                 // День магии
-			"\x91\xAC\xA5\xE0\xE2\xA5\xAB\xEC\xAD\xEB\xA9 \xE0\xAE\xA9",             // Смертельный рой
-			"\x8F\xAE\xA8\xE1\xAA \xAC\xAE\xAD\xE1\xE2\xE0\xAE\xA2",                 // Поиск монстров
-			"\x8F\xAE\xAC\xAE\xE9\xEC \x81\xAE\xA3\xAE\xA2 ",                        // Помощь Богов
-			"\x93\xE1\xEB\xAF\xAB\xA5\xAD\xA8\xA5 \xA4\xE0\xA0\xAA\xAE\xAD\xA0",     // Усыпление дракона
-			"\x81\xE3\xE0\xEF \xE1\xE2\xA8\xE5\xA8\xA9",                             // Буря стихий
-			"\x87\xA0\xE7\xA0\xE0\xAE\xA2\xA0\xE2\xEC \xAF\xE0\xA5\xA4\xAC\xA5\xE2", // Зачаровать предмет
-			"\x82\xA7\xE0\xEB\xA2 \xED\xAD\xA5\xE0\xA3\xA8\xA8",                     // Взрыв энергии
-			"\x88\xE1\xE7\xA5\xA7\xAD\xAE\xA2\xA5\xAD\xA8\xA5",                      // Исчезновение
-			"\x91\xE2\xE0\xA0\xE8\xAD\xEB\xA9 \xAC\xAE\xE0\xAE\xA7",                 // Страшный мороз
-			"\x8E\xA3\xAD\xA5\xAD\xAD\xEB\xA9 \xE6\xA5\xAF",                         // Огненный цеп
-			"\x8F\xA5\xE0\xE1\xE2 \xE1\xAC\xA5\xE0\xE2\xA8",                         // Перст смерти
-			"\x8E\xA3\xAD\xA5\xAD\xAD\xEB\xA9 \xE8\xA0\xE0",                         // Огненный шар
-			"\x8F\xA5\xE0\xA2\xA0\xEF \xAF\xAE\xAC\xAE\xE9\xEC",                     // Первая помощь
-			"\x8B\xA5\xE2\xA0\xEE\xE9\xA8\xA9 \xAA\xE3\xAB\xA0\xAA",                 // Летающий кулак
-			"\x8E\xA1\xA6\xA8\xA3\xA0\xEE\xE9\xA8\xA9 \xE5\xAE\xAB\xAE\xA4",         // Обжигающий холод
-			"\x8E\xE1\xE2\xA0\xAD\xAE\xA2\xA8\xE2\xEC \xA3\xAE\xAB\xA5\xAC\xA0",     // Остановить голема
-			"\x8C\xE3\xA6\xA5\xE1\xE2\xA2\xAE",                                      // Мужество
-			"\x91\xA2\xEF\xE2\xAE\xA9 \xA4\xA0\xE0",                                 // Святой дар
-			"\x91\xA2\xEF\xE2\xAE\xA5 \xE1\xAB\xAE\xA2\xAE",                         // Святое слово
-			"\x83\xA8\xAF\xAD\xAE\xA7",                                              // Гипноз
-			"\x8E\xAF\xAE\xA7\xAD\xA0\xE2\xEC \xAC\xAE\xAD\xE1\xE2\xE0\xA0",         // Опознать монстра
-			"\x88\xAC\xAF\xAB\xAE\xA7\xA8\xEF",                                      // Имплозия
-			"\x88\xE1\xAF\xA5\xAF\xA5\xAB\xA5\xAD\xA8\xA5",                          // Испепеление
-			"\x80\xA4\xE1\xAA\xAE\xA5 \xAF\xAB\xA0\xAC\xEF",                         // Адское пламя
-			"\x90\xA5\xAF\xA5\xAB\xAB\xA5\xAD\xE2",                                  // Репеллент
-			"\x8F\xE0\xA5\xA4\xAC\xA5\xE2 \xA2 \xA7\xAE\xAB\xAE\xE2\xAE",            // Предмет в золото
-			"\x8F\xE0\xEB\xA6\xAE\xAA",                                              // Прыжок
-			"\x8B\xA5\xA2\xA8\xE2\xA0\xE6\xA8\xEF",                                  // Левитация
-			"\x91\xA2\xA5\xE2",                                                      // Свет
-			"\x93\xA4\xA0\xE0 \xAC\xAE\xAB\xAD\xA8\xA8",                             // Удар молнии
-			"\x8C\xA0\xEF\xAA \x8B\xAB\xAE\xA9\xA4\xA0",                             // Маяк Ллойда
-			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xA0\xEF \xE1\xE2\xE0\xA5\xAB\xA0",         // Волшебная стрела
-			"\x88\xA7\xAC\xA5\xAD\xA5\xAD\xA8\xA5 \xA2\xA5\xE1\xA0",                 // Изменение веса
-			"\x8C\xA5\xA3\xA0\xA2\xAE\xAB\xEC\xE2\xEB",                              // Мегавольты
-			"\x8B\xE3\xAD\xAD\xEB\xA9 \xAB\xE3\xE7",                                 // Лунный луч
-			"\x8F\xE0\xA8\xE0\xAE\xA4\xAD\xAE\xA5 \xAB\xA5\xE7\xA5\xAD\xA8\xA5",     // Природное лечение
-			"\x81\xAE\xAB\xEC",                                                      // Боль
-			"\x9F\xA4\xAE\xA2\xA8\xE2\xEB\xA9 \xA7\xA0\xAB\xAF",                     // Ядовитый залп
-			"\x88\xE1\xE6\xA5\xAB\xA5\xAD\xA8\xA5",                                  // Исцеление
-			"\x91\xA8\xAB\xAE\xA2\xAE\xA9 \xE9\xA8\xE2",                             // Силовой щит
-			"\x91\xA2\xA5\xE2 \xAF\xE0\xA8\xA7\xAC\xEB",                             // Свет призмы
-			"\x87\xA0\xE9\xA8\xE2\xA0 \xAE\xE2 \xE1\xE2\xA8\xE5\xA8\xA9",            // Защита от стихий
-			"\x8E\xA6\xA8\xA2\xAB\xA5\xAD\xA8\xA5 \xAC\xF1\xE0\xE2\xA2\xEB\xE5",     // Оживление мёртвых
-			"\x8F\xA5\xE0\xA5\xA7\xA0\xE0\xEF\xA4\xAA\xA0 \xAF\xE0\xA5\xA4\xAC.",    // Перезарядка предм.
-			"\x82\xAE\xE1\xAA\xE0\xA5\xE8\xA5\xAD\xA8\xA5",                          // Воскрешение
-			"\x8B\xA5\xE7\xA5\xAD\xA8\xA5 \xE1\xAB\xA0\xA1\xAE\xE1\xE2\xA8",         // Лечение слабости
-			"\x98\xE0\xA0\xAF\xAD\xA5\xAB\xEC",                                      // Шрапнель
-			"\x93\xE1\xEB\xAF\xAB\xA5\xAD\xA8\xA5",                                  // Усыпление
-			"\x88\xE1\xAA\xE0\xEB",                                                  // Искры
-			"\x82\xA7\xE0\xEB\xA2 \xA7\xA2\xA5\xA7\xA4\xEB",                         // Взрыв звезды
-			"\x88\xA7 \xAA\xA0\xAC\xAD\xEF \xA2 \xAF\xAB\xAE\xE2\xEC",               // Из камня в плоть
-			"\x91\xAE\xAB\xAD\xA5\xE7\xAD\xEB\xA9 \xAB\xE3\xE7",                     // Солнечный луч
-			"\x97\xE3\xA4\xA5\xE1\xAD\xAE\xA5 \xE3\xA1\xA5\xA6\xA8\xE9\xA5",         // Чудесное убежище
-			"\x8E\xA1\xAB\xA5\xA3\xE7\xA5\xAD\xA8\xA5 \xA1\xAE\xAB\xA5\xA7\xAD\xA8", // Облегчение болезни
-			"\x8E\xE1\xAB\xA0\xA1. \xAE\xE2\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xA5",        // Ослаб. отравление
-			"\x92\xA5\xAB\xA5\xAF\xAE\xE0\xE2",                                      // Телепорт
-			"\x88\xE1\xAA\xA0\xA6\xA5\xAD\xA8\xA5 \xA2\xE0\xA5\xAC\xA5\xAD\xA8",     // Искажение времени
-			"\x83\xAE\xE0\xAE\xA4\xE1\xAA\xAE\xA9 \xAF\xAE\xE0\xE2\xA0\xAB",         // Городской портал
-			"\x9F\xA4\xAE\xA2\xA8\xE2\xAE\xA5 \xAE\xA1\xAB\xA0\xAA\xAE",             // Ядовитое облако
-			"\x88\xA7\xA3\xAD\xA0\xAD\xA8\xA5 \xAD\xA5\xA6\xA8\xE2\xA8",             // Изгнание нежити
-			"\x95\xAE\xA6\xA4\xA5\xAD\xA8\xA5 \xAF\xAE \xA2\xAE\xA4\xA5",            // Хождение по воде
-			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xEB\xA9 \xA3\xAB\xA0\xA7",                 // Волшебный глаз
+			"\x90\xA0\xE1\xAF\xEB\xAB\xA5\xAD\xA8\xA5 \xAA\xA8\xE1\xAB\xAE\xE2\xEB ", // Распыление кислоты
+			"\x8F\xE0\xAE\xA1\xE3\xA6\xA4\xA5\xAD\xA8\xA5 ",                          // Пробуждение
+			"\x8F\xAE\xA2\xA5\xAB\xA8\xE2\xA5\xAB\xEC \xA7\xA2\xA5\xE0\xA5\xA9 ",     // Повелитель зверей
+			"\x81\xAB\xA0\xA3\xAE\xE1\xAB\xAE\xA2\xA5\xAD\xA8\xA5 ",                  // Благословение
+			"\x9F\xE1\xAD\xAE\xA2\xA8\xA4\xA5\xAD\xA8\xA5 ",                          // Ясновидение
+			"\x8B\xE3\xE7 \xE5\xAE\xAB\xAE\xA4\xA0 ",                                 // Луч холода
+			"\x91\xAE\xE2\xA2\xAE\xE0\xA5\xAD\xA8\xA5 \xA5\xA4\xEB ",                 // Сотворение еды
+			"\x8B\xA5\xE7\xA5\xAD\xA8\xA5 \xA1\xAE\xAB\xA5\xA7\xAD\xA8 ",             // Лечение болезни
+			"\x8B\xA5\xE7\xA5\xAD\xA8\xA5 \xAF\xA0\xE0\xA0\xAB\xA8\xE7\xA0 ",         // Лечение паралича
+			"\x8B\xA5\xE7\xA5\xAD\xA8\xA5 \xAE\xE2\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xEF ", // Лечение отравления
+			"\x8B\xA5\xE7\xA5\xAD\xA8\xA5 \xE0\xA0\xAD ",                             // Лечение ран
+			"\x92\xA0\xAD\xE6\xE3\xEE\xE9\xA8\xA9 \xAA\xAB\xA8\xAD\xAE\xAA ",         // Танцующий клинок
+			"\x84\xA5\xAD\xEC \xA7\xA0\xE9\xA8\xE2\xEB ",                             // День защиты
+			"\x84\xA5\xAD\xEC \xAC\xA0\xA3\xA8\xA8 ",                                 // День магии
+			"\x91\xAC\xA5\xE0\xE2\xA5\xAB\xEC\xAD\xEB\xA9 \xE0\xAE\xA9 ",             // Смертельный рой
+			"\x8F\xAE\xA8\xE1\xAA \xAC\xAE\xAD\xE1\xE2\xE0\xAE\xA2 ",                 // Поиск монстров
+			"\x8F\xAE\xAC\xAE\xE9\xEC \x81\xAE\xA3\xAE\xA2  ",                        // Помощь Богов
+			"\x93\xE1\xEB\xAF\xAB\xA5\xAD\xA8\xA5 \xA4\xE0\xA0\xAA\xAE\xAD\xA0 ",     // Усыпление дракона
+			"\x81\xE3\xE0\xEF \xE1\xE2\xA8\xE5\xA8\xA9 ",                             // Буря стихий
+			"\x87\xA0\xE7\xA0\xE0\xAE\xA2\xA0\xE2\xEC \xAF\xE0\xA5\xA4\xAC\xA5\xE2 ", // Зачаровать предмет
+			"\x82\xA7\xE0\xEB\xA2 \xED\xAD\xA5\xE0\xA3\xA8\xA8 ",                     // Взрыв энергии
+			"\x88\xE1\xE7\xA5\xA7\xAD\xAE\xA2\xA5\xAD\xA8\xA5 ",                      // Исчезновение
+			"\x91\xE2\xE0\xA0\xE8\xAD\xEB\xA9 \xAC\xAE\xE0\xAE\xA7 ",                 // Страшный мороз
+			"\x8E\xA3\xAD\xA5\xAD\xAD\xEB\xA9 \xE6\xA5\xAF ",                         // Огненный цеп
+			"\x8F\xA5\xE0\xE1\xE2 \xE1\xAC\xA5\xE0\xE2\xA8 ",                         // Перст смерти
+			"\x8E\xA3\xAD\xA5\xAD\xAD\xEB\xA9 \xE8\xA0\xE0 ",                         // Огненный шар
+			"\x8F\xA5\xE0\xA2\xA0\xEF \xAF\xAE\xAC\xAE\xE9\xEC ",                     // Первая помощь
+			"\x8B\xA5\xE2\xA0\xEE\xE9\xA8\xA9 \xAA\xE3\xAB\xA0\xAA ",                 // Летающий кулак
+			"\x8E\xA1\xA6\xA8\xA3\xA0\xEE\xE9\xA8\xA9 \xE5\xAE\xAB\xAE\xA4 ",         // Обжигающий холод
+			"\x8E\xE1\xE2\xA0\xAD\xAE\xA2\xA8\xE2\xEC \xA3\xAE\xAB\xA5\xAC\xA0 ",     // Остановить голема
+			"\x8C\xE3\xA6\xA5\xE1\xE2\xA2\xAE ",                                      // Мужество
+			"\x91\xA2\xEF\xE2\xAE\xA9 \xA4\xA0\xE0 ",                                 // Святой дар
+			"\x91\xA2\xEF\xE2\xAE\xA5 \xE1\xAB\xAE\xA2\xAE ",                         // Святое слово
+			"\x83\xA8\xAF\xAD\xAE\xA7 ",                                              // Гипноз
+			"\x8E\xAF\xAE\xA7\xAD\xA0\xE2\xEC \xAC\xAE\xAD\xE1\xE2\xE0\xA0 ",         // Опознать монстра
+			"\x88\xAC\xAF\xAB\xAE\xA7\xA8\xEF ",                                      // Имплозия
+			"\x88\xE1\xAF\xA5\xAF\xA5\xAB\xA5\xAD\xA8\xA5 ",                          // Испепеление
+			"\x80\xA4\xE1\xAA\xAE\xA5 \xAF\xAB\xA0\xAC\xEF ",                         // Адское пламя
+			"\x90\xA5\xAF\xA5\xAB\xAB\xA5\xAD\xE2 ",                                  // Репеллент
+			"\x8F\xE0\xA5\xA4\xAC\xA5\xE2 \xA2 \xA7\xAE\xAB\xAE\xE2\xAE ",            // Предмет в золото
+			"\x8F\xE0\xEB\xA6\xAE\xAA ",                                              // Прыжок
+			"\x8B\xA5\xA2\xA8\xE2\xA0\xE6\xA8\xEF ",                                  // Левитация
+			"\x91\xA2\xA5\xE2 ",                                                      // Свет
+			"\x93\xA4\xA0\xE0 \xAC\xAE\xAB\xAD\xA8\xA8 ",                             // Удар молнии
+			"\x8C\xA0\xEF\xAA \x8B\xAB\xAE\xA9\xA4\xA0 ",                             // Маяк Ллойда
+			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xA0\xEF \xE1\xE2\xE0\xA5\xAB\xA0 ",         // Волшебная стрела
+			"\x88\xA7\xAC\xA5\xAD\xA5\xAD\xA8\xA5 \xA2\xA5\xE1\xA0 ",                 // Изменение веса
+			"\x8C\xA5\xA3\xA0\xA2\xAE\xAB\xEC\xE2\xEB ",                              // Мегавольты
+			"\x8B\xE3\xAD\xAD\xEB\xA9 \xAB\xE3\xE7 ",                                 // Лунный луч
+			"\x8F\xE0\xA8\xE0\xAE\xA4\xAD\xAE\xA5 \xAB\xA5\xE7\xA5\xAD\xA8\xA5 ",     // Природное лечение
+			"\x81\xAE\xAB\xEC ",                                                      // Боль
+			"\x9F\xA4\xAE\xA2\xA8\xE2\xEB\xA9 \xA7\xA0\xAB\xAF ",                     // Ядовитый залп
+			"\x88\xE1\xE6\xA5\xAB\xA5\xAD\xA8\xA5 ",                                  // Исцеление
+			"\x91\xA8\xAB\xAE\xA2\xAE\xA9 \xE9\xA8\xE2 ",                             // Силовой щит
+			"\x91\xA2\xA5\xE2 \xAF\xE0\xA8\xA7\xAC\xEB ",                             // Свет призмы
+			"\x87\xA0\xE9\xA8\xE2\xA0 \xAE\xE2 \xE1\xE2\xA8\xE5\xA8\xA9 ",            // Защита от стихий
+			"\x8E\xA6\xA8\xA2\xAB\xA5\xAD\xA8\xA5 \xAC\xF1\xE0\xE2\xA2\xEB\xE5 ",     // Оживление мёртвых
+			"\x8F\xA5\xE0\xA5\xA7\xA0\xE0\xEF\xA4\xAA\xA0 \xAF\xE0\xA5\xA4\xAC. ",    // Перезарядка предм.
+			"\x82\xAE\xE1\xAA\xE0\xA5\xE8\xA5\xAD\xA8\xA5 ",                          // Воскрешение
+			"\x8B\xA5\xE7\xA5\xAD\xA8\xA5 \xE1\xAB\xA0\xA1\xAE\xE1\xE2\xA8 ",         // Лечение слабости
+			"\x98\xE0\xA0\xAF\xAD\xA5\xAB\xEC ",                                      // Шрапнель
+			"\x93\xE1\xEB\xAF\xAB\xA5\xAD\xA8\xA5 ",                                  // Усыпление
+			"\x88\xE1\xAA\xE0\xEB ",                                                  // Искры
+			"\x82\xA7\xE0\xEB\xA2 \xA7\xA2\xA5\xA7\xA4\xEB ",                         // Взрыв звезды
+			"\x88\xA7 \xAA\xA0\xAC\xAD\xEF \xA2 \xAF\xAB\xAE\xE2\xEC ",               // Из камня в плоть
+			"\x91\xAE\xAB\xAD\xA5\xE7\xAD\xEB\xA9 \xAB\xE3\xE7 ",                     // Солнечный луч
+			"\x97\xE3\xA4\xA5\xE1\xAD\xAE\xA5 \xE3\xA1\xA5\xA6\xA8\xE9\xA5 ",         // Чудесное убежище
+			"\x8E\xA1\xAB\xA5\xA3\xE7\xA5\xAD\xA8\xA5 \xA1\xAE\xAB\xA5\xA7\xAD\xA8 ", // Облегчение болезни
+			"\x8E\xE1\xAB\xA0\xA1. \xAE\xE2\xE0\xA0\xA2\xAB\xA5\xAD\xA8\xA5 ",        // Ослаб. отравление
+			"\x92\xA5\xAB\xA5\xAF\xAE\xE0\xE2 ",                                      // Телепорт
+			"\x88\xE1\xAA\xA0\xA6\xA5\xAD\xA8\xA5 \xA2\xE0\xA5\xAC\xA5\xAD\xA8 ",     // Искажение времени
+			"\x83\xAE\xE0\xAE\xA4\xE1\xAA\xAE\xA9 \xAF\xAE\xE0\xE2\xA0\xAB ",         // Городской портал
+			"\x9F\xA4\xAE\xA2\xA8\xE2\xAE\xA5 \xAE\xA1\xAB\xA0\xAA\xAE ",             // Ядовитое облако
+			"\x88\xA7\xA3\xAD\xA0\xAD\xA8\xA5 \xAD\xA5\xA6\xA8\xE2\xA8 ",             // Изгнание нежити
+			"\x95\xAE\xA6\xA4\xA5\xAD\xA8\xA5 \xAF\xAE \xA2\xAE\xA4\xA5 ",            // Хождение по воде
+			"\x82\xAE\xAB\xE8\xA5\xA1\xAD\xEB\xA9 \xA3\xAB\xA0\xA7 ",                 // Волшебный глаз
 			"\x8D\xA5\xE2"                                                           // Нет
 		};
 		return _spells;
